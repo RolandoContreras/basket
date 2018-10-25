@@ -1,0 +1,6 @@
+{
+    "require": {
+        "stripe/stripe-php": "^6.15",
+        "google/recaptcha": "^1.2"
+    }
+}
