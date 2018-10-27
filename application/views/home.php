@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="es">
 <?php $this->load->view("head");?>
 <body class="home page-template-default page page-id-2 page-parent woocommerce-no-js btHasCrest bt_header_headline_Light_alternate btHasAltLogo btMenuLeftEnabled btMenuBelowLogo btStickyEnabled btHideHeadline btLightSkin btBelowMenu btNoDashInSidebar noBodyPreloader btSoftRoundedButtons btTransparentLightHeader btNoSidebar ">
   <div class="btPageWrap" id="top">
@@ -19,8 +19,8 @@
             </a>
           </div>
         </div>
-        <!--END LOGO-->
       </div>
+      <!--END LOGO-->
     </div>
     <?php $this->load->view("header");?>
     <!-- /.mainHeader -->
