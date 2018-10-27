@@ -1,186 +1,35 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US" data-bt-theme="Oxigeno 1.0.2">
+<html class="no-js" lang="en-US">
 <?php $this->load->view("head");?>
 <body class="home page-template-default page page-id-2 page-parent woocommerce-no-js btHasCrest bt_header_headline_Light_alternate btHasAltLogo btMenuLeftEnabled btMenuBelowLogo btStickyEnabled btHideHeadline btLightSkin btBelowMenu btNoDashInSidebar noBodyPreloader btSoftRoundedButtons btTransparentLightHeader btNoSidebar ">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T72HSPZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) --><br style="display:none;" data-autoplay="0">
-
   <div class="btPageWrap" id="top">
-
     <div class="btVerticalHeaderTop">
       <div class="btVerticalMenuTrigger">&nbsp;
         <div class="bt_bb_icon">
           <a href="#" target="_self" data-ico-fa="&#xf0c9;" class="bt_bb_icon_holder"></a>
         </div>
       </div>
-
+      <!--START LOGO-->
       <div class="btLogoArea">
         <div class="logo">
           <div class="logoInner">
-            <a href="http://oxigeno.bold-themes.com/basketball/"><img class="btMainLogo" data-hw="4" src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/logo_white.png" alt="Basketball">
-              <img
-                class="btAltLogo" src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2018/02/logo_dark.png" alt="Basketball"></a>
+              <a href="<?php echo site_url();?>">
+                <img class="btMainLogo" data-hw="4" src="<?php echo site_url().'static/page_front/images/logo/logo_white.png';?>" alt="logo">
+                <img class="btAltLogo" src="<?php echo site_url().'static/page_front/images/logo/logo_dark.png';?>" alt="logo">
+            </a>
           </div>
         </div>
-        <!-- /logo -->
+        <!--END LOGO-->
       </div>
-      <!-- /btLogoArea -->
     </div>
-    <header class="mainHeader btClear gutter ">
-
-      <div class="mainHeaderInner">
-        <div class="btLogoArea menuHolder btClear">
-          <div class="port">
-            <div class="btHorizontalMenuTrigger">&nbsp;
-              <div class="bt_bb_icon">
-                <a href="#" target="_self" data-ico-fa="&#xf0c9;" class="bt_bb_icon_holder"></a>
-              </div>
-            </div>
-
-            <div class="logo">
-              <div class='btCrest'><img src='http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/crest.png' class='btCrestImg' alt='Basketball' /></div>
-              <span>
-								<a href="http://oxigeno.bold-themes.com/basketball/"><img class="btMainLogo" data-hw="4" src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/logo_white.png" alt="Basketball"><img class="btAltLogo" src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2018/02/logo_dark.png" alt="Basketball"></a>							</span>
-            </div>
-            <!-- /logo -->
-
-            <div class="topBarInLogoArea">
-              <div class="topBarInLogoAreaCell">
-                <div class="btIconWidget  btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-sport="&#xf109;" class="bt_bb_icon_holder"></span></div>
-                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">SAT & SUN - Closed</span><span class="btIconWidgetText">Mon-FRI: 08AM-07PM</span></div>
-                </div>
-                <div class="btIconWidget  btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-sport="&#xf108;" class="bt_bb_icon_holder"></span></div>
-                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">New York, w2 3xe</span><span class="btIconWidgetText">27th AVENUE</span></div>
-                </div>
-              </div>
-              <!-- /topBarInLogoAreaCell -->
-            </div>
-            <!-- /topBarInLogoArea -->
-          </div>
-          <!-- /port -->
-        </div>
-        <!-- /menuHolder -->
-        <div class="btBelowLogoArea btClear">
-          <div class="port">
-            <div class="menuPort">
-              <div class="topBarInMenu">
-                <div class="topBarInMenuCell">
-                  <a href="https://www.facebook.com/boldthemes/" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf09a;" class="bt_bb_icon_holder"></span></div>
-                  </a>
-                  <a href="https://www.instagram.com/bold_themes/" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf16d;" class="bt_bb_icon_holder"></span></div>
-                  </a>
-                  <a href="https://twitter.com/bold_themes" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf099;" class="bt_bb_icon_holder"></span></div>
-                  </a>
-                  <a href="https://www.pinterest.com/boldthemes/" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf231;" class="bt_bb_icon_holder"></span></div>
-                  </a>
-                </div>
-                <!-- /topBarInMenu -->
-              </div>
-              <!-- /topBarInMenuCell -->
-              <nav>
-                <ul id="menu-primary-menu" class="menu">
-                  <li id="menu-item-1524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-1524"><a href="http://oxigeno.bold-themes.com/basketball/">Home</a></li>
-                  <li id="menu-item-1519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1519"><a href="http://oxigeno.bold-themes.com/basketball/about-us/">About us</a>
-                    <ul class="sub-menu">
-                      <li id="menu-item-1545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1545"><a href="http://oxigeno.bold-themes.com/basketball/about-us/">Overview</a></li>
-                      <li id="menu-item-1546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1546"><a href="http://oxigeno.bold-themes.com/basketball/about-us/club-history/">Club history</a></li>
-                      <li id="menu-item-1528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1528"><a href="http://oxigeno.bold-themes.com/basketball/about-us/our-team/">Our team</a></li>
-                      <li id="menu-item-1548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1548"><a href="http://oxigeno.bold-themes.com/basketball/about-us/coaches/">Coaches</a></li>
-                      <li id="menu-item-1529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1529"><a href="http://oxigeno.bold-themes.com/basketball/about-us/services/">Services</a></li>
-                      <li id="menu-item-1547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1547"><a href="http://oxigeno.bold-themes.com/basketball/about-us/sponsors/">Sponsors</a></li>
-                    </ul>
-                  </li>
-                  <li id="menu-item-1525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/">Games</a>
-                    <ul class="sub-menu">
-                      <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/">Overview</a></li>
-                      <li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/game-report/">Game Reports</a></li>
-                      <li id="menu-item-1550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1550"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/single-game-report/">Single game report</a>
-                        <ul class="sub-menu">
-                          <li id="menu-item-1736" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1736"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/14/the-best-mvp-players-in-oxygen-basketball-club/">Blog post</a></li>
-                          <li id="menu-item-1737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1737"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/single-game-report/">Regular page</a></li>
-                        </ul>
-                      </li>
-                      <li id="menu-item-1552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1552"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/training-schedule/">Training Schedule</a></li>
-                      <li id="menu-item-1549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/league-table/">League table</a></li>
-                      <li id="menu-item-1551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1551"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/tickets/">Tickets</a>
-                        <ul class="sub-menu">
-                          <li id="menu-item-1570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1570"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/tickets/">Overview</a></li>
-                          <li id="menu-item-1566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1566"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/tickets/general-info/">General Info</a></li>
-                          <li id="menu-item-1567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1567"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/tickets/faq/">FAQ</a></li>
-                          <li id="menu-item-1568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1568"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/tickets/seasonal-tickets/">Seasonal Tickets</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li id="menu-item-1526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1526"><a href="http://oxigeno.bold-themes.com/basketball/blog/">Blog</a>
-                    <ul class="sub-menu">
-                      <li id="menu-item-1531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1531"><a href="http://oxigeno.bold-themes.com/basketball/blog/">Standard view</a></li>
-                      <li id="menu-item-1517" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1517"><a href="/basketball/blog/?blog_list_view=columns">Columns view</a></li>
-                      <li id="menu-item-1541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1541"><a href="http://oxigeno.bold-themes.com/basketball/blog/blog-grid/">Grid view</a></li>
-                      <li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-1533"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/10/why-is-conditional-training-so-important/">Single post</a>
-                        <ul class="sub-menu">
-                          <li id="menu-item-1532" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1532"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/01/masters-basketball-championship-from-today/">Standard post</a></li>
-                          <li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1534"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/02/weeekly-preview-oxygen-juniour-team-results/">Image post</a></li>
-                          <li id="menu-item-1540" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1540"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/02/the-club-that-finished-the-worlds-hardest-game/">Grid gallery post</a></li>
-                          <li id="menu-item-1539" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1539"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/05/historic-basketball-hall-is-re-opened-in-atlanta/">Carousel gallery</a></li>
-                          <li id="menu-item-1536" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1536"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/08/the-youngest-members-make-a-triumph/">Audio post</a></li>
-                          <li id="menu-item-1535" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1535"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/06/basketball-world-celebrates-national-sport-day/">Video post</a></li>
-                          <li id="menu-item-1538" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1538"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/09/oxygen-latest-basketball-camps-and-schools/">Link post</a></li>
-                          <li id="menu-item-1537" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1537"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/11/oxygen-club-historic-triumphs-in-90s/">Quote post</a></li>
-                        </ul>
-                      </li>
-                      <li id="menu-item-1553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1553"><a href="http://oxigeno.bold-themes.com/basketball/portfolio/">Galleries</a>
-                        <ul class="sub-menu">
-                          <li id="menu-item-1557" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1557"><a href="http://oxigeno.bold-themes.com/basketball/portfolio/first-place-in-junior-basketball-league/">Standard gallery</a></li>
-                          <li id="menu-item-1558" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1558"><a href="http://oxigeno.bold-themes.com/basketball/portfolio/oxygen-club-national-games-in-2000s/">Column gallery</a></li>
-                          <li id="menu-item-1555" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1555"><a href="http://oxigeno.bold-themes.com/basketball/portfolio/annual-awards-presented-at-end-of-season-bbq/">Carousel gallery</a></li>
-                          <li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1556"><a href="http://oxigeno.bold-themes.com/basketball/portfolio/a-gold-medal-to-our-youngest-players/">Audio gallery</a></li>
-                          <li id="menu-item-1554" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1554"><a href="http://oxigeno.bold-themes.com/basketball/portfolio/four-players-selected-for-regional-team/">Video gallery</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1520"><a href="http://oxigeno.bold-themes.com/basketball/shop/">Shop</a>
-                    <ul class="sub-menu">
-                      <li id="menu-item-1542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1542"><a href="http://oxigeno.bold-themes.com/basketball/shop/">Products</a></li>
-                      <li id="menu-item-1522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1522"><a href="http://oxigeno.bold-themes.com/basketball/shop/checkout/">Checkout</a></li>
-                      <li id="menu-item-1521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a href="http://oxigeno.bold-themes.com/basketball/shop/my-account/">My account</a></li>
-                    </ul>
-                  </li>
-                  <li id="menu-item-1527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1527"><a href="http://oxigeno.bold-themes.com/basketball/contact/">Contact</a>
-                    <ul class="sub-menu">
-                      <li id="menu-item-1543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1543"><a href="http://oxigeno.bold-themes.com/basketball/contact/">Contact Form</a></li>
-                      <li id="menu-item-1544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1544"><a href="http://oxigeno.bold-themes.com/basketball/contact/locations/">Locations</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <!-- .menuPort -->
-          </div>
-          <!-- /port -->
-        </div>
-        <!-- /menuHolder / btBelowLogoArea -->
-      </div>
-      <!-- / inner header for scrolling -->
-
-    </header>
+    <?php $this->load->view("header");?>
     <!-- /.mainHeader -->
     <div class="btContentWrap btClear">
       <div class="btContentHolder">
-
         <div class="btContent">
           <div class="bt_bb_wrapper">
             <section id="bt_bb_section5bcbd2ca3fd5a" data-parallax="0.6" data-parallax-offset="0" class="bt_bb_section bt_bb_top_spacing_extra_large bt_bb_bottom_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_full_screen bt_bb_vertical_align_bottom bt_bb_parallax bt_bb_background_image"
-              style="background-image:url('http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/inner-hero-about-us.jpg');">
+                     style="background-image:url('<?php echo site_url().'static/page_front/images/fondo/fondo_basketball.jpg';?>');">
               <div class="bt_bb_port">
                 <div class="bt_bb_cell">
                   <div class="bt_bb_cell_inner">
@@ -188,7 +37,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_center bt_bb_vertical_align_bottom bt_bb_padding_normal" data-width="12">
                         <div class="bt_bb_column_content">
                           <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_10 bt_bb_dash_none bt_bb_size_extralarge bt_bb_superheadline bt_bb_align_inherit">
-                            <h2><span class="bt_bb_headline_superheadline">BASKETBALL CLUB</span><span class="bt_bb_headline_content"><span><strong>BELIEVE</strong> &#038; <strong>ACHIEVE</strong></span></span>
+                            <h2><span class="bt_bb_headline_superheadline">LIGA DE BASKETBALL DE SURCO</span><span class="bt_bb_headline_content"><span><strong>UNA LIGA</strong> &#038; <strong>DIFERENTE</strong></span></span>
                             </h2>
                           </header>
                           <div class="bt_bb_separator bt_bb_top_spacing_normal bt_bb_bottom_spacing_small bt_bb_border_style_none" style="margin-top:20px;"></div>
@@ -196,15 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                     </div>
                     <div class="bt_bb_row">
-                      <div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
-                        data-width="12">
+                      <div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="12">
                         <div class="bt_bb_column_content">
                           <div class="bt_bb_content_slider bt_bb_gap_no_gap bt_bb_arrows_size_small bt_bb_show_dots_hide bt_bb_height_auto bt_bb_multiple_slides">
                             <div class="slick-slider" data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "600", "prevArrow": "&lt;button type=\"button\" class=\"slick-prev\"&gt;", "nextArrow": "&lt;button type=\"button\" class=\"slick-next\"&gt;", "adaptiveHeight": true,"slidesToShow": 4,"autoplay": true, "autoplaySpeed": 3000, "responsive": [{ "breakpoint": 480, "settings": { "slidesToShow": 1, "slidesToScroll": 1 } },{ "breakpoint": 768, "settings": { "slidesToShow": 2, "slidesToScroll": 2 } },{ "breakpoint": 920, "settings": { "slidesToShow": 3, "slidesToScroll": 3 } }]}'>
                               <div class="bt_bb_content_slider_item" style="">
                                 <div class="bt_bb_content_slider_item_content content">
                                   <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                    <div class="bt_bb_scheduled_game_image"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_01.png" alt="JUMPER KIDS"></div>
+                                    <div class="bt_bb_scheduled_game_image">
+                                        <img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_01.png" alt="JUMPER KIDS"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
                                       <div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>
@@ -217,10 +66,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
                               </div>
                             </div>
-                            <div class="bt_bb_content_slider_item" style="">
+                            <div class="bt_bb_content_slider_item">
                               <div class="bt_bb_content_slider_item_content content">
                                 <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                  <div class="bt_bb_scheduled_game_image"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_02.png" alt="OHIO CLIPPERS"></div>
+                                  <div class="bt_bb_scheduled_game_image">
+                                      <img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_02.png" alt="OHIO CLIPPERS"></div>
                                   <div
                                     class="bt_bb_scheduled_game_headline">
                                     <div class="bt_bb_scheduled_game_supertitle">HOME @ ARENA</div>
@@ -236,7 +86,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <div class="bt_bb_content_slider_item" style="">
                             <div class="bt_bb_content_slider_item_content content">
                               <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                <div class="bt_bb_scheduled_game_image"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_03.png" alt="BUNBURY"></div>
+                                <div class="bt_bb_scheduled_game_image">
+                                    <img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_03.png" alt="BUNBURY"></div>
                                 <div
                                   class="bt_bb_scheduled_game_headline">
                                   <div class="bt_bb_scheduled_game_supertitle">AWAY @ SPORT HALL</div>
@@ -252,7 +103,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="bt_bb_content_slider_item" style="">
                           <div class="bt_bb_content_slider_item_content content">
                             <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                              <div class="bt_bb_scheduled_game_image"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_03.png" alt="VIRGINIA TEAM"></div>
+                              <div class="bt_bb_scheduled_game_image">
+                                  <img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_03.png" alt="VIRGINIA TEAM"></div>
                               <div
                                 class="bt_bb_scheduled_game_headline">
                                 <div class="bt_bb_scheduled_game_supertitle">AWAY @ PENN STATE</div>
@@ -268,7 +120,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="bt_bb_content_slider_item" style="">
                         <div class="bt_bb_content_slider_item_content content">
                           <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                            <div class="bt_bb_scheduled_game_image"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_05.png" alt="COLORADO BULLS"></div>
+                            <div class="bt_bb_scheduled_game_image">
+                                <img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/12/white_races_logo_05.png" alt="COLORADO BULLS"></div>
                             <div
                               class="bt_bb_scheduled_game_headline">
                               <div class="bt_bb_scheduled_game_supertitle">HOME @ ARENA</div>
@@ -290,119 +143,125 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
   </section>
+  <!--RESULTADOS 1-->
   <section id="bt_bb_section5bcbd2ca42072" class="bt_bb_section bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_top_negative_margin_large">
     <div class="bt_bb_port">
       <div class="bt_bb_cell">
         <div class="bt_bb_cell_inner">
           <div class="bt_bb_row bt_bb_column_gap_20">
-            <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_highlight_shadow"
-              data-width="6">
+            <!--SCORE 1-->
+            <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_highlight_shadow" data-width="6">
               <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
                 <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                 <div class="bt_bb_game_result">
-                  <div class="bt_bb_game_result_supertitle">MON, OCT 21, YOUTH LEAGUE</div>
+                  <div class="bt_bb_game_result_supertitle">SAB, 27 OCT, SUB 16</div>
                   <div class="bt_bb_game_result_wrap">
                     <div class="bt_bb_game_result_team bt_bb_game_result_team_left">
-                      <div class="bt_bb_game_result_crest"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/races_logo_03.png" alt="65"></div>
+                      <div class="bt_bb_game_result_crest">
+                          <!--<img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/races_logo_03.png" alt="65"/>-->
+                          <img src="<?php echo site_url().'static/page_front/images/logo_aqui.png';?>" alt="logo defecto"/>
+                      </div>
                       <div class="bt_bb_game_result_data">
                         <div class="bt_bb_game_result_value">
                           <div class="bt_bb_counter_holder bt_bb_size_large">
-                            <div class="bt_bb_counter_icon_box"><span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span></div><span class="bt_bb_counter animate" data-digit-length="2"><span class="onedigit p2 d7" data-digit="7"><span class="n0">0</span>
-                            <span
-                              class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                              <span
-                                class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span><span class="onedigit p1 d8" data-digit="8"><span class="n0">0</span>
-                                <span
-                                  class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                                  <span
-                                    class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span>
-                                    </span>
+                            <div class="bt_bb_counter_icon_box">
+                                <span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span>
+                            </div>
+                              <span class="bt_bb_counter animate" data-digit-length="2">
+                                  <span class="p2 d6">
+                                      <span class="n0">0</span>
+                                  </span>
+                                </span>
                           </div>
                         </div>
-                        <div class="bt_bb_game_result_title">OXYGEN</div>
+                        <div class="bt_bb_game_result_title">FORTALEZA</div>
                       </div>
                     </div>
                     <div class="bt_bb_game_result_team bt_bb_game_result_team_right">
                       <div class="bt_bb_game_result_data">
                         <div class="bt_bb_game_result_value">
                           <div class="bt_bb_counter_holder bt_bb_size_large">
-                            <div class="bt_bb_counter_icon_box"><span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span></div><span class="bt_bb_counter animate" data-digit-length="2"><span class="onedigit p2 d6" data-digit="6"><span class="n0">0</span>
-                            <span
-                              class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                              <span
-                                class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span><span class="onedigit p1 d5" data-digit="5"><span class="n0">0</span>
-                                <span
-                                  class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                                  <span
-                                    class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span>
-                                    </span>
+                            <div class="bt_bb_counter_icon_box">
+                                <span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span>
+                            </div>
+                              <span class="bt_bb_counter animate" data-digit-length="2">
+                                  <span class="p2 d6">
+                                      <span class="n0">0</span>
+                                  </span>
+                                </span>
                           </div>
                         </div>
                         <div class="bt_bb_game_result_title">LAKERS</div>
                       </div>
-                      <div class="bt_bb_game_result_crest"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/races_logo_01.png" alt="65"></div>
+                      <div class="bt_bb_game_result_crest">
+                          <img src="<?php echo site_url().'static/page_front/images/logo_aqui.png';?>" alt="logo defecto"/>
+                      </div>
                     </div>
                   </div>
                   <div class="bt_bb_game_result_button">
                     <div class="bt_bb_button bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_small">
-                      <a href="http://oxigeno.bold-themes.com/basketball/fixtures/single-game-report/" target="_self" class="bt_bb_link" title="GAME DETAILS"><span class="bt_bb_button_text">GAME DETAILS</span></a>
+                      <a href="#" target="_self" class="bt_bb_link" title="GAME DETAILS">
+                          <span class="bt_bb_button_text">DETALLES</span>
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
               </div>
             </div>
-            <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_highlight_shadow"
-              data-width="6">
+            <!--SCORE 2-->
+            <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_highlight_shadow" data-width="6">
               <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
                 <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                 <div class="bt_bb_game_result">
-                  <div class="bt_bb_game_result_supertitle">SAT, OCT 24, SENIOR LEAGUE</div>
+                  <div class="bt_bb_game_result_supertitle">SAB, 27 OCT, SUB 16</div>
                   <div class="bt_bb_game_result_wrap">
                     <div class="bt_bb_game_result_team bt_bb_game_result_team_left">
-                      <div class="bt_bb_game_result_crest"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/races_logo_04.png" alt="83"></div>
+                      <div class="bt_bb_game_result_crest">
+                          <img src="<?php echo site_url().'static/page_front/images/logo_aqui.png';?>" alt="logo defecto"/>
+                      </div>
                       <div class="bt_bb_game_result_data">
                         <div class="bt_bb_game_result_value">
                           <div class="bt_bb_counter_holder bt_bb_size_large">
-                            <div class="bt_bb_counter_icon_box"><span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span></div><span class="bt_bb_counter animate" data-digit-length="2"><span class="onedigit p2 d9" data-digit="9"><span class="n0">0</span>
-                            <span
-                              class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                              <span
-                                class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span><span class="onedigit p1 d9" data-digit="9"><span class="n0">0</span>
-                                <span
-                                  class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                                  <span
-                                    class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span>
-                                    </span>
+                            <div class="bt_bb_counter_icon_box">
+                                <span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span>
+                            </div>
+                              <span class="bt_bb_counter animate" data-digit-length="2">
+                                  <span class="p2 d6">
+                                      <span class="n0">0</span>
+                                  </span>
+                                </span>
                           </div>
                         </div>
-                        <div class="bt_bb_game_result_title">OXYGEN</div>
+                        <div class="bt_bb_game_result_title">FORTALEZA</div>
                       </div>
                     </div>
                     <div class="bt_bb_game_result_team bt_bb_game_result_team_right">
                       <div class="bt_bb_game_result_data">
                         <div class="bt_bb_game_result_value">
                           <div class="bt_bb_counter_holder bt_bb_size_large">
-                            <div class="bt_bb_counter_icon_box"><span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span></div><span class="bt_bb_counter animate" data-digit-length="2"><span class="onedigit p2 d8" data-digit="8"><span class="n0">0</span>
-                            <span
-                              class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                              <span
-                                class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span><span class="onedigit p1 d3" data-digit="3"><span class="n0">0</span>
-                                <span
-                                  class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span>
-                                  <span
-                                    class="n7">7</span><span class="n8">8</span><span class="n9">9</span><span class="n0">0</span></span>
-                                    </span>
+                            <div class="bt_bb_counter_icon_box">
+                                <span data-ico-="&#038;#x;" class="bt_bb_icon_holder"></span>
+                            </div>
+                              <span class="bt_bb_counter animate" data-digit-length="2">
+                                  <span class="p2 d6">
+                                      <span class="n0">0</span>
+                                  </span>
+                                </span>
                           </div>
                         </div>
-                        <div class="bt_bb_game_result_title">BOSTON</div>
+                        <div class="bt_bb_game_result_title">FORTALEZA</div>
                       </div>
-                      <div class="bt_bb_game_result_crest"><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/races_logo_02.png" alt="83"></div>
+                      <div class="bt_bb_game_result_crest">
+                          <img src="<?php echo site_url().'static/page_front/images/logo_aqui.png';?>" alt="logo defecto"/>
+                      </div>
                     </div>
                   </div>
                   <div class="bt_bb_game_result_button">
                     <div class="bt_bb_button bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_small">
-                      <a href="http://oxigeno.bold-themes.com/basketball/fixtures/single-game-report/" target="_self" class="bt_bb_link" title="GAME DETAILS"><span class="bt_bb_button_text">GAME DETAILS</span></a>
+                      <a href="" target="_self" class="bt_bb_link" title="DETALLES">
+                          <span class="bt_bb_button_text">DETALLES</span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -414,6 +273,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </section>
+  <!--RESULTADOS 2-->         
   <section id="bt_bb_section5bcbd2ca44e9d" class="bt_bb_section bt_bb_top_spacing_medium bt_bb_bottom_spacing_medium bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
     <div class="bt_bb_port">
       <div class="bt_bb_cell">
@@ -423,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               data-width="12">
               <div class="bt_bb_column_content">
                 <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
-                  <h2><span class="bt_bb_headline_superheadline">BASKETBALL CLUB</span><span class="bt_bb_headline_content"><span>OUR <strong>PRINCIPLES</strong></span></span>
+                  <h2><span class="bt_bb_headline_superheadline">LIGA DE BASKETBALL DE SURCO</span><span class="bt_bb_headline_content"><span>NUESTROS <strong>PRINCIPIOS</strong></span></span>
                   </h2>
                 </header>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -435,10 +295,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               data-width="3">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
-                  <a href="#" target="_self" title="PROFICIENCY" data-ico-basketball="&#xf112;" class="bt_bb_icon_holder"></a>
+                  <a title="COMPETENCIA" class="bt_bb_icon_holder"><i class="fa fa-bolt" aria-hidden="true"></i></a>
                   <div class="bt_bb_service_content">
-                    <div class="bt_bb_service_content_title"><a href="#" target="_self">PROFICIENCY</a></div>
-                    <div class="bt_bb_service_content_text">Nanotechnology immersion along the information highway will close the loop on focusing solely line.</div>
+                    <div class="bt_bb_service_content_title"><a>COMPETENCIA</a></div>
+                    <div class="bt_bb_service_content_text">Creamos un ambiente adecuados para una competencia sana entre equipos impulsando el crecimiento del jugador.</div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -448,10 +308,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               data-width="3">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
-                  <a href="#" target="_self" title="PARTICIPATION" data-ico-basketball="&#xf104;" class="bt_bb_icon_holder"></a>
+                  <a title="CONFIANZA" class="bt_bb_icon_holder"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
                   <div class="bt_bb_service_content">
-                    <div class="bt_bb_service_content_title"><a href="#" target="_self">PARTICIPATION</a></div>
-                    <div class="bt_bb_service_content_text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test override the digital.</div>
+                    <div class="bt_bb_service_content_title"><a>VALORES</a></div>
+                    <div class="bt_bb_service_content_text">Tenemos como valor esencial promover la unión de las personas a partir del básquet.</div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -461,10 +321,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               data-width="3">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
-                  <a href="#" target="_self" title="LESSONS" data-ico-basketball="&#xf107;" class="bt_bb_icon_holder"></a>
+                  <a title="TRANSPARENCIA" class="bt_bb_icon_holder"><i class="fa fa-star-o" aria-hidden="true"></i></a>
                   <div class="bt_bb_service_content">
-                    <div class="bt_bb_service_content_title"><a href="#" target="_self">LESSONS</a></div>
-                    <div class="bt_bb_service_content_text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day going.</div>
+                    <div class="bt_bb_service_content_title"><a>TRANSPARENCIA</a></div>
+                    <div class="bt_bb_service_content_text">Una gestión abierta, transparente y cercana es uno de los pilares fundamentales de nuestra liga.</div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -474,10 +334,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               data-width="3">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
-                  <a href="#" target="_self" title="TEAMWORK" data-ico-basketball="&#xf10e;" class="bt_bb_icon_holder"></a>
+                  <a title="TRABAJO EN EQUIPO" class="bt_bb_icon_holder"><i class="fa fa-users" aria-hidden="true"></i></a>
                   <div class="bt_bb_service_content">
-                    <div class="bt_bb_service_content_title"><a href="#" target="_self">TEAMWORK</a></div>
-                    <div class="bt_bb_service_content_text">Evolved from generation X is on the runway heading towards a streamlined cloud solution and more users.</div>
+                    <div class="bt_bb_service_content_title"><a>TRABAJO EN EQUIPO</a></div>
+                    <div class="bt_bb_service_content_text">Impulsamos a todos los miembros a colaborar y estar en la misma sintonía para poder alcanzar sus objetivos.</div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -902,7 +762,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     </div>
   </section>
-  <section id="bt_bb_section5bcbd2ca571d2" data-parallax="0.6" data-parallax-offset="0" class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_parallax bt_bb_background_image bt_bb_background_overlay_dark_gradient"
+<!--  <section id="bt_bb_section5bcbd2ca571d2" data-parallax="0.6" data-parallax-offset="0" class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_parallax bt_bb_background_image bt_bb_background_overlay_dark_gradient"
     style="background-image:url('http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/inner-hero-team.jpg');">
     <div class="bt_bb_port">
       <div class="bt_bb_cell">
@@ -1041,7 +901,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
+  
   <section id="bt_bb_section5bcbd2ca5bfd5" class="bt_bb_section bt_bb_color_scheme_2 bt_bb_layout_boxed_right_1200 bt_bb_vertical_align_top bt_bb_top_negative_margin_extra_large bt_bb_highlight_shadow">
     <div class="bt_bb_port">
       <div class="bt_bb_cell">
@@ -1052,9 +913,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="bt_bb_column_content">
                 <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
                 <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
-                  <h2><span class="bt_bb_headline_superheadline">LEARN MORE</span><span class="bt_bb_headline_content"><span>ABOUT <strong>CLUB</strong></span></span>
+                  <h2>
+                      <span class="bt_bb_headline_content"><span>ACERCA</span></span>
                   </h2>
-                  <div class="bt_bb_headline_subheadline">The Club provides children the opportunity to learn and develop basketball skills.</div>
+                  <div class="bt_bb_headline_subheadline">La liga de surco proporciona a los jugadores la oportunidad de aprender y desarrollar habilidades de baloncesto.</div>
                 </header>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
                 <div class="bt_bb_text">
@@ -1065,11 +927,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-                <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit"><a href="http://oxigeno.bold-themes.com/basketball/contact/" target="_self" class="bt_bb_link" title="JOIN THE CLUB"><span class="bt_bb_button_text">JOIN THE CLUB</span></a></div>
-                <div
-                  class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit"><a href="http://oxigeno.bold-themes.com/basketball/about-us/" target="_self" class="bt_bb_link" title="LEARN MORE"><span class="bt_bb_button_text">LEARN MORE</span></a></div>
-              <div
-                class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+                    <a href="#" target="_self" class="bt_bb_link" title="JOIN THE CLUB">
+                        <span class="bt_bb_button_text">ÚNETE</span></a>
+                </div>
+                <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+                    <a href="<?php echo site_url().'about'?>" class="bt_bb_link" title="LEARN MORE">
+                        <span class="bt_bb_button_text">MÁS INFORMACIÓN</span>
+                    </a>
+                </div>
+              <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
           </div>
         </div>
         <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="6">
@@ -1085,7 +952,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   </div>
   <!-- /boldthemes_content -->
-
   </div>
   <!-- /contentHolder -->
   </div>
@@ -1130,44 +996,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     				}
     			}, false);
   </script>
-
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/comment-reply.min.js?ver=4.9.8';?>'></script>
   <script type='text/javascript'>
     /* <![CDATA[ */
     var wpcf7 = {"apiSettings":{"root":"http:\/\/oxigeno.bold-themes.com\/basketball\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
     /* ]]> */
   </script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
-  <script type='text/javascript'>
-    /* <![CDATA[ */
-    var wc_add_to_cart_params = {"ajax_url":"\/basketball\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/basketball\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/oxigeno.bold-themes.com\/basketball\/shop\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-    /* ]]> */
-  </script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.4.4'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
-  <script type='text/javascript'>
-    /* <![CDATA[ */
-    var woocommerce_params = {"ajax_url":"\/basketball\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/basketball\/?wc-ajax=%%endpoint%%"};
-    /* ]]> */
-  </script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.4.4'></script>
-  <script type='text/javascript'>
-    /* <![CDATA[ */
-    var wc_cart_fragments_params = {"ajax_url":"\/basketball\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/basketball\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_4608f8a9a08f5bf563fda0cbdf41324a","fragment_name":"wc_fragments_4608f8a9a08f5bf563fda0cbdf41324a"};
-    /* ]]> */
-  </script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.4.4'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/js/fancySelect.js?ver=4.9.8'></script>
-  <script type='text/javascript'>
-    window.BoldThemesURI = "http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno"; window.BoldThemesAJAXURL = "http://oxigeno.bold-themes.com/basketball/wp-admin/admin-ajax.php";window.boldthemes_text = [];window.boldthemes_text.previous = 'previous';window.boldthemes_text.next = 'next';
-  </script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/js/header.misc.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/js/misc.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/views/post/single/hide.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/content_elements/bt_bb_section/googlemaps-scrollprevent.min.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/content_elements/bt_bb_section/bt_bb_elements.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/widgets/bb_instagram/instafeed.min.js?ver=4.9.8'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/scripts.js?ver=5.0.3';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/fancySelect.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/header.misc.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/misc.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/hide.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/wp-embed.min.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/googlemaps-scrollprevent.min.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/bt_bb_elements.js?ver=4.9.8';?>'></script>
+  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/instafeed.min.js?ver=4.9.8';?>'></script>
 </body>
 </html>

@@ -67,6 +67,7 @@
   <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/cc.main.js?ver=4.9.8';?>'></script>
   <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/gtm4wp-form-move-tracker.js?ver=1.8.1';?>'></script>
   <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/modernizr.custom.js?ver=4.9.8';?>'></script>
+  <script src="https://use.fontawesome.com/3aa4a6fd0b.js"></script>
   <link rel="canonical" href="<?php echo site_url();?>"/>
   <link rel='shortlink' href='<?php echo site_url();?>'/>
   <script data-cfasync="false" type="text/javascript">

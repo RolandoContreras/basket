@@ -7091,10 +7091,10 @@ button.slick-arrow:before {
     font-family: Essential;
     }
 button.slick-arrow.slick-next:before {
-    content: '\ea7d';
+    content: '►';
     }
 button.slick-arrow.slick-prev:before {
-    content: '\ea7c';
+    content: '◄';
     }
 @media (min-width: 1320px) {
 .bt_bb_layout_boxed_800 .slick-slider,
