@@ -2102,7 +2102,7 @@ html[data-useragent*="Edge"] .bt_bb_parallax {
 .bt_bb_align_center .bt_bb_align_left .bt_bb_image,
 .bt_bb_align_left.bt_bb_image,
 .bt_bb_align_left .bt_bb_image {
-    float: left;
+    align-items: center;
     }
 .bt_bb_align_right .bt_bb_align_left.bt_bb_image + .bt_bb_image,
 .bt_bb_align_center .bt_bb_align_left.bt_bb_image + .bt_bb_image,
