@@ -1,6 +1,6 @@
 <nav>
     <ul id="menu-primary-menu" class="menu">
-        <li id="menu-item-1524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-1524"><a href="<?php echo site_url().'home';?>">Inicio</a></li>
+        <li id="menu-item-1524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-152"><a href="<?php echo site_url().'home';?>">Inicio</a></li>
       <li id="menu-item-1519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1519"><a href="<?php echo site_url().'about';?>">Acerca</a>
 <!--        <ul class="sub-menu">
           <li id="menu-item-1545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1545"><a href="http://oxigeno.bold-themes.com/basketball/about-us/">Overview</a></li>

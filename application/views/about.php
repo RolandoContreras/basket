@@ -26,8 +26,7 @@
     <!-- /.mainHeader -->
     <div class="btContentWrap btClear">
       <section class="bt_bb_section gutter bt_bb_vertical_align_top btPageHeadline bt_bb_background_image bt_bb_background_overlay_dark_solid bt_bb_parallax btDarkSkin "
-        style="background-image:url(http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/inner-hero-team.jpg)" data-parallax="0.8"
-        data-parallax-offset="0">
+               style="background-image:url(<?php echo site_url().'static/page_front/images/fondo/fondo_tablero.jpg';?>)" data-parallax="0.8" data-parallax-offset="0">
         <div class="bt_bb_port port">
           <div class="bt_bb_cell">
             <div class="bt_bb_cell_inner">
@@ -35,10 +34,20 @@
                 <div class="bt_bb_column">
                   <div class="bt_bb_column_content">
                     <header class="bt_bb_headline bt_bb_size_large bt_bb_superheadline bt_bb_subheadline">
-                      <h1><span class="bt_bb_headline_superheadline"><span class="btBreadCrumbs"><span><a href="http://oxigeno.bold-themes.com/basketball/">Home</a></span></span>
-                        </span><span class="bt_bb_headline_content"><span>About us</span></span>
-                      </h1>
-                      <div class="bt_bb_headline_subheadline">We are a competitive professional basketball club - with our players competing at all levels from local team galas.</div>
+                        <h1>
+                            <span class="bt_bb_headline_superheadline">
+                                <span class="btBreadCrumbs">
+                                    <span>
+                                        <a href="<?php echo site_url().'home';?>">Inicio</a>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="bt_bb_headline_content">
+                                <span>Acerca</span>
+                                    
+                            </span>
+                        </h1>
+                      <div class="bt_bb_headline_subheadline">Somos una liga diferente a todas, nos basamos en la transparencia y confianza, impulsamos a que nuestros jugadores mejoren y den el 100% en cada encuentro.</div>
                     </header>
                   </div>
                   <!-- /rowItemContent -->
@@ -71,24 +80,25 @@
                       <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal"
                         data-width="6">
                         <div class="bt_bb_column_content">
-                          <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
-                          <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_subheadline bt_bb_align_inherit">
-                            <h2><span class="bt_bb_headline_content"><span><strong>OXYGEN CLUB</strong><br />
-MISSION&#038;VISION</span></span>
-                            </h2>
-                            <div class="bt_bb_headline_subheadline">With a membership of 190+ players drawn, we have a high level of competition.</div>
-                          </header>
+                            <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
+                                <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_subheadline bt_bb_align_inherit">
+                                  <h2>
+                                      <span class="bt_bb_headline_content"><span><strong>LIGA DE SURCO</strong><br/>MISIÓN &#038; VISIÓN</span>
+                                      </span>
+                                  </h2>
+                                  <div class="bt_bb_headline_subheadline">Con un staff calificado de equipos, contamos con un alto nivel de competencia.</div>
+                                </header>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
                           <div class="bt_bb_text">
-                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy
-                              foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive
-                              innovation via workplace diversity and empowerment.</p>
+                            <p>Los fundadores de la liga de surco tienen como visión promover este hermoso deporte y a la vez unificar a las personas, ofrecemos un desarrollo y crecimiento a las personas a través de este deporte.</p>
                           </div>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                           <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit"><a href="http://oxigeno.bold-themes.com/basketball/contact/" target="_self" class="bt_bb_link" title="JOIN THE CLUB"><span class="bt_bb_button_text">JOIN THE CLUB</span></a></div>
                           <div
                             class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
-                            <a href="http://oxigeno.bold-themes.com/basketball/about-us/club-history/" target="_self" class="bt_bb_link" title="LEARN MORE"><span class="bt_bb_button_text">LEARN MORE</span></a>
+                            <a href="http://oxigeno.bold-themes.com/basketball/about-us/club-history/" target="_self" class="bt_bb_link" title="LEARN MORE">
+                                <span class="bt_bb_button_text">LEARN MORE</span>
+                                    </a>
                         </div>
                         <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
                       </div>

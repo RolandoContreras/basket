@@ -1408,8 +1408,16 @@ body.btBelowMenu .btPageHeadline .bt_bb_port {
     font-weight: bold;
     text-transform: uppercase;
     }
+ .menuPort nav ul li a:active {
+    display: block;
+    position: relative;
+    padding: 1em 1em;
+    color: #ff7f00;
+    font-weight: bold;
+    text-transform: uppercase;
+    }   
 .menuPort nav ul li a:hover {
-    color: #3da3e6;
+    color: #ff7f00;
     text-decoration: none;
     }
 .menuPort nav ul ul li {
@@ -1675,7 +1683,7 @@ body.btBelowMenu .btPageHeadline .bt_bb_port {
 /* Only horizontal menu */
 .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor,
 .btMenuHorizontal .menuPort nav > ul > li.current-menu-item {
-    color: #00ffff;
+    color: #ff7f00;
     }
 
 /* Drop down menu */
@@ -9687,13 +9695,13 @@ to {
 .bt_bb_color_scheme_6 .btQuoteBooking .btContactNext {
     -webkit-box-shadow: 0 0 0 2px #181818 inset;
     box-shadow: 0 0 0 2px #181818 inset;
-    color: #181818 !important;
+    color: rgb(153, 118, 10) !important;
     }
 .bt_bb_color_scheme_5 .btQuoteBooking .btContactNext:hover,
 .bt_bb_color_scheme_6 .btQuoteBooking .btContactNext:hover {
     -webkit-box-shadow: 0 0 0 2em #181818 inset;
     box-shadow: 0 0 0 2em #181818 inset;
-    color: #fff !important;
+    color: rgb(153, 118, 10) !important;
     }
 .btQuoteBooking .btContactNext:focus {
     outline: 0;
