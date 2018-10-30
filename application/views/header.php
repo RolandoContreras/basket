@@ -22,11 +22,19 @@
             <div class="topBarInLogoArea">
               <div class="topBarInLogoAreaCell">
                 <div class="btIconWidget  btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-sport="&#xf109;" class="bt_bb_icon_holder"></span></div>
+                  <div class="btIconWidgetIcon">
+                      <span class="bt_bb_icon_holder">
+                          <img src="<?php echo site_url().'static/page_front/images/iconos/ico_ball.png';?>" width="35"/>
+                      </span>
+                  </div>
                   <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Sábados</span><span class="btIconWidgetText">08AM-07PM</span></div>
                 </div>
                 <div class="btIconWidget  btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-sport="&#xf108;" class="bt_bb_icon_holder"></span></div>
+                  <div class="btIconWidgetIcon">
+                      <span class="bt_bb_icon_holder">
+                          <img src="<?php echo site_url().'static/page_front/images/iconos/ico_tablero.png';?>" width="35"/>
+                      </span>
+                  </div>
                   <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Av. Angamos Este 2689, San Borja</span><span class="btIconWidgetText">Coliseo Eduardo Dibós</span></div>
                 </div>
               </div>
