@@ -45,82 +45,16 @@ $route['404_override'] = 'errors/error_404';
 $route['(\w{2})/(.*)'] = '$2';
 $route['(\w{2})'] = $route['default_controller'];
 
-
-//$route['^en/(.+)$'] = "$1";
-//$route['^es/(.+)$'] = "$1"; 
-//
-//$route['^en$'] = $route['default_controller'];
-//$route['^es$'] = $route['default_controller'];
-
 $route['home'] = 'home';
 $route['about'] = 'about';
+$route['contact'] = 'contact';
+
 $route['home/send_messages'] = 'home/send_messages';
 
 $route['login'] = 'login';
 $route['login/validate'] = 'login/validate';
 
 $route['contact/send_messages'] = 'contact/send_messages';
-
-$route['allcurrency'] = 'allcurrency';
-
-$route['buy'] = 'buy';
-$route['buy/bank'] = 'bank';
-$route['buy/bank/view_bank'] = 'bank/view_bank';
-$route['buy/bank/view_credit_card'] = 'bank/view_credit_card';
-$route['buy/bank/details_credit_card'] = 'bank/details_credit_card';
-$route['buy/bank/enter_credit_card'] = 'bank/enter_credit_card';
-
-//VERIFY PAY CREDIT / DEBIT CARD
-$route['buy/charge_payment'] = 'charge_payment';
-
-$route['buy/bank/confirm_bank'] = 'bank/confirm_bank';
-
-//CURRENCY
-$route['buy/bitcoin'] = 'buy/currency';
-$route['buy/dash'] = 'buy/currency';
-$route['buy/ethereum'] = 'buy/currency';
-$route['buy/litecoin'] = 'buy/currency';
-$route['buy/bitcoincash'] = 'buy/currency';
-$route['buy/cardano'] = 'buy/currency';
-$route['buy/monero'] = 'buy/currency';
-$route['buy/ripple'] = 'buy/currency';
-$route['buy/verge'] = 'buy/currency';
-$route['buy/zcash'] = 'buy/currency';
-$route['buy/tron'] = 'buy/currency';
-$route['buy/omisego'] = 'buy/currency';
-$route['buy/siacoin'] = 'buy/currency';
-$route['buy/nxt'] = 'buy/currency';
-
-
-//CONTACT INVERST
-$route['contact/invest'] = 'contact_invest';
-$route['contact/invest/send_messages'] = 'contact_invest/send_messages';
-
-//LEGAL
-$route['notice/legal'] = 'notice';
-$route['notice/privacy'] = 'notice';
-$route['notice/general'] = 'notice';
-$route['notice/cookies'] = 'notice';
-
-//BACKOFFICE
-$route['backoffice'] = "b_home";
-$route['backoffice/profile'] = "b_data";
-
-$route['backoffice/messages/support'] = "b_messages/message_type";
-$route['backoffice/messages/support/([0-9a-z_-]+)'] = "b_messages/message_type/$1";
-
-$route['backoffice/soporte'] = "b_soporte"; 
-$route['backoffice/soporte/validate'] = "b_soporte/validate";
-
-$route['backoffice/validate_usd'] = "b_home/validate_usd"; 
-$route['backoffice/validate_btc'] = "b_home/validate_btc"; 
-
-
-
-$route['backoffice/sell'] = "b_sell";
-
-$route['logout'] = "b_home/logout";
-$route['backoffice/misdatos'] = "b_data";
 
 $route['register/afiliate/([0-9a-z_-]+)'] = "register/index/$1";
 

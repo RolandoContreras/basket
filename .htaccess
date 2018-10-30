@@ -1,9 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
-    RewriteCond %{HTTPS_HOST} ^easycripto.com$ [NC,OR]
-    RewriteCond %{HTTPS_HOST} ^www.easycripto.com$
-    RewriteCond %{REQUEST_URI} !site/
-    RewriteRule (.*) /site/$1 [L]
+#    RewriteCond %{HTTPS_HOST} ^easycripto.com$ [NC,OR]
+#    RewriteCond %{HTTPS_HOST} ^www.easycripto.com$
+#    RewriteCond %{REQUEST_URI} !site/
+#    RewriteRule (.*) /site/$1 [L]
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
