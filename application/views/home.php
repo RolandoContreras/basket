@@ -491,7 +491,11 @@
               </div>
               <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="6">
                 <div class="bt_bb_column_content">
-                  <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle"><span><img src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/inner-vertical-640x640.jpg" alt="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/inner-vertical-640x640.jpg"></span></div>
+                  <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle">
+                      <span>
+                          <img src="<?php echo site_url().'static/page_front/images/fondo/bg_about.jpg';?>" alt="Acerca">
+                      </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -508,7 +512,7 @@
   </div>
   <!-- /START FOOTER -->
   <?php $this->load->view("footer");?>
-  <!-- /btSiteFooter -->
+  <!-- /END Footer -->
   </div>
   <!-- /pageWrap -->
   <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/comment-reply.min.js?ver=4.9.8';?>'></script>

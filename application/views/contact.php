@@ -35,20 +35,13 @@
                 <div class="bt_bb_column">
                   <div class="bt_bb_column_content">
                     <header class="bt_bb_headline bt_bb_size_large bt_bb_superheadline bt_bb_subheadline">
-                      <h1>
-                            <span class="bt_bb_headline_superheadline">
-                              <span class="btBreadCrumbs">
-                                  <span>
-                                      <a href="http://oxigeno.bold-themes.com/basketball/">Inicio</a>
-                                  </span>
-                              </span>
-                            </span>
+                        <h1>
                             <span class="bt_bb_headline_content">
                                 <span>Contacto</span>
                             </span>
-                      </h1>
+                        </h1>
                       <div class="bt_bb_headline_subheadline">
-                        ¿Quieres ser parte de la liga de basketball de surco? No dude en contactar con nosotros para obtener más información.
+                        ¿Quieres ser parte de la liga de basketball de surco? No dudes en contactar con nosotros para obtener más información.
                       </div>
                     </header>
                   </div>
