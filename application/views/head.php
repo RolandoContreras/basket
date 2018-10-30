@@ -13,11 +13,11 @@
   </script>
   <link rel='dns-prefetch' href='//fonts.googleapis.com' />
   <link rel='dns-prefetch' href='//s.w.org' />
-  <meta property="og:url"  content="https://ligabasketdesurco.com/.com/" /> 
+  <meta property="og:url"  content="https://ligabasketdesurco.com" /> 
     <meta property="og:type" content="website" /> 
     <meta property="og:title" content="Liga de Baloncesto de Surco" />
     <meta property="og:description" content="Somos una liga de baloncesto diferente, creamos un ambiente adecuado y proporcionamos a los jugadores la oportunidad de aprender y desarrollar habilidades de baloncesto." /> 
-    <meta property="og:image" content="<?php echo site_url().'static/page_front/images/easyx200.jpg'?>" />
+    <meta property="og:image" content="<?php echo site_url().'static/page_front/images/logo/logo.png'?>" />
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-57x57.png';?>">
     <link rel="apple-touch-icon" sizes="60x60" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-60x60.png';?>">
     <link rel="apple-touch-icon" sizes="72x72" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-72x72.png';?>">
