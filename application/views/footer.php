@@ -94,7 +94,7 @@
                 <div class="bt_bb_column_content">
                   <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
                     <h3>
-                        <span class="bt_bb_headline_content"><span><strong>ÚLTIMOS POSTS</strong></span></span>
+                        <span class="bt_bb_headline_content"><span><strong>ÚLTIMAS NOTICIAS</strong></span></span>
                     </h3>
                   </header>
                   <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>

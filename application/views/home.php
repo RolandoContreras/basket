@@ -53,7 +53,7 @@
                                 <div class="bt_bb_content_slider_item_content content">
                                   <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
                                     <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza';?>" alt="fortaleza club"></div>
+                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
                                       <!--<div class="bt_bb_scheduled_game_supertitle">BASKETBALL CLUB</div>-->
@@ -72,7 +72,7 @@
                                 <div class="bt_bb_content_slider_item_content content">
                                   <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
                                     <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza';?>" alt="fortaleza club"></div>
+                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
                                       <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
@@ -91,7 +91,7 @@
                                 <div class="bt_bb_content_slider_item_content content">
                                   <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
                                     <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza';?>" alt="fortaleza club"></div>
+                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
                                       <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
@@ -108,7 +108,7 @@
                                 <div class="bt_bb_content_slider_item_content content">
                                   <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
                                     <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza';?>" alt="fortaleza club"></div>
+                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
                                       <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
@@ -125,7 +125,7 @@
                                 <div class="bt_bb_content_slider_item_content content">
                                   <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
                                     <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza';?>" alt="fortaleza club"></div>
+                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
                                       <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
