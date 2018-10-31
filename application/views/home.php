@@ -377,7 +377,7 @@
                     <!--ITEM1-->
                   <div class="bt_bb_latest_posts_item">
                     <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_1.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
+                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
                         <span class="bt_bb_latest_posts_item_date">
                             <span class="btDay">27</span>
                             <span  class="btMonth">Oct</span> 
@@ -386,13 +386,41 @@
                     <div class="bt_bb_latest_posts_item_content">
                       <div class="bt_bb_latest_posts_item_category">
                         <ul class="post-categories">
-                          <li><a href="http://oxigeno.bold-themes.com/basketball/category/awards/" rel="category tag">Awards</a></li>
-                          <li><a href="http://oxigeno.bold-themes.com/basketball/category/basketball/" rel="category tag">Basketball</a></li>
+                          <li><a href="#" rel="category tag">Torneo</a></li>
+                          <li><a href="#" rel="category tag">Basketball</a></li>
                         </ul>
                       </div>
-                      <h5 class="bt_bb_latest_posts_item_title"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/14/the-best-mvp-players-in-oxygen-basketball-club/" target="_self">The best MVP players in Oxygen Basketball club</a></h5>
-                      <div
-                        class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
+                      <h5 class="bt_bb_latest_posts_item_title">
+                          <a href="#">Comenzó la liga con grandes encuentros</a>
+                      </h5>
+                      <div class="bt_bb_latest_posts_item_excerpt">
+                          Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
+                        bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
+                  </div>
+                </div>
+                    <!--END ITEM1-->
+                    
+                      <!--ITEM1-->
+                  <div class="bt_bb_latest_posts_item">
+                    <div class="bt_bb_latest_posts_item_image">
+                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
+                        <span class="bt_bb_latest_posts_item_date">
+                            <span class="btDay">27</span>
+                            <span  class="btMonth">Oct</span> 
+                        </span>
+                    </div>
+                    <div class="bt_bb_latest_posts_item_content">
+                      <div class="bt_bb_latest_posts_item_category">
+                        <ul class="post-categories">
+                          <li><a href="#" rel="category tag">Torneo</a></li>
+                          <li><a href="#" rel="category tag">Basketball</a></li>
+                        </ul>
+                      </div>
+                      <h5 class="bt_bb_latest_posts_item_title">
+                          <a href="#">Comenzó la liga con grandes encuentros</a>
+                      </h5>
+                      <div class="bt_bb_latest_posts_item_excerpt">
+                          Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
                         bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
                   </div>
                 </div>
@@ -401,7 +429,7 @@
                      <!--ITEM1-->
                   <div class="bt_bb_latest_posts_item">
                     <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_1.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
+                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
                         <span class="bt_bb_latest_posts_item_date">
                             <span class="btDay">27</span>
                             <span  class="btMonth">Oct</span> 
@@ -410,13 +438,14 @@
                     <div class="bt_bb_latest_posts_item_content">
                       <div class="bt_bb_latest_posts_item_category">
                         <ul class="post-categories">
-                          <li><a href="http://oxigeno.bold-themes.com/basketball/category/awards/" rel="category tag">Awards</a></li>
-                          <li><a href="http://oxigeno.bold-themes.com/basketball/category/basketball/" rel="category tag">Basketball</a></li>
+                          <li><a href="#" rel="category tag">Torneo</a></li>
+                          <li><a href="#" rel="category tag">Basketball</a></li>
                         </ul>
                       </div>
-                      <h5 class="bt_bb_latest_posts_item_title"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/14/the-best-mvp-players-in-oxygen-basketball-club/" target="_self">The best MVP players in Oxygen Basketball club</a></h5>
-                      <div
-                        class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
+                      <h5 class="bt_bb_latest_posts_item_title">
+                          <a href="#">Comenzó la liga con grandes encuentros</a>
+                      </h5>
+                      <div class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
                         bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
                   </div>
                 </div>
@@ -424,7 +453,7 @@
                     
                  <div class="bt_bb_latest_posts_item">
                     <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_1.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
+                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
                         <span class="bt_bb_latest_posts_item_date">
                             <span class="btDay">27</span>
                             <span  class="btMonth">Oct</span> 
@@ -433,13 +462,14 @@
                     <div class="bt_bb_latest_posts_item_content">
                       <div class="bt_bb_latest_posts_item_category">
                         <ul class="post-categories">
-                          <li><a href="http://oxigeno.bold-themes.com/basketball/category/awards/" rel="category tag">Awards</a></li>
-                          <li><a href="http://oxigeno.bold-themes.com/basketball/category/basketball/" rel="category tag">Basketball</a></li>
+                          <li><a href="#" rel="category tag">Torneo</a></li>
+                          <li><a href="#" rel="category tag">Basketball</a></li>
                         </ul>
                       </div>
-                      <h5 class="bt_bb_latest_posts_item_title"><a href="http://oxigeno.bold-themes.com/basketball/2017/11/14/the-best-mvp-players-in-oxygen-basketball-club/" target="_self">The best MVP players in Oxygen Basketball club</a></h5>
-                      <div
-                        class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
+                      <h5 class="bt_bb_latest_posts_item_title">
+                          <a href="#">Comenzó la liga con grandes encuentros</a>
+                      </h5>
+                      <div class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
                         bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
                   </div>
                 </div>
