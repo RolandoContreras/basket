@@ -3209,3 +3209,6 @@
 .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_outline a:hover {
     box-shadow: 0 0 0 3em #fff inset;
 }
+.padding-left{
+    padding-left: 20px;
+}

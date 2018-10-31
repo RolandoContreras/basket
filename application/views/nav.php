@@ -11,7 +11,7 @@
           <li id="menu-item-1547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1547"><a href="http://oxigeno.bold-themes.com/basketball/about-us/sponsors/">Sponsors</a></li>
         </ul>-->
       </li>
-      <li id="menu-item-1525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525"><a href="<?php echo site_url().'games';?>">Juegos</a>
+      <li id="menu-item-1525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525"><a href="#">Juegos</a>
 <!--        <ul class="sub-menu">
           <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/">Overview</a></li>
           <li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569"><a href="http://oxigeno.bold-themes.com/basketball/fixtures/game-report/">Game Reports</a></li>
