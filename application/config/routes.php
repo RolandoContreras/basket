@@ -47,6 +47,8 @@ $route['(\w{2})'] = $route['default_controller'];
 
 $route['home'] = 'home';
 $route['about'] = 'about';
+$route['games'] = 'games';
+$route['blog'] = 'blog';
 $route['contact'] = 'contact';
 
 $route['home/send_messages'] = 'home/send_messages';

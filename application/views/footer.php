@@ -21,9 +21,7 @@
                             </header>
                             <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                             <div class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
-                              <a href="#" target="_blank">
-                                  2018 Todos los derechos reservados © 
-                              </a>
+                              <a>2018 Todos los derechos reservados ©</a>
                             </div>
                             <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                         </div>
@@ -48,7 +46,7 @@
                                 <a href="<?php echo site_url().'about';?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> ACERCA</a>
                             </li>
                             <li id="menu-item-1565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1565">
-                                <a href="#"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> JUEGOS</a>
+                                <a href="<?php echo site_url().'games';?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> JUEGOS</a>
                             </li>
                             <li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560">
                                 <a href="<?php echo site_url().'blog';?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> BLOG</a>

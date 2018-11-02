@@ -3,7 +3,7 @@
 <!-- Mirrored from wbpreview.com/previews/WB0LX21H9/ by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 06 Sep 2012 04:37:29 GMT -->
     <head>
         <meta charset="utf-8">
-        <title>Easycripto | Compra Bitcoin</title>
+        <title>Liga de Baloncesto de Surco</title>
         <base href="<?php echo site_url();?>">
         <link rel="shortcut icon" href="<?php echo site_url().'static/images/icon.ico';?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +35,7 @@
                     <div class="navbar navbar-static navbar_as_heading">
                         <div class="navbar-inner">
                             <div class="container" style="width: auto;">
-                                <a class="brand">EasyCripto - CMS Admin</a>
+                                <a class="brand">LIGA DE SURCO - CMS Admin</a>
                             </div>
                         </div>
                     </div>
