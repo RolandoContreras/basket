@@ -4,8 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
     public function __construct(){
      parent::__construct();
-     $this->load->model('currency_model','obj_currency');
-     $this->load->model('comments_model','obj_comments');
     } 
 
     public function index()
