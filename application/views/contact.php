@@ -72,37 +72,48 @@
                           <div class="bt_bb_text">
                             <div role="form" class="wpcf7" id="wpcf7-f1518-p28-o1" lang="en-US" dir="ltr">
                               <div class="screen-reader-response"></div>
-                              <form action="#" method="post" class="wpcf7-form">
+                              <form method="post" class="wpcf7-form" action="javascript:void(0);" onsubmit="send_messages();" enctype="multipart/form-data">
                                 <div style="display: none;">
                                 </div>
-                                <p><label> Nombres (*)<br />
-                                    <span class="wpcf7-form-control-wrap your-name">
-                                    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
+                                <p>
+                                    <label> Nombres (*)<br />
+                                        <span class="wpcf7-form-control-wrap your-name">
+                                        <input type="text" name="name" id="name" onkeyup="fade_name(this.value);" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" /></span> 
+                                        <span id="message_name" class="field-validation-error" style="display:none;">El nombre es requerido</span>
+                                    </label>
+                                </p>
                                 <p>
                                     <label> E-mail (*)<br />
                                         <span class="wpcf7-form-control-wrap your-email">
-                                            <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" />
+                                            <input type="email" name="email" id="email" onkeyup="fade_email(this.value);" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"/>
+                                            <span id="message_email" class="field-validation-error" style="display:none;">El email es requerido</span>
                                         </span> 
                                     </label>
                                 </p>
                                 <p>
                                     <label> Asunto (*)<br />
                                         <span class="wpcf7-form-control-wrap your-subject">
-                                            <input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" />
+                                            <input type="text" name="asunto" id="asunto" onkeyup="fade_asunto(this.value);" size="40" class="wpcf7-form-control wpcf7-text"/>
+                                            <span id="message_asunto" class="field-validation-error" style="display:none;">El asunto es requerido</span>
                                         </span> 
                                     </label>
                                 </p>
                                 <p>
                                     <label> Mensaje (*)<br />
                                     <span class="wpcf7-form-control-wrap your-message">
-                                        <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
+                                        <textarea name="comments" id="comments" onkeyup="fade_comments(this.value);" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
+                                        <span id="message_comments" class="field-validation-error" style="display:none;">El mensaje es requerido</span>
                                     </span> 
                                     </label>
                                 </p>
+                                <div class="g-recaptcha" data-sitekey="6LfyrngUAAAAAKwjII5fDYGUB4dF0sP_cmp3T5Ej"></div>
                                 <p>
-                                    <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" />
+                                    <span id="message_capcha" class="field-validation-error" style="display:none;">Captcha no verificado</span>
                                 </p>
-                                <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                <p>
+                                    <button type="submit" class="wpcf7-form-control wpcf7-submit">Enviar</button>
+                                </p>
+                                <div id="messages" class="alert alert-success" style="text-align: center; display: none;">El mensaje fue enviado correctamente.</div>
                               </form>
                             </div>
                           </div>
@@ -184,15 +195,18 @@
   <!-- /END Footer -->
   </div>
   <!-- /pageWrap -->
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/comment-reply.min.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/scripts.js?ver=5.0.3';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/fancySelect.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/header.misc.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/misc.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/hide.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/wp-embed.min.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/googlemaps-scrollprevent.min.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/bt_bb_elements.js?ver=4.9.8';?>'></script>
-  <script type='text/javascript' src='<?php echo site_url().'static/page_front/js/instafeed.min.js?ver=4.9.8';?>'></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="<?php echo site_url().'static/page_front/js/contact.js';?>"></script>
+  <script src="<?php echo site_url().'static/page_front/js/jquery-3.2.1.min.js';?>"></script>
+  <script  src='<?php echo site_url().'static/page_front/js/comment-reply.min.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/scripts.js?ver=5.0.3';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/fancySelect.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/header.misc.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/misc.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/hide.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/wp-embed.min.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/googlemaps-scrollprevent.min.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/bt_bb_elements.js?ver=4.9.8';?>'></script>
+  <script src='<?php echo site_url().'static/page_front/js/instafeed.min.js?ver=4.9.8';?>'></script>
 </body>
 </html>

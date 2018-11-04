@@ -230,6 +230,11 @@ select {
 .btSoftRoundedButtons a.select2-choice {
     border-radius: 8px;
     }
+.btSoftRoundedButtons button:not([type='checkbox']):not([type='radio']),
+.btSoftRoundedButtons a.select2-choice {
+    border-radius: 8px;
+    height: 3.2em;
+    }
 .btHardRoundedButtons textarea,
 .btHardRoundedButtons select {
     border-radius: 20px;

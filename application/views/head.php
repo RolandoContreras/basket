@@ -11,6 +11,9 @@
     	var gtm4wp_datalayer_name = "dataLayer";
     	var dataLayer = dataLayer || [];//]]>
   </script>
+  <script>
+    var site = '<?php echo site_url();?>';
+  </script>
   <link rel='dns-prefetch' href='//fonts.googleapis.com' />
   <link rel='dns-prefetch' href='//s.w.org' />
   <meta property="og:url"  content="https://ligabasketdesurco.com" /> 
@@ -52,7 +55,7 @@
   <link rel='stylesheet' id='bt_bb_content_elements-css' href='<?php echo site_url().'static/page_front/css/content_elements.crush.css?ver=4.9.8';?>' type='text/css' media='all' />
   <link rel='stylesheet' id='bt_bb_slick-css' href='<?php echo site_url().'static/page_front/css/slick.css?ver=4.9.8';?>' type='text/css' media='all' />
   <link rel='stylesheet' href='<?php echo site_url().'static/page_front/css/home.css?ver=4.9.8';?>' type='text/css' media='all' />
- 
+  <link rel='stylesheet' href='<?php echo site_url().'static/page_front/css/bootstrap.min.css?ver=4.9.8';?>' type='text/css' media='all'/>
   <link rel='stylesheet' id='contact-form-7-css' href='<?php echo site_url().'static/page_front/css/styles.css?ver=5.0.3';?>' type='text/css' media='all' />
   <style id='woocommerce-inline-inline-css' type='text/css'>
     .woocommerce form .form-row .required { visibility: visible; }

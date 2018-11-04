@@ -49,7 +49,9 @@ $route['home'] = 'home';
 $route['about'] = 'about';
 $route['games'] = 'games';
 $route['blog'] = 'blog';
+
 $route['contact'] = 'contact';
+$route['contact/send_messages'] = 'contact/send_messages';
 
 $route['home/send_messages'] = 'home/send_messages';
 
@@ -69,29 +71,6 @@ $route['dashboard/panel/guardar_btc'] = "panel/guardar_btc";
 $route['dashboard/panel/masive_messages'] = "panel/masive_messages";
 $route['dashboard/panel/cambiar_status'] = "panel/cambiar_status";
 $route['dashboard/panel/cambiar_status_invest'] = "panel/cambiar_status_invest";
-
-$route['dashboard/monedas'] = "d_criptocurrency"; 
-$route['dashboard/monedas/load/([0-9]+)'] = "d_criptocurrency/load/$1";
-$route['dashboard/monedas/validate'] = "d_criptocurrency/validate";
-$route['dashboard/monedas/delete'] = "d_criptocurrency/delete";
-
-$route['dashboard/legal'] = "d_legal"; 
-$route['dashboard/legal/save_content'] = "d_legal/save_content"; 
-$route['dashboard/privacy'] = "d_privacy"; 
-$route['dashboard/general'] = "d_general"; 
-$route['dashboard/cookies'] = "d_cookies"; 
-//FAQ
-$route['dashboard/faq'] = "d_faq"; 
-$route['dashboard/faq/load'] = "d_faq/load";
-$route['dashboard/faq/load/([0-9]+)'] = "d_faq/load/$1";
-$route['dashboard/faq/validate'] = "d_faq/validate";
-$route['dashboard/faq/delete'] = "d_faq/delete"; 
-
-$route['dashboard/informativos'] = "d_informative"; 
-$route['dashboard/informativos/load'] = "d_informative/load";
-$route['dashboard/informativos/load/([0-9]+)'] = "d_informative/load/$1";
-$route['dashboard/informativos/validate'] = "d_informative/validate";
-$route['dashboard/informativos/delete_informative'] = "d_informative/delete_informative";
 
 $route['dashboard/clientes'] = "d_customer";
 $route['dashboard/clientes/load/([0-9]+)'] = "d_customer/load/$1";
@@ -113,37 +92,6 @@ $route['dashboard/usuarios/load'] = "d_users/load";
 $route['dashboard/usuarios/load/([0-9]+)'] = "d_users/load/$1";
 $route['dashboard/usuarios/validate'] = "d_users/validate";
 $route['dashboard/usuarios/delete'] = "d_users/delete";
-
-$route['dashboard/confirmation_activaciones'] = "d_activate/confirmation";
-
-$route['dashboard/soporte'] = "d_informative/soporte";
-$route['dashboard/soporte/update'] = "d_informative/update";
-
-$route['dashboard/ventas_bank'] = "d_sell";
-$route['dashboard/ventas_card'] = "d_sell/card";
-$route['dashboard/ventas_bank/load/([0-9]+)'] = "d_sell/load_bank/$1";
-$route['dashboard/ventas_card/load/([0-9]+)'] = "d_sell/load_card/$1";
-$route['dashboard/ventas/procesar_bank'] = "d_sell/procesar_bank";
-$route['dashboard/ventas/procesar_card'] = "d_sell/procesar_card";
-$route['dashboard/ventas/cancelar'] = "d_sell/cancelar";
-$route['dashboard/ventas/validate'] = "d_sell/validate";
-
-$route['dashboard/comentarios'] = "d_comments";
-$route['dashboard/comentarios/cambiar_status'] = "d_comments/change_status";
-$route['dashboard/comentarios/cambiar_status_no'] = "d_comments/change_status_no";
-
-$route['dashboard/report_customer'] = "d_report_customer";
-$route['dashboard/report_customer/export'] = "d_report_customer/export";
-
-
-$route['dashboard/report_sell'] = "d_report_sell";
-
-$route['dashboard/usuarios'] = "d_users";
-$route['dashboard/usuarios'] = "d_users";
-$route['dashboard/usuarios/load'] = "d_users/load";
-$route['dashboard/usuarios/load/([0-9]+)'] = "d_users/load/$1";
-$route['dashboard/usuarios/validate'] = "d_users/validate";
-
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

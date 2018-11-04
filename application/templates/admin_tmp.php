@@ -3,16 +3,31 @@
 <!-- Mirrored from wbpreview.com/previews/WB0LX21H9/ by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 06 Sep 2012 04:37:29 GMT -->
     <head>
         <meta charset="utf-8">
-        <title>CMS - EASYCRIPTO</title>
+        <title>Liga de Baloncesto de Surco</title>
         <base href="<?php echo site_url();?>">
-        <link rel="shortcut icon" href="<?php echo site_url().'static/page_front/images/favicon/favicon.ico';?>" type="image/x-icon">
-        <link rel="icon" href="<?php echo site_url().'static/page_front/images/favicon/favicon.ico';?>" type="image/x-icon">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url().'static/page_front/images/favicon/favicon.ico';?>">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url().'static/page_front/images/favicon/favicon.ico';?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Administracion Liga de Basketball de Surco">
+        <meta name="author" content="Liga de Basketball de Surco">
         <meta name="robots" content="noindex, nofollow" />
+        <!--START FAVICON-->
+        <link rel="apple-touch-icon" sizes="57x57" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-57x57.png';?>">
+        <link rel="apple-touch-icon" sizes="60x60" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-60x60.png';?>">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-72x72.png';?>">
+        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-76x76.png';?>">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-114x114.png';?>">
+        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-120x120.png';?>">
+        <link rel="apple-touch-icon" sizes="144x144" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-144x144.png';?>">
+        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-152x152.png';?>">
+        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo site_url().'static/page_front/images/favicon/apple-icon-180x180.png';?>">
+        <link rel="icon" type="image/png" sizes="192x192"  href="<?php echo site_url().'static/page_front/images/favicon/android-icon-192x192.png';?>">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo site_url().'static/page_front/images/favicon/favicon-32x32.png';?>">
+        <link rel="icon" type="image/png" sizes="96x96" href="<?php echo site_url().'static/page_front/images/favicon/favicon-96x96.png';?>">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo site_url().'static/page_front/images/favicon/favicon-16x16.png';?>">
+        <link rel="manifest" href="<?php echo site_url().'static/page_front/images/favicon/manifest.json';?>">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="<?php echo site_url().'static/page_front/images/favicon/ms-icon-144x144.png';?>">
+        <meta name="theme-color" content="#ffffff">
+        <!--END FAVICON-->
         <!-- CSS -->
         <link href="static/cms/css/core/bootstrap.css" rel="stylesheet">	
         <link href="static/cms/css/core/combine_fonts.css" rel="stylesheet">	
@@ -95,8 +110,6 @@
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/noticias";?>"><i class="icon-large icon-th"></i>Blog</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/category";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/informativos";?>"><i class="icon-large icon-th"></i>Mensajes Informativos</a></li>
-                                            
                                             <?php 
                                             if($_SESSION['usercms']['privilage'] == 3 ){ ?>
                                                 <li><a href="<?php echo site_url()."dashboard/usuarios";?>"><i class="icon-large icon-th"></i>Usuarios</a></li>
@@ -123,44 +136,9 @@
                                     </div>
                                 </div>
                             </div>
-                        <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#ventas">
-                                    Ventas
-                                    </a>
-                                </div>
-                                <div id="ventas" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                            <li><a href="<?php echo site_url()."dashboard/ventas_card";?>"><i class="icon-large icon-th"></i>Ventas por Tarjeta</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/ventas_bank";?>"><i class="icon-large icon-th"></i>Ventas por Banco</a></li>
-                                        </ul>                                     
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#report">
-                                    Reportes
-                                    </a>
-                                </div>
-                                <div id="report" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                            <li>
-                                                <a href="<?php echo site_url()."dashboard/report_customer";?>"><i class="icon-large icon-th"></i>Total Clientes</a>
-                                            </li>
-                                            <li>
-                                                <a href="<?php echo site_url()."dashboard/report_sell";?>"><i class="icon-large icon-th"></i>Total Ventas</a>
-                                            </li>
-                                        </ul>                                     
-                                    </div>
-                                </div>
-                            </div>
                     </div>
             </div>
             <!-- sidebar 
-
             <!-- main content -->
             <div id="main_content" class="span10">
                 <div class="widget_container">
