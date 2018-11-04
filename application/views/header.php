@@ -50,14 +50,20 @@
             <div class="menuPort">
               <div class="topBarInMenu">
                 <div class="topBarInMenuCell">
-                  <a href="#" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+                  <a href="https://www.facebook.com/Liga-de-B%C3%A1sket-de-Surco-286427065523258/?ref=br_rs" target="_blank" class="btIconWidget ">
+                    <div class="btIconWidgetIcon">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </div>
                   </a>
-                  <a href="#" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                  <a href="https://www.instagram.com/ligadebasketsurco/" target="_blank" class="btIconWidget ">
+                    <div class="btIconWidgetIcon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
                   </a>
-                  <a href="#" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+                  <a href="https://www.youtube.com/channel/UC_E8RRO4L26UkoLW71ZxXaA?view_as=subscriber" target="_blank" class="btIconWidget ">
+                    <div class="btIconWidgetIcon">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </div>
                   </a>
                 </div>
                 <!-- /topBarInMenu -->

@@ -73,13 +73,13 @@
                             <div class="menu-category-menu-container">
                               <ul id="menu-category-menu" class="menu">
                                 <li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562">
-                                    <a href="<?php echo site_url().'home';?>" class="padding-left">
+                                    <a href="https://www.facebook.com/Liga-de-B%C3%A1sket-de-Surco-286427065523258/?ref=br_rs" target="_blank" class="padding-left">
                                         <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                                     </a>
-                                    <a href="<?php echo site_url().'home';?>" class="padding-left">
+                                    <a href="https://www.instagram.com/ligadebasketsurco/" target="_blank" class="padding-left">
                                         <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                                     </a>
-                                     <a href="<?php echo site_url().'home';?>" class="padding-left">
+                                     <a href="https://www.youtube.com/channel/UC_E8RRO4L26UkoLW71ZxXaA?view_as=subscriber" target="_blank" class="padding-left">
                                         <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </li>
@@ -164,7 +164,6 @@
                   <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
