@@ -20,7 +20,7 @@
                 </div>
                 <!--GET CUSTOMER ID-->
               <input type="hidden" name="user_id" id="user_id" value="<?php echo isset($obj_users)?$obj_users->user_id:"";?>">
-              <strong>Usuario:</strong><br> 
+              <strong>Email:</strong><br> 
               <input type="text" id="email" name="email" value="<?php echo isset($obj_users->email)?$obj_users->email:"";?>" class="input-xlarge-fluid" placeholder="Correo Electrónico">
               <br><br>
               <strong>Contraseña:</strong><br> 

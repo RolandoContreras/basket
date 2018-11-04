@@ -105,7 +105,6 @@ $route['dashboard/noticias/validate'] = "d_news/validate";
 $route['dashboard/noticias/delete_news'] = "d_news/delete_news";
 
 $route['dashboard/comentarios'] = "d_comments";
-$route['dashboard/inversores'] = "d_comments/invest";
 $route['dashboard/comentarios/cambiar_status'] = "d_comments/change_status";
 $route['dashboard/comentarios/cambiar_status_no'] = "d_comments/change_status_no";
 
