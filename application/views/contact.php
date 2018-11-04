@@ -106,7 +106,8 @@
                                     </span> 
                                     </label>
                                 </p>
-                                <div class="g-recaptcha" data-sitekey="6LfyrngUAAAAAKwjII5fDYGUB4dF0sP_cmp3T5Ej"></div>
+                                <div class="g-recaptcha" data-sitekey="6LfyrngUAAAAAKwjII5fDYGUB4dF0sP_cmp3T5Ej">
+                                </div>
                                 <p>
                                     <span id="message_capcha" class="field-validation-error" style="display:none;">Captcha no verificado</span>
                                 </p>
