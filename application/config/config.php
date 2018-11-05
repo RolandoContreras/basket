@@ -23,9 +23,9 @@
 |
 */
 
-$config['base_url'] = 'http://localhost/basket/';
-//$config['base_url'] = 'http://ligabasketdesurco.com/';
-//$config['base_url'] = 'https://www.easycripto.com/';
+//$config['base_url'] = 'http://localhost/basket/';
+$config['base_url'] = 'https://ligabasketdesurco.com/';
+
 
 
 /*

@@ -17,7 +17,7 @@
                               <h3>
                                   <span class="bt_bb_headline_content"><span>LIGA <strong>DE SURCO</strong></span></span>
                               </h3>
-                                <div class="bt_bb_headline_subheadline">La liga de surco proporciona a los jugadores la oportunidad de aprender y desarrollar habilidades de baloncesto.</div>
+                                <div class="bt_bb_headline_subheadline">La Liga Mixta de Basketball de Surco es una asociación deportiva sin fines de lucro creada con el propósito de ser una alternativa para el desarrollo del básket en Lima. </div>
                             </header>
                             <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                             <div class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">

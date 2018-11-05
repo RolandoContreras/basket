@@ -40,18 +40,64 @@
           <a href="<?php echo site_url().'about';?>">Acerca</a>
       </li>
       <li id="menu-item-1525" class="<?php echo $active_games;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
-        <a href="<?php echo site_url().'games';?>">Juegos</a>
-<!--        <ul class="sub-menu">
-          <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-              <a href="<?php echo site_url().'games';?>">Resumen</a>
-          </li>
-          <li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
-              <a href="#">Reporte de Juegos</a>
-          </li>
-        </ul>-->
+        <a href="<?php echo site_url().'games';?>">Torneos</a>
+            <ul class="sub-menu">
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'games';?>">Apertura</a>
+              </li>
+            </ul>
+      </li>
+      <li id="menu-item-1525" class="<?php echo $active_games;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
+        <a href="<?php echo site_url().'pages';?>">Páginas Amarillas Deportivas</a>
+            <ul class="sub-menu">
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Ropa Deportiva</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Material Deportivo en general</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Pelotas</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Clubes</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Academias</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Banners, Diagramación y Publicidad</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Organización de Giras Deportivas</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Transporte</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Zapatillas</a>
+              </li>
+              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                  <a href="<?php echo site_url().'pages';?>">Filmaciones</a>
+              </li>
+            </ul>
       </li>
       <li id="menu-item-1526" class="<?php echo $active_blog;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1526">
           <a href="<?php echo site_url().'blog';?>">Blog</a>
+            <ul class="sub-menu">
+                <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                    <a href="<?php echo site_url().'games';?>">BÁSKET LIGA</a>
+                </li>
+                <li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
+                    <a href="#">BÁSKET NACIONAL</a>
+                </li>
+                <li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
+                    <a href="#">BÁSKET SUDAMERICANO</a>
+                </li>
+                <li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
+                    <a href="#">BÁSKET INTERNACIONAL</a>
+                </li>
+            </ul>
       </li>
       <li id="menu-item-1527" class="<?php echo $active_contact;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1527">
           <a href="<?php echo site_url().'contact';?>">Contacto</a>

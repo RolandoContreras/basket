@@ -494,17 +494,19 @@
                   <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
                       <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
                         <h2>
-                            <span class="bt_bb_headline_content"><span>ACERCA</span></span>
+                            <span class="bt_bb_headline_content">
+                                <span>ACERCA</span>
+                            </span>
                         </h2>
-                        <div class="bt_bb_headline_subheadline">La liga de surco proporciona a los jugadores la oportunidad de aprender y desarrollar habilidades de baloncesto.</div>
+                        <div class="bt_bb_headline_subheadline">
+                            La Liga Mixta de Basketball de Surco es una asociación deportiva sin fines de lucro creada con el propósito de ser una alternativa para el desarrollo del básket en Lima. 
+                        </div>
                       </header>
                       <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
                       <div class="bt_bb_text">
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative
-                          thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace
-                          diversity and empowerment.</p>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that
-                          has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+                        <p>Nos enfocamos principalmente en categorías formativas (Pre-Mini hasta U17), sin dejar de lado otras categorías como U19 y Master. Creemos que este tipo de enfoque organizado ayudará al desarrollo del básket peruano. Nuestros valores de integridad, transparencia, honestidad y organización aunados a nuestra visión y misión son el espíritu de nuestra Liga.</p>
+                        <p>Nuestra Liga es reconocida por los organismos deportivos pertinentes del Perú. Contamos con un equipo de profesionales y estudiantes identificados con el espíritu de la Liga. Los animamos a ser parte de nuestra familia deportiva.
+</p>
                       </div>
                       <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                       <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
