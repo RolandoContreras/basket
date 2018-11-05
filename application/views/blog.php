@@ -197,17 +197,28 @@
               </div>
             </div>
           </div>
-          <div class="btBox widget_categories">
-            <h4><span>Categories</span></h4>
-            <ul>
-              <li class="cat-item cat-item-15">
-                  <a href="#">Torneo</a> (0)
-              </li>
-              <li class="cat-item cat-item-15">
-                  <a href="#">Basketball</a> (0)
-              </li>
-            </ul>
+            <div class="btBox widget_categories">
+              <h4><span>Categories</span></h4>
+              <ul>
+                <li class="cat-item cat-item-15">
+                    <a href="#">Torneo</a> (0)
+                </li>
+                <li class="cat-item cat-item-15">
+                    <a href="#">Basketball</a> (0)
+                </li>
+              </ul>
           </div>
+            <div class="btBox widget_categories">
+                <h4><span>Tags</span></h4>
+                <ul>
+                  <li class="cat-item cat-item-15">
+                      <a href="#">Torneo</a> (0)
+                  </li>
+                  <li class="cat-item cat-item-15">
+                      <a href="#">Basketball</a> (0)
+                  </li>
+                </ul>
+              </div>
         </aside>
       </div>
       <!-- /contentHolder -->

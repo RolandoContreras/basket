@@ -77,6 +77,13 @@ $route['dashboard/clientes/load/([0-9]+)'] = "d_customer/load/$1";
 $route['dashboard/clientes/validate'] = "d_customer/validate";
 $route['dashboard/clientes/delete'] = "d_customer/delete";
 
+
+$route['dashboard/tags'] = "d_tags";
+$route['dashboard/tags/load'] = "d_tags/load";
+$route['dashboard/tags/load/([0-9]+)'] = "d_tags/load/$1";
+$route['dashboard/tags/validate'] = "d_tags/validate";
+$route['dashboard/tags/delete'] = "d_tags/delete";
+
 $route['dashboard/noticias'] = "d_news";
 $route['dashboard/noticias/load'] = "d_news/load";
 $route['dashboard/noticias/load/([0-9]+)'] = "d_news/load/$1";
