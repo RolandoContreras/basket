@@ -23,8 +23,8 @@
 |
 */
 
-//$config['base_url'] = 'http://localhost/basket/';
-$config['base_url'] = 'https://ligabasketdesurco.com/';
+$config['base_url'] = 'http://localhost/basket/';
+//$config['base_url'] = 'https://ligabasketdesurco.com/';
 
 
 

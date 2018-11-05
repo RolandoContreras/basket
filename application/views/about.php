@@ -40,7 +40,7 @@
                                     
                             </span>
                         </h1>
-                      <div class="bt_bb_headline_subheadline">Somos una liga diferente a todas, nos basamos en la transparencia y confianza, impulsamos a que nuestros jugadores mejoren y den el 100% en cada encuentro.</div>
+                      <div class="bt_bb_headline_subheadline">La Liga Mixta de Basketball de Surco es una asociación deportiva sin fines de lucro creada con el propósito de ser una alternativa para el desarrollo del básket en Lima</div>
                     </header>
                   </div>
                   <!-- /rowItemContent -->
@@ -78,14 +78,26 @@
                             <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
                                 <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_subheadline bt_bb_align_inherit">
                                   <h2>
-                                      <span class="bt_bb_headline_content"><span><strong>LIGA DE SURCO</strong><br/>MISIÓN &#038; VISIÓN</span>
+                                      <span class="bt_bb_headline_content">
+                                          <span>
+                                              <strong>LIGA DE SURCO</strong><br/>MISIÓN &#038; VISIÓN
+                                          </span>
                                       </span>
                                   </h2>
-                                  <div class="bt_bb_headline_subheadline">Con un staff calificado de equipos, contamos con un alto nivel de competencia.</div>
                                 </header>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <div class="bt_bb_headline_subheadline">
+                              <strong>MISIÓN</strong>
+                          </div>
                           <div class="bt_bb_text">
-                            <p>Los fundadores de la liga de surco tienen como visión promover este hermoso deporte y a la vez unificar a las personas, ofrecemos un desarrollo y crecimiento a las personas a través de este deporte.</p>
+                            <p>Brindar un espacio de competencias de basketball para las  instituciones deportivas con una adecuada calendarización anual para todas las categorías. Contribuir y fortalecer el deporte y el bienestar social de todos los que practican basketball. Brindar un mentoreo deportivo a equipos que aún no se han formalizado. Desarrollar programas de capacitación en todas las áreas de este deporte.</p>
+                          </div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <div class="bt_bb_headline_subheadline">
+                              <strong>VISIÓN</strong>
+                          </div>
+                          <div class="bt_bb_text">
+                            <p>Brindar un espacio de competencias de basketball para las  instituciones deportivas con una adecuada calendarización anual para todas las categorías. Contribuir y fortalecer el deporte y el bienestar social de todos los que practican basketball. Brindar un mentoreo deportivo a equipos que aún no se han formalizado. Desarrollar programas de capacitación en todas las áreas de este deporte.</p>
                           </div>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                           <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
@@ -93,11 +105,6 @@
                                   <span class="bt_bb_button_text">ÚNETE</span>
                               </a>
                           </div>
-                          <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
-                            <a href="#" class="bt_bb_link" title="VER MÁS">
-                                <span class="bt_bb_button_text">VER MÁS</span>
-                            </a>
-                        </div>
                         <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
                       </div>
                     </div>
@@ -214,25 +221,14 @@
                                   <span>LA <strong>LIGA</strong></span>
                               </span>
                           </h2>
-                          <div class="bt_bb_headline_subheadline">La liga de surco proporciona a los jugadores la oportunidad de aprender y desarrollar habilidades de baloncesto.</div>
                         </header>
                         <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
                         <div class="bt_bb_text">
-                          <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional
-                            clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on
-                            the bottom line.</p>
-                          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators
-                            offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive
-                            convergence on cross-platform integration.</p>
+                          <p>Nos enfocamos principalmente en categorías formativas (Pre-Mini hasta U17), sin dejar de lado otras categorías como U19 y Master. Creemos que este tipo de enfoque organizado ayudará al desarrollo del básket peruano. Nuestros valores de integridad, transparencia, honestidad y organización aunados a nuestra visión y misión son el espíritu de nuestra Liga.</p>
+                          <p>Nuestra Liga es reconocida por los organismos deportivos pertinentes del Perú. Contamos con un equipo de profesionales y estudiantes identificados con el espíritu de la Liga. Los animamos a ser parte de nuestra familia deportiva.</p>
                         </div>
                         <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-                        <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
-                            <a href="#" class="bt_bb_link" title="ÚNETE">
-                                <span class="bt_bb_button_text">ÚNETE</span>
-                            </a>
-                        </div>
-                        <div
-                          class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+                        <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
                             <a href="<?php echo site_url().'contact';?>" class="bt_bb_link" title="CONTÁCTANOS">
                                 <span class="bt_bb_button_text">CONTÁCTANOS</span>
                             </a>
@@ -240,6 +236,21 @@
                       <div
                         class="bt_bb_separator bt_bb_bottom_spacing_large bt_bb_border_style_none"></div>
                   </div>
+                        
+                        <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+                          <h6>
+                              <span class="">
+                                  <span>FORMALIZA <strong>TU CLUB</strong></span>
+                              </span>
+                          </h6>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>Nosotros te brindamos la asesoría gratuita necesaria para que conozcas los beneficios de formalizar tu club. Te damos los pasos que requieres para hacerlo. Para información escribe a: <b>formalizatuclub@ligabasketdesurco.com</b>
+                        </div>
+                      <div class="bt_bb_separator bt_bb_bottom_spacing_large bt_bb_border_style_none"></div>
+                  <!--</div>-->
+                        
                 </div>
                 <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal"
                   data-width="6">
@@ -252,6 +263,7 @@
                   </div>
                 </div>
               </div>
+                    
             </div>
         </div>
       </div>
@@ -267,14 +279,18 @@
                 <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="6">
                   <div class="bt_bb_column_content">
                     <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
-                      <h2>
-                          <span class="bt_bb_headline_content">
-                              <span>
-                                  <strong>DIRECTIVA</strong>
-                              </span>
-                          </span>
-                      </h2>
-                      <div class="bt_bb_headline_subheadline">La directiva de la liga de surco tiene un historial probado de éxito en la enseñanza y los jugadores de formación.</div>
+                        <h2>
+                            <span class="bt_bb_headline_content">
+                                <span>
+                                    <strong>STAFF</strong>
+                                </span>
+                            </span>
+                        </h2>
+                        <span class="bt_bb_headline_content">
+                            <span>
+                                <strong>CONSEJO DIRECTIVO</strong>
+                            </span>
+                        </span>
                     </header>
                     <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
                   </div>
@@ -285,92 +301,196 @@
               </div>
               <div class="bt_bb_row">
                 <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
-                  <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
-                    <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
-                        <span>
-                            <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Carlos">
-                        </span>
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/carlos_felasquez.jpg';?>" alt="Carlos Alfonso Vélasquez">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  PRESIDENTE
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Carlos Alfonso Vélasquez</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Director del ministerio deportivo Básket en Acción <br/>
+                              - Markham College Basketball Coach<br/>
+                              - Director de Misiones en Acción<br/> 
+                              - Pastor en Misión Cristianan Vidas para Dios
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                     </div>
-                  <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                  <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
-                    <h2>
-                        <span class="bt_bb_headline_superheadline">PRESIDENTE</span>
-                        <span class="bt_bb_headline_content"><span>CARLOS VELASQUEZ</span></span>
-                    </h2>
-                  </header>
-                  <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                  <div class="bt_bb_text">
-                    <p>Presidente de la liga de surcp. Durante mucho tiempo ha participado en baloncesto en el nivel superior con experiencia.</p>
-                  </div>
-                  <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                 </div>
-              </div>
-              <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
-                <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
-                  <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
-                      <span>
-                          <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Carlos">
-                      </span>
-                  </div>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
-                  <h2>
-                      <span class="bt_bb_headline_superheadline">PRESIDENTE</span>
-                      <span class="bt_bb_headline_content"><span>CARLOS VELASQUEZ</span></span>
-                  </h2>
-                </header>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                <div class="bt_bb_text">
-                  <p>Presidente de la liga de surcp. Durante mucho tiempo ha participado en baloncesto en el nivel superior con experiencia.</p>
-                </div>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-              </div>
-            </div>
-            <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
-              <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
-                <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
-                    <span>
-                        <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Carlos">
-                    </span>
-                </div>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                    <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
-                        <h2>
-                            <span class="bt_bb_headline_superheadline">PRESIDENTE</span>
-                            <span class="bt_bb_headline_content"><span>CARLOS VELASQUEZ</span></span>
-                        </h2>
-                    </header>
-                    <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                    <div class="bt_bb_text">
-                      <p>Mark has been a member of Oxygen Club for upwards of 17 years, where he has trained and competed.</p>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Carlos">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  VISEPRESIDENTE
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Joshua Chávez Morales</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Lobos Basketball Club <br/>(Director - Entrenador)<br/>
+                              - Colegio Horario Patiño (Entrenador de Básket)
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                     </div>
-              <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-            </div>
-          </div>
-          <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
-            <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
-              <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
-                  <span>
-                      <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Carlos">
-                  </span>
-              </div>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
-                  <h2>
-                      <span class="bt_bb_headline_superheadline">PRESIDENTE</span>
-                      <span class="bt_bb_headline_content"><span>CARLOS VELASQUEZ</span></span>
-                  </h2>
-                </header>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
-                <div class="bt_bb_text">
-                  <p>Our member who competed during his time as a competitive player, he has qualified for numerous finals.</p>
                 </div>
-                <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/daniel_contreras.jpg';?>" alt="Daniel Contreras H">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  SECRETARIO
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Daniel Contreras H.</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Fortaleza Club<br/>
+                              (Director - Entrenador)
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-  </div>
-  </div>
+              
+              <div class="bt_bb_cell_inner">
+              <div class="bt_bb_row">
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="3">
+                  <div class="bt_bb_column_content"></div>
+                </div>
+                <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="6">
+                  <div class="bt_bb_column_content">
+                    <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                  </div>
+                </div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="3">
+                  <div class="bt_bb_column_content"></div>
+                </div>
+              </div>
+              <div class="bt_bb_row">
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/alfredo_contreras.jpg';?>" alt="Alfredo Contreras">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  VOCAL
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Alfredo Contreras</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Astec Perú SAC.<br/>
+                              (Gerente de Sistemas)<br/>
+                              - CEO de basketperu.com<br/> 
+                              - Organizador de eventos deportivos.
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Mario Ramos Falconí">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  VOCAL
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Mario Ramos Falconí</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                                <p>- Coach de selecciones nacionales<br/>(Sudamericano Mayores 2014)<br/>
+                              - Club universitario de desportes<br/>
+                              - Academia claretiano U17 Masculino
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/carlos.jpg';?>" alt="Carlos">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  TESORERO
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Josué Velásquez F.</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Academia mixta y club <br/>
+                              Básket en Acción<br/>
+                              (Entrenador Asistente)
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+              
+              
+    </div>    
   </div>
   </section>
   </div>
