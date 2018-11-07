@@ -60,6 +60,22 @@
                     </div>
                 </div>
                 <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="3">
+                    <div class="bt_bb_column_content">
+                         <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_small bt_bb_subheadline bt_bb_align_inherit">
+                              <h3>
+                                  <span class="bt_bb_headline_content"><strong>FORMALIZA TU CLUB</strong></span>
+                              </h3>
+                                <div class="bt_bb_headline_subheadline">Nosotros te brindamos la asesoría gratuita necesaria para que conozcas los beneficios de formalizar tu club. </div><br/>
+                                <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+                            <a href="<?php echo site_url().'about';?>" class="bt_bb_link" title="ÚNETE">
+                                <span class="bt_bb_button_text">ÚNETE</span>
+                            </a>
+                        </div>
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                        </div>
+                    
+                    
                         <div class="bt_bb_column_content">
                           <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
                             <h3>
@@ -87,6 +103,9 @@
                             </div>
                           </div>
                         </div>
+                    
+                    
+                    
                     </div>  
               <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="3">
                 <div class="bt_bb_column_content">

@@ -41,7 +41,7 @@
                             </span>
                         </h1>
                       <div class="bt_bb_headline_subheadline">
-                        ¿Quieres ser parte de la liga de basketball de surco? No dudes en contactar con nosotros para obtener más información.
+                        ¿Quieres ser parte de la liga de basketball de surco? Contáctate con nosotros para obtener más información.
                       </div>
                     </header>
                   </div>
@@ -142,9 +142,9 @@
                             <a title="Coliseo" class="bt_bb_icon_holder"> <i class="fa fa-map" aria-hidden="true"></i></a>
                             <div class="bt_bb_service_content">
                               <div class="bt_bb_service_content_title">
-                                  <a>Coliseo</a>
+                                  <a>Mapa</a>
                               </div>
-                              <div class="bt_bb_service_content_text">Av. Angamos Este 2689, San Borja<br /> Coliseo Eduardo Dibós</div>
+                              <div class="bt_bb_service_content_text">Calle Loma de las Magnolias # 248 Urb. Prolongación Benavides (altura de la cuadra 31 de av. Caminos del Inca)<br /> Liga de Surco</div>
                             </div>
                           </div>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -159,7 +159,7 @@
                                   <a>Escríbenos</a>
                               </div>
                               <div class="bt_bb_service_content_text">
-                                  equipos@ligabasketdesurco.com<br /> info@ligabasketdesurco.com
+                                  info@ligabasketdesurco.com
                               </div>
                             </div>
                           </div>
@@ -172,7 +172,7 @@
                             <a title="Llámenos" class="bt_bb_icon_holder"><i class="fa fa-phone" aria-hidden="true"></i></a>
                             <div class="bt_bb_service_content">
                               <div class="bt_bb_service_content_title"><a>Llámenos</a></div>
-                              <div class="bt_bb_service_content_text">+ 51 999 999 999<br /> + 51 999 999 999</div>
+                              <div class="bt_bb_service_content_text">+51 959 188 639</div>
                             </div>
                           </div>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
