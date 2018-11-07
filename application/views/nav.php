@@ -3,6 +3,7 @@
     $active_home = "";
     $active_about = "";
     $active_games = "";
+    $active_pages = "";
     $active_blog = "";
     $active_contact = "";
     
@@ -18,6 +19,12 @@
             break;
         case 'games':
             $active_games = "current-menu-item";
+            break;
+        case 'games':
+            $active_games = "current-menu-item";
+            break;
+        case 'pages':
+            $active_pages = "current-menu-item";
             break;
         case 'blog':
             $active_blog = "current-menu-item";
@@ -47,39 +54,14 @@
               </li>
             </ul>
       </li>
-      <li id="menu-item-1525" class="<?php echo $active_games;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
+      <li id="menu-item-1525" class="<?php echo $active_pages;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
         <a href="<?php echo site_url().'pages';?>">Páginas Amarillas Deportivas</a>
             <ul class="sub-menu">
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Ropa Deportiva</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Material Deportivo en general</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Pelotas</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Clubes</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Academias</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Banners, Diagramación y Publicidad</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Organización de Giras Deportivas</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Transporte</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Zapatillas</a>
-              </li>
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'pages';?>">Filmaciones</a>
-              </li>
+             <?php foreach ($paginas_amarillas as $value) { ?>
+                    <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                        <a href="<?php echo site_url().$value->slug;?>"><?php echo strtoupper($value->name);?></a>
+                    </li>
+             <?php } ?>   
             </ul>
       </li>
       <li id="menu-item-1526" class="<?php echo $active_blog;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1526">

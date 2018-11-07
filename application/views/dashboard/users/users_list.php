@@ -36,7 +36,7 @@
                         <tbody>
                            <?php foreach ($obj_users as $value): ?>
                                 <td align="center"><b><?php echo $value->user_id;?></b></td>
-                                <td align="center"><?php echo formato_fecha($value->created_at);?></td>
+                                <td align="center"><?php echo formato_fecha_barras($value->created_at);?></td>
                                 <td align="center" style="color:#fff;" class="label-success"><?php echo $value->first_name." ".$value->last_name;?></td>
                                 <td align="center">
                                      <?php if ($value->privilage == 1) {

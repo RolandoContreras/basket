@@ -71,7 +71,7 @@
         <div class="navbar-inner">
             <div class="container-fluid">
                 <a class="brand" href="<?php echo site_url();?>dashboard/panel">
-                    <img src="<?php echo site_url().'static/page_front/images/logo/logo_cms.png'?>" alt="logo" width="65"></a>
+                    <img src="<?php echo site_url().'static/page_front/images/logo/logo.png'?>" alt="logo" width="57"></a>
                 <div class="btn-toolbar pull-right">                        
                 <!-- /btn-group -->
                     <div class="btn-group">
@@ -106,10 +106,7 @@
                                       <div class="accordion-inner">
                                         <ul class="nav nav-list">
                                             <li><a href="<?php echo site_url()."dashboard/panel";?>"><i class="icon-large icon-th"></i>Panel</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/clientes";?>"><i class="icon-large icon-th"></i>Clientes</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/noticias";?>"><i class="icon-large icon-th"></i>Blog</a></li>
-                                            
                                             <li><a href="<?php echo site_url()."dashboard/tags";?>"><i class="icon-large icon-th"></i>Tags</a></li>
                                             <?php 
                                             if($_SESSION['usercms']['privilage'] == 3 ){ ?>
