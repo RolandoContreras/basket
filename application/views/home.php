@@ -56,8 +56,7 @@
                                         <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
                                     <div
                                       class="bt_bb_scheduled_game_headline">
-                                      <!--<div class="bt_bb_scheduled_game_supertitle">BASKETBALL CLUB</div>-->
-                                      <a href="#" target="_blank" class="bt_bb_scheduled_game_url">
+                                      <a target="_blank" class="bt_bb_scheduled_game_url">
                                         <div class="bt_bb_scheduled_game_title">FORTALEZA CLUB</div>
                                       </a>
                                       <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>

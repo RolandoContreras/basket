@@ -97,13 +97,7 @@
                               <strong>VISIÓN</strong>
                           </div>
                           <div class="bt_bb_text">
-                            <p>Brindar un espacio de competencias de basketball para las  instituciones deportivas con una adecuada calendarización anual para todas las categorías. Contribuir y fortalecer el deporte y el bienestar social de todos los que practican basketball. Brindar un mentoreo deportivo a equipos que aún no se han formalizado. Desarrollar programas de capacitación en todas las áreas de este deporte.</p>
-                          </div>
-                          <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-                          <div class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
-                              <a href="#" target="_self" class="bt_bb_link" title="ÚNETE">
-                                  <span class="bt_bb_button_text">ÚNETE</span>
-                              </a>
+                            <p>Ser considerada una Liga con valores sólidos de integridad, honestidad, transparencia y trabajo. Promover más y mejores espacios deportivos en beneficio  de las categorías formativas. Satisfacer las necesidades de la población deportiva.</p>
                           </div>
                         <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
                       </div>
@@ -488,11 +482,125 @@
                 </div>
             </div>
         </div>
-              
-              
     </div>    
   </div>
   </section>
+          
+          
+          
+          <section id="bt_bb_section5bd3d0f6612aa" class="bt_bb_section bt_bb_top_spacing_large bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+        <div class="bt_bb_port">
+          <div class="bt_bb_cell">
+            <div class="bt_bb_cell_inner">
+              <div class="bt_bb_row">
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="3">
+                  <div class="bt_bb_column_content"></div>
+                </div>
+                <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="6">
+                  <div class="bt_bb_column_content">
+                    <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+                        <span class="bt_bb_headline_content">
+                            <span>
+                                <strong>AUDIOVISUAL, MARKETING Y PUBLICIDAD</strong>
+                            </span>
+                        </span>
+                    </header>
+                    <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                  </div>
+                </div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="3">
+                  <div class="bt_bb_column_content"></div>
+                </div>
+              </div>
+              <div class="bt_bb_row">
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/daniela_naomi.jpg';?>" alt="Daniela Naomí Velásquez">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  DIRECTORA AUDIOVISUAL
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Daniela Naomí Velásquez</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Estudiante del sexto ciclo <br/>
+                              Comunicación Audiovisual<br/>
+                              (Universidad Privada del Norte)
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php echo site_url().'static/page_front/images/directiva/andres_sanchez.jpg';?>" alt="Andrés Sánchez Bravo">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  DIRECTOR AUDIOVISUAL
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Andrés Sánchez Bravo</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>- Estudiante del sexto ciclo <br/>
+                              Comunicación Audiovisual<br/>
+                              (Universidad Privada del Norte)
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
+                <div class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent" data-width="3">
+                    <div class="bt_bb_column_content" style="background-color:rgba(255, 255, 255, 1);">
+                        <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                            <span>
+                                <img src="<?php // echo site_url().'static/page_front/images/directiva/daniel_contreras.jpg';?>" alt="Daniel Contreras H">
+                            </span>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <header class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                          <h2>
+                              <span class="bt_bb_headline_superheadline">
+                                  MARKETING Y PUBLICIDAD
+                              </span>
+                              <span class="bt_bb_headline_content">
+                                  <span>Mafer Cabrera</span>
+                              </span>
+                          </h2>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                        <div class="bt_bb_text">
+                            <p>
+                            </p>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>    
+  </div>
+  </section>
+          
   </div>
   </div>
   <!-- /boldthemes_content -->

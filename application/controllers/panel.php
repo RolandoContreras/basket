@@ -4,7 +4,6 @@ class Panel extends CI_Controller{
     public function __construct() {
         parent::__construct();    
         $this->load->model("comments_model","obj_comments");
-        $this->load->model("customer_model","obj_customer");
     }
     
     public function index(){
@@ -12,23 +11,17 @@ class Panel extends CI_Controller{
         $this->get_session();
         
         //GET TOTAL ROWS
-//        $params = array("select" =>"count(comment_id) as total_comments,
-//                                    (select count(*) from customer) as total_customer, 
-//                                    (select count(*) from comments where big_investor = 1) as total_invest, 
-//                                    (select count(*) from currency) as total_currency, 
-//                                    (select count(*) from messages where support = 1) as total_messages_support,
-//                                    (select count(*) from users) as total_users,
-//                                    (select count(*) from sell where type_pay = 2) as total_sell_bank,
-//                                    (select count(*) from sell where type_pay = 1) as total_sell_card");
-//        $obj_total = $this->obj_comments->get_search_row($params);
+        $params = array("select" =>"count(comment_id) as total_comments,
+                                    (select count(*) from teams) as total_team, 
+                                    (select count(*) from tags) as total_tags, 
+                                    (select count(*) from users) as total_users");
+        $obj_total = $this->obj_comments->get_search_row($params);
 
-         //GET PENDING ROWS
-//        $params = array("select" =>"count(*) as pending_comments,
-//                                    (select count(*) from comments where active = 1) as pending_investor,
-//                                    (select count(*) from messages where support = 1 and active = 1) as pending_messages_support,
-//                                    ",
-//                        "where" => "active = 1");
-//        $obj_pending = $this->obj_comments->get_search_row($params);
+        //GET PENDING ROWS
+        $params = array("select" =>"count(*) as pending_comments
+                                    ",
+                        "where" => "active = 1");
+        $obj_pending = $this->obj_comments->get_search_row($params);
         
         //GET LASTEST COMMENT  
         $params = array(
@@ -47,10 +40,9 @@ class Panel extends CI_Controller{
         $link_modulo =  site_url().$modulos; 
         $seccion = 'Vista global';        
 
-        //$this->tmp_mastercms->set('obj_pending',$obj_pending);
-        //$this->tmp_mastercms->set('obj_last_comment_investor',$obj_last_comment_investor);
+        $this->tmp_mastercms->set('obj_pending',$obj_pending);
         $this->tmp_mastercms->set('obj_last_comment',$obj_last_comment);
-        //$this->tmp_mastercms->set('obj_total',$obj_total);
+        $this->tmp_mastercms->set('obj_total',$obj_total);
         $this->tmp_mastercms->set('modulos',$modulos);
         $this->tmp_mastercms->set('link_modulo',$link_modulo);
         $this->tmp_mastercms->set('seccion',$seccion);

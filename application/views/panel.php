@@ -20,22 +20,22 @@
                             </thead><!-- table heading -->
                             <tbody>
                                     <tr>
-                                            <td><a href="<?php echo site_url().'dashboard/comentarios';?>"><b><?php //echo $obj_total->total_comments;?></b><i class="fa fa-comments"></i> Comentarios</a></td>
-                                            <td><a href="<?php echo site_url().'dashboard/comentarios';?>" class="pending"><b class="cmd"><?php //echo $obj_pending->pending_comments;?></b><i class="fa fa-comments"></i> Por Leer</a></td>
+                                            <td><a href="<?php echo site_url().'dashboard/comentarios';?>"><b><?php echo $obj_total->total_comments;?></b><i class="fa fa-comments"></i> Comentarios</a></td>
+                                            <td><a href="<?php echo site_url().'dashboard/comentarios';?>" class="pending"><b><?php echo $obj_pending->pending_comments;?></b> <i class="fa fa-comments"></i> Por Leer</a></td>
                                     </tr>
                                         <tr>
-                                            <td><a href="<?php echo site_url().'dashboard/clientes';?>"><b><?php //echo $obj_total->total_customer;?></b><i class="fa fa-users"></i> Asociados</a></td><td></td>
+                                            <td><a href="<?php echo site_url().'dashboard/team';?>"><b><?php echo $obj_total->total_team;?></b><i class="fa fa-users"></i> Equipos</a></td><td></td>
                                     </tr>
                                     <tr>
                                         <td><a href="<?php echo site_url().'dashboard/monedas';?>"><b><?php //echo $obj_total->total_currency;?></b><i class="fa fa-btc"></i> Blog</a></td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td><a href="<?php echo site_url().'dashboard/monedas';?>"><b><?php //echo $obj_total->total_currency;?></b><i class="fa fa-btc"></i> Resultados</a></td>
+                                        <td><a href="<?php echo site_url().'dashboard/monedas';?>"><b><?php echo $obj_total->total_tags;?></b><i class="fa fa-btc"></i> Tags</a></td>
                                         <td></td>
                                     </tr>
                                     <tr>
-                                            <td><a href="<?php echo site_url().'dashboard/usuarios';?>"><b><?php //echo $obj_total->total_users;?></b><i class="fa fa-user-secret"></i> Usuarios</a></td><td></td>
+                                            <td><a href="<?php echo site_url().'dashboard/usuarios';?>"><b><?php echo $obj_total->total_users;?></b><i class="fa fa-user-secret"></i> Usuarios</a></td><td></td>
                                             <td class="blank">&nbsp;</td>
                                     </tr>
 
