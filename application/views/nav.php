@@ -59,7 +59,7 @@
             <ul class="sub-menu">
              <?php foreach ($paginas_amarillas as $value) { ?>
                     <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                        <a href="<?php echo site_url().$value->slug;?>"><?php echo strtoupper($value->name);?></a>
+                        <a href="<?php echo site_url().'pages/'.$value->slug;?>"><?php echo strtoupper($value->name);?></a>
                     </li>
              <?php } ?>   
             </ul>

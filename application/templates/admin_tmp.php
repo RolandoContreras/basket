@@ -126,7 +126,7 @@
                                     <div class="accordion-inner">
                                         <ul class="nav nav-list">
                                             <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/company";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/empresas";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
                                         </ul>                                     
                                     </div>
                                 </div>

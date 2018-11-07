@@ -78,6 +78,11 @@ $route['dashboard/categorias/load/([0-9]+)'] = "d_category/load/$1";
 $route['dashboard/categorias/validate'] = "d_category/validate";
 $route['dashboard/categorias/delete'] = "d_category/delete";
 
+$route['dashboard/empresas'] = "d_company";
+$route['dashboard/empresas/load'] = "d_company/load";
+$route['dashboard/empresas/load/([0-9]+)'] = "d_company/load/$1";
+$route['dashboard/empresas/validate'] = "d_company/validate";
+$route['dashboard/empresas/delete'] = "d_company/delete";
 
 $route['dashboard/tags'] = "d_tags";
 $route['dashboard/tags/load'] = "d_tags/load";
