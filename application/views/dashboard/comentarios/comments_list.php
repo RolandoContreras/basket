@@ -37,10 +37,10 @@
                             <?php foreach ($obj_comments as $value): ?>
                         <tr>
                             <th><?php echo $value->comment_id;?></th>
-                            <td><?php echo formato_fecha($value->date_comment);?></td>
+                            <td><?php echo formato_fecha_barras($value->date_comment);?></td>
                             <td align="center" style="color:#fff;" class="label-success"><?php echo $value->name;?></td>
                             <td><?php echo $value->email;?></td>
-                            <td><?php echo $value->subject;?></td>
+                            <td align="center" style="color:#fff;" class="label-info"><?php echo $value->subject;?></td>
                             <td><?php echo $value->comment;?></td>
                             
                             <td>

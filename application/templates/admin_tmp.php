@@ -109,7 +109,7 @@
                                             <li><a href="<?php echo site_url()."dashboard/clientes";?>"><i class="icon-large icon-th"></i>Clientes</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/noticias";?>"><i class="icon-large icon-th"></i>Blog</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/category";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                            
                                             <li><a href="<?php echo site_url()."dashboard/tags";?>"><i class="icon-large icon-th"></i>Tags</a></li>
                                             <?php 
                                             if($_SESSION['usercms']['privilage'] == 3 ){ ?>
@@ -122,17 +122,29 @@
                         <div class="accordion-group">
                                 <div class="accordion-heading">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
-                                    Textos Dinámicos
+                                    Páginas Amarillas
                                     </a>
                                 </div>
                                 <div id="texto" class="accordion-body collapse">
                                     <div class="accordion-inner">
                                         <ul class="nav nav-list">
-                                            <li><a href="<?php echo site_url()."dashboard/legal";?>"><i class="icon-large icon-th"></i>Aviso Legal</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/privacy";?>"><i class="icon-large icon-th"></i>Política de Privacidad</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/general";?>"><i class="icon-large icon-th"></i>Condiciones Generales</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/cookies";?>"><i class="icon-large icon-th"></i>Política de Cookies</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/faq";?>"><i class="icon-large icon-th"></i>Faq</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/company";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
+                                        </ul>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
+                                    Resultados Encuentros
+                                    </a>
+                                </div>
+                                <div id="texto" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul class="nav nav-list">
+                                            <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/company";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
                                         </ul>                                     
                                     </div>
                                 </div>

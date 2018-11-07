@@ -72,10 +72,11 @@ $route['dashboard/panel/masive_messages'] = "panel/masive_messages";
 $route['dashboard/panel/cambiar_status'] = "panel/cambiar_status";
 $route['dashboard/panel/cambiar_status_invest'] = "panel/cambiar_status_invest";
 
-$route['dashboard/clientes'] = "d_customer";
-$route['dashboard/clientes/load/([0-9]+)'] = "d_customer/load/$1";
-$route['dashboard/clientes/validate'] = "d_customer/validate";
-$route['dashboard/clientes/delete'] = "d_customer/delete";
+$route['dashboard/categorias'] = "d_category";
+$route['dashboard/categorias/load'] = "d_category/load";
+$route['dashboard/categorias/load/([0-9]+)'] = "d_category/load/$1";
+$route['dashboard/categorias/validate'] = "d_category/validate";
+$route['dashboard/categorias/delete'] = "d_category/delete";
 
 
 $route['dashboard/tags'] = "d_tags";

@@ -12,7 +12,8 @@
                     <div class="navbar navbar-static navbar_as_heading">
                             <div class="navbar-inner">
                                     <div class="container" style="width: auto;">
-                                            <a class="brand">LISTADO DE CLIENTES</a>
+                                            <a class="brand">CATEGORIAS</a>
+                                            <button class="btn btn-small" onclick="add_category();"><i class="fa fa-plus"></i> Nueva</button>
                                     </div>
                             </div>
                     </div>
@@ -24,34 +25,32 @@
                         <thead>
                             <tr>
                                 <th>CODIGO</th>
-                                <th>USUARIO</th>
-                                <th>ASOCIADO</th>
-                                <th>PAÍS</th>
+                                <th>NOMBRE</th>
+                                <th>FECHA</th>
                                 <th>ESTADO</th> 
                                 <th>ACCIONES</th>
                             </tr>
                         </thead>
                         <tbody>
-                             <?php foreach ($obj_customer as $value): ?>
-                                <td align="center"><b><?php echo $value->customer_id;?></b></td>
-                                <td align="center" style="color:#fff;" class="label-success"><?php echo $value->email;?></td>
-                                <td align="center"><?php echo $value->first_name." ".$value->last_name;?></td>
-                                <td align="center"><b><?php echo $value->country;?></b></td>
+                           <?php foreach ($obj_category as $value): ?>
+                                <td align="center"><?php echo $value->category_id;?></td>
+                                <td align="center" style="color:#fff;" class="label-success"><?php echo $value->name;?></td>
+                                <td align="center" style="color:#fff;" class="label-warning"><?php echo formato_fecha_barras($value->date);?></td>
                                 <td align="center">
-                                    <?php if ($value->active == 0) {
-                                        $valor = "Inactivo";
-                                        $stilo = "label label-important";
-                                    }else{
+                                    <?php if ($value->active == 1) {
                                         $valor = "Activo";
                                         $stilo = "label label-success";
+                                    }elseif($value->active == 0){
+                                        $valor = "Inactivo";
+                                        $stilo = "label label-important";
                                     } ?>
-                                    <span class="<?php echo $stilo ?>"><?php echo $valor; ?></span>
+                                    <span class="<?php echo $stilo ?>"><?php echo $valor;?></span>
                                 </td>
                                 <td>
                                     <div class="operation">
                                             <div class="btn-group">
-                                                <button class="btn btn-small" onclick="edit_customer('<?php echo $value->customer_id;?>');"><i class="fa fa-edit"></i> Editar</button>
-                                                <button class="btn btn-small" onclick="delete_customer('<?php echo $value->customer_id;?>');"><i class="fa fa-trash"></i> Eliminar</button>
+                                                <button class="btn btn-small" onclick="edit_category('<?php echo $value->category_id;?>');"><i class="fa fa-edit"></i> Editar</button>
+                                                <button class="btn btn-small" onclick="delete_category('<?php echo $value->category_id;?>');"><i class="fa fa-trash-o"></i> Eliminar</button>
                                           </div>
                                     </div>
                                 </td>
@@ -72,4 +71,4 @@
     } );
 } );
 </script>
-<script src="static/cms/js/customer.js"></script>
+<script src="static/cms/js/category.js"></script>
