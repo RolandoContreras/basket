@@ -35,14 +35,18 @@ class D_category extends CI_Controller{
     
     public function validate(){
         
-        //GET CUSTOMER_ID
+        //GET DATA
         $category_id = $this->input->post("category_id");
         $active = $this->input->post("active");
+        
+        $name = $this->input->post("name");
+        $slug = convert_slug($name);
         $date = date("Y-m-d");
          //SAVE DATA IN TABLE    
         if($category_id == ""){
             $data = array(
-                'name' => $this->input->post('name'),
+                'name' => $name,
+                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,
@@ -52,7 +56,8 @@ class D_category extends CI_Controller{
             $this->obj_category->insert($data);
         }else{
             $data = array(
-                'name' => $this->input->post('name'),
+                'name' => $name,
+                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,
