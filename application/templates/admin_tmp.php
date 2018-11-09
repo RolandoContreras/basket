@@ -107,7 +107,7 @@
                                         <ul class="nav nav-list">
                                             <li><a href="<?php echo site_url()."dashboard/panel";?>"><i class="icon-large icon-th"></i>Panel</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/tags";?>"><i class="icon-large icon-th"></i>Tags</a></li>
+                                            
                                             <?php 
                                             if($_SESSION['usercms']['privilage'] == 3 ){ ?>
                                                 <li><a href="<?php echo site_url()."dashboard/usuarios";?>"><i class="icon-large icon-th"></i>Usuarios</a></li>
@@ -117,35 +117,52 @@
                                     </div>
                             </div>
                         <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
-                                    Páginas Amarillas
-                                    </a>
-                                </div>
-                                <div id="texto" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                            <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/empresas";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
-                                        </ul>                                     
-                                    </div>
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
+                                Páginas Amarillas
+                                </a>
+                            </div>
+                            <div id="texto" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <ul class="nav nav-list">
+                                        <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                        <li><a href="<?php echo site_url()."dashboard/empresas";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
+                                    </ul>                                     
                                 </div>
                             </div>
+                        </div>
                         <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
-                                    Resultados Encuentros
-                                    </a>
-                                </div>
-                                <div id="texto" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                            <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/company";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
-                                        </ul>                                     
-                                    </div>
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
+                                Blog
+                                </a>
+                            </div>
+                            <div id="texto" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <ul class="nav nav-list">
+                                        <li><a href="<?php echo site_url()."dashboard/categoria_blog";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                        <li><a href="<?php echo site_url()."dashboard/mensajes";?>"><i class="icon-large icon-th"></i>Mensajes</a></li>
+                                        <li><a href="<?php echo site_url()."dashboard/tags";?>"><i class="icon-large icon-th"></i>Tags</a></li>
+                                        <li><a href="<?php echo site_url()."dashboard/blog";?>"><i class="icon-large icon-th"></i>Blog</a></li>
+                                    </ul>                                     
                                 </div>
                             </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
+                                Resultados Encuentros
+                                </a>
+                            </div>
+                            <div id="texto" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <ul class="nav nav-list">
+                                        <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                        <li><a href="<?php echo site_url()."dashboard/company";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
+                                    </ul>                                     
+                                </div>
+                            </div>
+                        </div>
                     </div>
             </div>
             <!-- sidebar 

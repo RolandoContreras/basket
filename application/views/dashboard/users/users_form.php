@@ -43,7 +43,7 @@
                                         if($obj_users->privilage == 1){ echo "selected";}
                                     }else{echo "";} ?>>Básico</option>
                                     <option value="2" <?php if(isset($obj_customer)){
-                                        if($obj_users->privilage == 2){ echo "selected";}
+                                        if($obj_users->privilage == 3){ echo "selected";}
                                     }else{echo "";} ?>>Total</option>
                         </select>
                     </div>

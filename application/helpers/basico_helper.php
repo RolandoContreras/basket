@@ -263,4 +263,11 @@ function replace_vocales_voculeshtml($str){
     return str_replace($search, $replace, $str);
     
 }
+
+function formato_fecha_db($fecha){   
+    $mes=substr($fecha, 0, 2);
+    $dia=substr($fecha, 3, 2);
+    $anio=substr($fecha, 6, 4); 
+    return $anio."/".$mes."/".$dia;
+}
 ?>
