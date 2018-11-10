@@ -47,11 +47,13 @@
           <a href="<?php echo site_url().'about';?>">Acerca</a>
       </li>
       <li id="menu-item-1525" class="<?php echo $active_games;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
-        <a href="<?php echo site_url().'games';?>">Torneos</a>
+        <a href="#">Torneos</a>
             <ul class="sub-menu">
-              <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                  <a href="<?php echo site_url().'games';?>">Apertura</a>
-              </li>
+              <?php foreach ($cup_category as $value) { ?>
+                    <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
+                        <a href="<?php echo site_url().'torneo/'.$value->slug;?>"><?php echo strtoupper($value->name);?></a>
+                    </li>
+             <?php } ?>   
             </ul>
       </li>
       <li id="menu-item-1525" class="<?php echo $active_pages;?> menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
@@ -69,7 +71,7 @@
             <ul class="sub-menu">
                 <?php foreach ($blog_category as $value) { ?>
                     <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                        <a href="#"><?php echo strtoupper($value->name);?></a>
+                        <a href="<?php echo site_url().'blog/'.$value->slug;?>"><?php echo strtoupper($value->name);?></a>
                     </li>
              <?php } ?>   
             </ul>
