@@ -12,8 +12,8 @@
                     <div class="navbar navbar-static navbar_as_heading">
                             <div class="navbar-inner">
                                     <div class="container" style="width: auto;">
-                                            <a class="brand">CATEGORIAS</a>
-                                            <button class="btn btn-small" onclick="add_category();"><i class="fa fa-plus"></i> Nueva</button>
+                                            <a class="brand">CATEGORIAS - BLOG</a>
+                                            <button class="btn btn-small" onclick="add_category_blog();"><i class="fa fa-plus"></i> Nueva</button>
                                     </div>
                             </div>
                     </div>
@@ -32,8 +32,8 @@
                             </tr>
                         </thead>
                         <tbody>
-                           <?php foreach ($obj_category as $value): ?>
-                                <td align="center"><?php echo $value->category_id;?></td>
+                           <?php foreach ($obj_category_blog as $value): ?>
+                                <td align="center"><?php echo $value->category_blog_id;?></td>
                                 <td align="center" style="color:#fff;" class="label-success"><?php echo $value->name;?></td>
                                 <td align="center" style="color:#fff;" class="label-warning"><?php echo formato_fecha_barras($value->date);?></td>
                                 <td align="center">
@@ -49,8 +49,8 @@
                                 <td>
                                     <div class="operation">
                                             <div class="btn-group">
-                                                <button class="btn btn-small" onclick="edit_category('<?php echo $value->category_id;?>');"><i class="fa fa-edit"></i> Editar</button>
-                                                <button class="btn btn-small" onclick="delete_category('<?php echo $value->category_id;?>');"><i class="fa fa-trash-o"></i> Eliminar</button>
+                                                <button class="btn btn-small" onclick="edit_category_blog('<?php echo $value->category_blog_id;?>');"><i class="fa fa-edit"></i> Editar</button>
+                                                <button class="btn btn-small" onclick="delete_category_blog('<?php echo $value->category_blog_id;?>');"><i class="fa fa-trash-o"></i> Eliminar</button>
                                           </div>
                                     </div>
                                 </td>
@@ -71,4 +71,4 @@
     } );
 } );
 </script>
-<script src="static/cms/js/category.js"></script>
+<script src="static/cms/js/category_blog.js"></script>

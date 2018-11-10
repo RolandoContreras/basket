@@ -82,7 +82,7 @@ $route['dashboard/categoria_blog'] = "d_category_blog";
 $route['dashboard/categoria_blog/load'] = "d_category_blog/load";
 $route['dashboard/categoria_blog/load/([0-9]+)'] = "d_category_blog/load/$1";
 $route['dashboard/categoria_blog/validate'] = "d_category_blog/validate";
-$route['dashboard/categoria_blog/delete'] = "d_category_blog/delete";
+$route['dashboard/categoria_blog/delete_category'] = "d_category_blog/delete_category";
 
 $route['dashboard/empresas'] = "d_company";
 $route['dashboard/empresas/load'] = "d_company/load";

@@ -23,7 +23,7 @@ class D_category extends CI_Controller{
            /// PAGINADO
             $modulos ='categorias'; 
             $seccion = 'Lista';        
-            $link_modulo =  site_url().'dashboard/tags'; 
+            $link_modulo =  site_url().'dashboard/categorias'; 
             
             /// VISTA
             $this->tmp_mastercms->set('link_modulo',$link_modulo);

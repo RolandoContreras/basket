@@ -133,11 +133,11 @@
                         </div>
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#categorias_blog">
                                 Blog
                                 </a>
                             </div>
-                            <div id="texto" class="accordion-body collapse">
+                            <div id="categorias_blog" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul class="nav nav-list">
                                         <li><a href="<?php echo site_url()."dashboard/categoria_blog";?>"><i class="icon-large icon-th"></i>Categorias</a></li>

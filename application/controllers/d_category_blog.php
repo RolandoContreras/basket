@@ -1,114 +1,111 @@
 <?php if ( ! defined("BASEPATH")) exit("No direct script access allowed"); 
 
-class D_category extends CI_Controller{    
+class D_category_blog extends CI_Controller{    
     
     public function __construct(){
         parent::__construct();
-        $this->load->model("category_model","obj_category");
+        $this->load->model("category_blog_model","obj_category_blog");
     }   
                 
     public function index(){  
            $this->get_session();
+           
            $params = array(
-                        "select" =>"category.category_id,
-                                    category.name,
-                                    category.date,
-                                    category.active",
-                        "where" => "category.status_value = 1",
-                        "order" => "category.category_id DESC"
+                        "select" =>"category_blog.category_blog_id,
+                                    category_blog.name,
+                                    category_blog.date,
+                                    category_blog.active",
+                        "where" => "category_blog.status_value = 1",
+                        "order" => "category_blog.category_blog_id DESC"
                );
            //GET DATA FROM CUSTOMER
-           $obj_category= $this->obj_category->search($params);
+           $obj_category_blog= $this->obj_category_blog->search($params);
            
            /// PAGINADO
-            $modulos ='categorias'; 
+            $modulos ='categorias_blog'; 
             $seccion = 'Lista';        
-            $link_modulo =  site_url().'dashboard/tags'; 
+            $link_modulo =  site_url().'dashboard/categorias_blog'; 
             
             /// VISTA
             $this->tmp_mastercms->set('link_modulo',$link_modulo);
             $this->tmp_mastercms->set('modulos',$modulos);
             $this->tmp_mastercms->set('seccion',$seccion);
-            $this->tmp_mastercms->set("obj_category",$obj_category);
-            $this->tmp_mastercms->render("dashboard/category/category_list");
+            $this->tmp_mastercms->set("obj_category_blog",$obj_category_blog);
+            $this->tmp_mastercms->render("dashboard/category_blog/category_blog_list");
     }
     
     public function validate(){
         
         //GET DATA
-        $category_id = $this->input->post("category_id");
+        $category_blog_id = $this->input->post("category_blog_id");
         $active = $this->input->post("active");
-        
         $name = $this->input->post("name");
-        $slug = convert_slug($name);
         $date = date("Y-m-d");
          //SAVE DATA IN TABLE    
-        if($category_id == ""){
+        if($category_blog_id == ""){
             $data = array(
                 'name' => $name,
-                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,
                 'created_at' => date("Y-m-d H:i:s"),
                 'created_by' => $_SESSION['usercms']['user_id']
                 ); 
-            $this->obj_category->insert($data);
+            $this->obj_category_blog->insert($data);
         }else{
             $data = array(
                 'name' => $name,
-                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,
                 'updated_at' => date("Y-m-d H:i:s"),
                 'updated_by' => $_SESSION['usercms']['user_id']
                 );
-            $this->obj_category->update($category_id, $data);
+            $this->obj_category_blog->update($category_blog_id, $data);
         }
-        redirect(site_url()."dashboard/categorias");
+        redirect(site_url()."dashboard/categoria_blog");
     }
     
-    public function delete(){
+    public function delete_category(){
         //DELETE CUSTOMER
         if($this->input->is_ajax_request()){  
-                $tag_id = $this->input->post("tag_id");
-                if(count($tag_id) > 0){
+                $category_blog_id = $this->input->post("category_blog_id");
+                if(count($category_blog_id) > 0){
                     $data = array(
                         'status_value' => 0,
                         'active' => 0,
                         'updated_at' => date("Y-m-d H:i:s"),
                         'updated_by' => $_SESSION['usercms']['user_id'],
                     ); 
-                    $this->obj_category->update($tag_id,$data);
+                    $this->obj_category_blog->update($category_blog_id,$data);
                 }
                 echo json_encode($data);            
         exit();
             }
     }
     
-    public function load($category_id=NULL){
+    public function load($category_blog_id=NULL){
         //VERIFY IF ISSET CUSTOMER_ID
-        if ($category_id != ""){
+        if ($category_blog_id != ""){
             /// PARAMETROS PARA EL SELECT 
-            $where = "category.category_id = $category_id";
+            $where = "category_blog.category_blog_id = $category_blog_id";
             $params = array(
                         "select" =>"*",
                          "where" => $where,
             ); 
-            $obj_category  = $this->obj_category->get_search_row($params); 
+            $obj_category_blog  = $this->obj_category_blog->get_search_row($params); 
             //RENDER
-            $this->tmp_mastercms->set("obj_category",$obj_category);
+            $this->tmp_mastercms->set("obj_category_blog",$obj_category_blog);
           }
 
-            $modulos ='tags'; 
+            $modulos ='categoria_blog'; 
             $seccion = 'Formulario';        
             $link_modulo =  site_url().'dashboard/'.$modulos; 
 
             $this->tmp_mastercms->set('link_modulo',$link_modulo);
             $this->tmp_mastercms->set('modulos',$modulos);
             $this->tmp_mastercms->set('seccion',$seccion);
-            $this->tmp_mastercms->render("dashboard/category/category_form");    
+            $this->tmp_mastercms->render("dashboard/category_blog/category_blog_form");    
     }
     
     public function get_session(){          
