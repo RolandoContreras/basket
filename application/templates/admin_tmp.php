@@ -150,14 +150,14 @@
                         </div>
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#texto">
-                                Resultados Encuentros
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#cup">
+                                Torneos
                                 </a>
                             </div>
-                            <div id="texto" class="accordion-body collapse">
+                            <div id="cup" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul class="nav nav-list">
-                                        <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                        <li><a href="<?php echo site_url()."dashboard/categoria_torneo";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
                                         <li><a href="<?php echo site_url()."dashboard/company";?>"><i class="icon-large icon-th"></i>Empresas</a></li>
                                     </ul>                                     
                                 </div>

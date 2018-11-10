@@ -84,6 +84,12 @@ $route['dashboard/categoria_blog/load/([0-9]+)'] = "d_category_blog/load/$1";
 $route['dashboard/categoria_blog/validate'] = "d_category_blog/validate";
 $route['dashboard/categoria_blog/delete_category'] = "d_category_blog/delete_category";
 
+$route['dashboard/categoria_torneo'] = "d_category_cup";
+$route['dashboard/categoria_torneo/load'] = "d_category_cup/load";
+$route['dashboard/categoria_torneo/load/([0-9]+)'] = "d_category_cup/load/$1";
+$route['dashboard/categoria_torneo/validate'] = "d_category_cup/validate";
+$route['dashboard/categoria_torneo/delete_category'] = "d_category_cup/delete_category";
+
 $route['dashboard/empresas'] = "d_company";
 $route['dashboard/empresas/load'] = "d_company/load";
 $route['dashboard/empresas/load/([0-9]+)'] = "d_company/load/$1";
