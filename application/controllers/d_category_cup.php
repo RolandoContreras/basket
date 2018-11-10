@@ -40,11 +40,13 @@ class D_category_cup extends CI_Controller{
         $category_cup_id = $this->input->post("category_cup_id");
         $active = $this->input->post("active");
         $name = $this->input->post("name");
+        $slug = convert_slug($name);
         $date = date("Y-m-d");
          //SAVE DATA IN TABLE    
         if($category_cup_id == ""){
             $data = array(
                 'name' => $name,
+                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,
@@ -55,6 +57,7 @@ class D_category_cup extends CI_Controller{
         }else{
             $data = array(
                 'name' => $name,
+                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,

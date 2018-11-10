@@ -22,9 +22,9 @@ class D_category_blog extends CI_Controller{
            $obj_category_blog= $this->obj_category_blog->search($params);
            
            /// PAGINADO
-            $modulos ='categorias_blog'; 
+            $modulos ='categoria_blog'; 
             $seccion = 'Lista';        
-            $link_modulo =  site_url().'dashboard/categorias_blog'; 
+            $link_modulo =  site_url().'dashboard/categoria_blog'; 
             
             /// VISTA
             $this->tmp_mastercms->set('link_modulo',$link_modulo);
@@ -40,11 +40,13 @@ class D_category_blog extends CI_Controller{
         $category_blog_id = $this->input->post("category_blog_id");
         $active = $this->input->post("active");
         $name = $this->input->post("name");
+        $slug = convert_slug($name);
         $date = date("Y-m-d");
          //SAVE DATA IN TABLE    
         if($category_blog_id == ""){
             $data = array(
                 'name' => $name,
+                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,
@@ -55,6 +57,7 @@ class D_category_blog extends CI_Controller{
         }else{
             $data = array(
                 'name' => $name,
+                'slug' => $slug,
                 'date' => $date,
                 'active' => $active,
                 'status_value' => 1,

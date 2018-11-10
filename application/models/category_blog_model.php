@@ -18,6 +18,7 @@ BITSHARE S.A.C
 class category_blog_model_atributos{	
     var $category_blog_id='';
     var $name='';
+    var $slug='';
     var $date='';
     var $active='';
     var $status_value='';
@@ -35,6 +36,7 @@ class Category_blog_Model extends CI_Model{
 	$this->table_id = 'category_blog_id';
         $this->category_blog_id='';
         $this->name='';
+        $this->slug='';
         $this->date='';
         $this->active='';
 	$this->status_value='';

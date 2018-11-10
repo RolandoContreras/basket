@@ -18,6 +18,7 @@ BITSHARE S.A.C
 class category_cup_model_atributos{	
     var $category_cup='';
     var $name='';
+    var $slug='';
     var $date='';
     var $active='';
     var $status_value='';
@@ -35,6 +36,7 @@ class Category_cup_Model extends CI_Model{
 	$this->table_id = 'category_cup_id';
         $this->category_cup_id='';
         $this->name='';
+        $this->slug='';
         $this->date='';
         $this->active='';
 	$this->status_value='';
