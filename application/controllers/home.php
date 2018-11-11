@@ -7,6 +7,7 @@ class Home extends CI_Controller {
      $this->load->model("category_model","obj_category");
      $this->load->model("category_blog_model","obj_category_blog");
      $this->load->model("category_cup_model","obj_category_cup");
+     $this->load->model("team_model","obj_team");
     } 
 
     public function index(){
@@ -16,8 +17,24 @@ class Home extends CI_Controller {
         $data['blog_category'] =  $this->blog_category();
         //GET CUP CATEGORY
         $data['cup_category'] =  $this->cup_category();
+        //GET ALL TEAMS
+        $data['teams'] =  $this->teams();
         //SEND RENDER
         $this->load->view('home',$data);
+    }
+    
+    public function teams(){
+        //GET DATA BY POST
+        $params = array(
+                        "select" =>"teams.team_id,
+                                    teams.name,
+                                    teams.img",
+                        "where" => "teams.status_value = 1 and teams.active = 1",
+                        "order" => "teams.team_id DESC"
+               );
+           //GET DATA FROM CUSTOMER
+           $obj_team= $this->obj_team->search($params);
+           return $obj_team;
     }
     
     public function blog_category(){

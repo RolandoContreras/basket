@@ -30,7 +30,7 @@
               <?php 
               if(isset($obj_team->team_id)){ ?>
                 <img src='<?php echo site_url()."static/cms/images/teams/$obj_team->img";?>' width="100" />
-                <input type="hidden" name="img2" id="img2" value="<?php echo isset($obj_team)?$obj_team->img:"";?>">
+                <input type="hidden" name="img2" id="img2" value="<?php echo isset($obj_team->team_id)?$obj_team->img:"";?>">
                 <br><br>
               <?php } ?>
               <strong>Logo: Imagen 300 x 300</strong><br>   

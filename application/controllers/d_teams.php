@@ -43,7 +43,7 @@ class D_teams extends CI_Controller{
         $description = $this->input->post("description");
         $active = $this->input->post("active");
         $date = date("Y-m-d");
-        $img2 = $this->input->post("img");
+        $img2 = $this->input->post("img2");
         
         //VERIFY IF ISSET IMG FILE
         if(isset($_FILES["image_file"]["name"])){

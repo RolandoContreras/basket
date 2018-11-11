@@ -49,94 +49,23 @@
                         <div class="bt_bb_column_content">
                           <div class="bt_bb_content_slider bt_bb_gap_no_gap bt_bb_arrows_size_small bt_bb_show_dots_hide bt_bb_height_auto bt_bb_multiple_slides">
                             <div class="slick-slider" data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "600", "prevArrow": "&lt;button type=\"button\" class=\"slick-prev\"&gt;", "nextArrow": "&lt;button type=\"button\" class=\"slick-next\"&gt;", "adaptiveHeight": true,"slidesToShow": 4,"autoplay": true, "autoplaySpeed": 3000, "responsive": [{ "breakpoint": 480, "settings": { "slidesToShow": 1, "slidesToScroll": 1 } },{ "breakpoint": 768, "settings": { "slidesToShow": 2, "slidesToScroll": 2 } },{ "breakpoint": 920, "settings": { "slidesToShow": 3, "slidesToScroll": 3 } }]}'>
-                              <div class="bt_bb_content_slider_item" style="">
-                                <div class="bt_bb_content_slider_item_content content">
-                                  <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                    <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
-                                    <div
-                                      class="bt_bb_scheduled_game_headline">
-                                      <a target="_blank" class="bt_bb_scheduled_game_url">
-                                        <div class="bt_bb_scheduled_game_title">FORTALEZA CLUB</div>
-                                      </a>
-                                      <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>
-                                  </div>
-                                </div>
-                                <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                              </div>
-                            </div>
-                                
-                                
-                                <div class="bt_bb_content_slider_item" style="">
-                                <div class="bt_bb_content_slider_item_content content">
-                                  <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                    <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
-                                    <div
-                                      class="bt_bb_scheduled_game_headline">
-                                      <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
-                                      <a href="#" target="_blank" class="bt_bb_scheduled_game_url">
-                                        <div class="bt_bb_scheduled_game_title">FORTALEZA CLUB</div>
-                                      </a>
-                                      <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>
-                                  </div>
-                                </div>
-                                <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                              </div>
-                            </div>
-                                
-                                
-                                <div class="bt_bb_content_slider_item" style="">
-                                <div class="bt_bb_content_slider_item_content content">
-                                  <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                    <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
-                                    <div
-                                      class="bt_bb_scheduled_game_headline">
-                                      <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
-                                      <a href="#" target="_blank" class="bt_bb_scheduled_game_url">
-                                        <div class="bt_bb_scheduled_game_title">FORTALEZA CLUB</div>
-                                      </a>
-                                      <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>
-                                  </div>
-                                </div>
-                                <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                              </div>
-                            </div>
-                                <div class="bt_bb_content_slider_item" style="">
-                                <div class="bt_bb_content_slider_item_content content">
-                                  <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                    <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
-                                    <div
-                                      class="bt_bb_scheduled_game_headline">
-                                      <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
-                                      <a href="#" target="_blank" class="bt_bb_scheduled_game_url">
-                                        <div class="bt_bb_scheduled_game_title">FORTALEZA CLUB</div>
-                                      </a>
-                                      <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>
-                                  </div>
-                                </div>
-                                <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                              </div>
-                            </div>
-                                <div class="bt_bb_content_slider_item" style="">
-                                <div class="bt_bb_content_slider_item_content content">
-                                  <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
-                                    <div class="bt_bb_scheduled_game_image">
-                                        <img src="<?php echo site_url().'static/page_front/images/logo/equipos/logo_fortaleza.png';?>" alt="fortaleza club"></div>
-                                    <div
-                                      class="bt_bb_scheduled_game_headline">
-                                      <!--<div class="bt_bb_scheduled_game_supertitle">AWAY @ BIG HALL</div>-->
-                                      <a href="#" target="_blank" class="bt_bb_scheduled_game_url">
-                                        <div class="bt_bb_scheduled_game_title">FORTALEZA CLUB</div>
-                                      </a>
-                                      <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>
-                                  </div>
-                                </div>
-                                <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                              </div>
-                            </div>
+                            <?php foreach ($teams as $value) { ?>
+                                    <div class="bt_bb_content_slider_item" style="">
+                                     <div class="bt_bb_content_slider_item_content content">
+                                       <div class="bt_bb_scheduled_game bt_bb_color_scheme_10">
+                                         <div class="bt_bb_scheduled_game_image">
+                                             <img src="<?php echo site_url()."static/cms/images/teams/$value->img";?>" alt="<?php echo $value->name;?>"></div>
+                                         <div class="bt_bb_scheduled_game_headline">
+                                             <a class="bt_bb_scheduled_game_url">
+                                                 <div class="bt_bb_scheduled_game_title"><?php echo strtoupper($value->name);?></div>
+                                             </a>
+                                             <div class="bt_bb_scheduled_game_subtitle">BASKETBALL CLUB</div>
+                                         </div>
+                                       </div>
+                                       <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                                     </div>
+                                   </div>     
+                            <?php } ?>
                      </div>
                 </div>
               </div>
