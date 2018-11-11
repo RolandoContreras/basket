@@ -4308,7 +4308,7 @@ body.btNoSidebar .btPrevNextNav {
 .btArticleAuthor:not(:last-child):after,
 .btArticleComments:not(:last-child):after,
 .btArticleCategories:not(:last-child):after {
-    content: ' / ';
+    content: '';
     padding: 0 .5em;
     }
 .btLightSkin .btArticleDate:not(:last-child):after,

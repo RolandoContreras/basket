@@ -202,6 +202,13 @@ function formato_fecha_barras($fecha){
     return  $dia."/".$mes."/".$anio;
 }
 
+function formato_fecha_barras_mes_dia_ano($fecha){    
+    $dia=substr($fecha, 8, 2);
+    $mes=substr($fecha, 5, 2);
+    $anio=substr($fecha, 0, 4);    
+    return  $mes."/".$dia."/".$anio;
+}
+
 function convert_formato_fecha_db($day,$month,$year){    
     return $year."/".$month."/".$day;
 }

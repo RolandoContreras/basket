@@ -61,7 +61,7 @@ class D_company extends CI_Controller{
         $date_start = formato_fecha_db($date1);
         $date_end = formato_fecha_db($date2);
          //SAVE DATA IN TABLE 
-        $img2 = $this->input->post("img");
+        $img2 = $this->input->post("img2");
         
         if(isset($_FILES["image_file"]["name"])){
                 $config['upload_path']          = './static/cms/images/company';

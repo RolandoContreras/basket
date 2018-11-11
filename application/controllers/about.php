@@ -20,7 +20,7 @@ class About extends CI_Controller {
         $this->load->view('about',$data);
     }
     
-     public function blog_category(){
+    public function blog_category(){
         //GET DATA BY POST
         $params = array(
                         "select" =>"category_blog.category_blog_id,

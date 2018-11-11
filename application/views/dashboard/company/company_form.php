@@ -2,7 +2,7 @@
 <script src="<?php echo site_url();?>static/cms/js/core/bootstrap-fileupload.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="static/cms/js/category.js"></script>
+<script src="static/cms/js/company.js"></script>
 <form method="post" id="upload_form" enctype="multipart/form-data" action="<?php echo site_url()."dashboard/empresas/validate";?>">
 <div id="main_content" class="span7">
     <div class="row-fluid">
@@ -51,22 +51,29 @@
               <strong>E-mail:</strong><br>              
               <input type="text" id="email" name="email" value="<?php echo isset($obj_company->email)?$obj_company->email:"";?>" class="input-xlarge-fluid" placeholder="E-mail">
               <br><br>
-              <strong>Descripción:</strong><br>              
-              <input type="text" id="description" name="description" value="<?php echo isset($obj_company->description)?$obj_company->description:"";?>" class="input-xlarge-fluid" placeholder="Descripción">
+              <strong>Descripción:</strong><br/>
+              <textarea name="description" id="description" rows="10" cols="80">
+                <?php if(isset($obj_company->description) != ""){
+                    echo $obj_company->description;
+                } ?>
+              </textarea>
+              <script>
+                    CKEDITOR.replace('description');
+              </script> 
               <br><br>
               <strong>Fecha de Inicio:</strong><br>              
-              <input type="text" id="date_start" name="date_start" value="<?php echo isset($obj_company->date_start)?$obj_company->date_start:"";?>" class="input-xlarge-fluid" placeholder="Fecha de Inicio">
+              <input type="text" id="date_start" name="date_start" value="<?php echo isset($obj_company->date_start)?formato_fecha_barras_mes_dia_ano($obj_company->date_start):"";?>" class="input-xlarge-fluid" placeholder="Fecha de Inicio">
               <br><br>
               <strong>Fecha de Termino:</strong><br>              
-              <input type="text" id="date_end" name="date_end" value="<?php echo isset($obj_company->date_end)?$obj_company->date_end:"";?>" class="input-xlarge-fluid" placeholder="Fecha de Termino">
+              <input type="text" id="date_end" name="date_end" value="<?php echo isset($obj_company->date_end)?formato_fecha_barras_mes_dia_ano($obj_company->date_end):"";?>" class="input-xlarge-fluid" placeholder="Fecha de Termino">
               <br><br>
               <?php 
-              if(isset($obj_news->news_id)){ ?>
-              <img src='<?php echo site_url()."static/backoffice/images/new/$obj_company->img";?>' width="100" />
+              if(isset($obj_company->company_id)){ ?>
+              <img src='<?php echo site_url()."static/cms/images/company/$obj_company->img";?>' width="100" />
               <input type="hidden" name="img2" id="img2" value="<?php echo isset($obj_company)?$obj_company->img:"";?>">
               <br><br>
               <?php } ?>
-              <strong>Logo: Imagen 617 x 617</strong><br>   
+              <strong>Imagen Logo: Imagen 640 x 480</strong><br>   
               <input type="file" value="Upload Imagen de Envio" name="image_file" id="image_file">
               <br><br>
               <div class="well nomargin" style="width: 200px;">

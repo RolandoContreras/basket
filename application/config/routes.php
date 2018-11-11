@@ -50,6 +50,10 @@ $route['about'] = 'about';
 $route['games'] = 'games';
 $route['blog'] = 'blog';
 
+$route['pages'] = 'pages';
+$route['pages/([-a-z]+)'] = 'pages/categories';
+$route['pages/([0-9]+)'] = 'pages/$1';
+
 $route['contact'] = 'contact';
 $route['contact/send_messages'] = 'contact/send_messages';
 
