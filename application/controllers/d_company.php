@@ -24,7 +24,7 @@ class D_company extends CI_Controller{
                                     company.img,
                                     company.active",
                         "join" => array('category, company.category_id = category.category_id'),
-                        "where" => "company.active = 1",                
+                        "where" => "company.status_value = 1",                
                         "order" => "company.company_id DESC"
                );
            //GET DATA FROM COMPANY
