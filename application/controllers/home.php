@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
     public function __construct(){
      parent::__construct();
+     $this->load->model("company_model","obj_company");
      $this->load->model("category_model","obj_category");
      $this->load->model("category_blog_model","obj_category_blog");
      $this->load->model("category_cup_model","obj_category_cup");
@@ -19,6 +20,8 @@ class Home extends CI_Controller {
         $data['cup_category'] =  $this->cup_category();
         //GET ALL TEAMS
         $data['teams'] =  $this->teams();
+        //GET DATA PAGINAS AMARILLAS
+        $data['patrocinadores'] =  $this->patrocinadores();
         //SEND RENDER
         $this->load->view('home',$data);
     }
@@ -77,5 +80,27 @@ class Home extends CI_Controller {
            //GET DATA FROM CUSTOMER
            $obj_category= $this->obj_category->search($params);
            return $obj_category;
+    }
+    
+    public function patrocinadores(){
+        //GET DATA BY POST
+        $params = array(
+                        "select" =>"company.company_id,
+                                    company.name,
+                                    category.name as categoria,
+                                    company.website,
+                                    company.email,
+                                    company.phone,
+                                    company.date_start,
+                                    company.date_end,
+                                    company.img,
+                                    company.active",
+                        "join" => array('category, company.category_id = category.category_id'),
+                        "where" => "company.active = 1",                
+                        "order" => "company.company_id DESC"
+               );
+           //GET DATA FROM CUSTOMER
+           $obj_company = $this->obj_company->search($params);
+           return $obj_company;
     }
 }
