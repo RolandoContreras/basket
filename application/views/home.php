@@ -215,7 +215,10 @@
               data-width="12">
               <div class="bt_bb_column_content">
                 <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
-                  <h2><span class="bt_bb_headline_superheadline">LIGA DE BASKETBALL DE SURCO</span><span class="bt_bb_headline_content"><span>NUESTROS <strong>PRINCIPIOS</strong></span></span>
+                  <h2><span class="bt_bb_headline_superheadline">LIGA DE BASKETBALL DE SURCO</span>
+                      <span class="bt_bb_headline_content">
+                          <span>NUESTROS <strong>PRINCIPIOS</strong></span>
+                      </span>
                   </h2>
                 </header>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -227,10 +230,15 @@
               data-width="3">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
-                  <a title="COMPETENCIA" class="bt_bb_icon_holder"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+                  <a title="INTEGRIDAD" class="bt_bb_icon_holder">
+                      <i class="fa fa-trophy" aria-hidden="true"></i>
+                  </a>
                   <div class="bt_bb_service_content">
-                    <div class="bt_bb_service_content_title"><a>COMPETENCIA</a></div>
-                    <div class="bt_bb_service_content_text">Creamos un ambiente adecuados para una competencia sana entre equipos impulsando el crecimiento del jugador.</div>
+                    <div class="bt_bb_service_content_title">
+                        <a>INTEGRIDAD</a></div>
+                    <div class="bt_bb_service_content_text">
+                        Estamos en una situación en la que hay una falta total de integridad en el deporte por tal se creó la liga de surco.
+                    </div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -240,10 +248,12 @@
               data-width="3">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
-                  <a title="CONFIANZA" class="bt_bb_icon_holder"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
+                  <a title="ORGANIZACIÓN" class="bt_bb_icon_holder"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
                   <div class="bt_bb_service_content">
-                    <div class="bt_bb_service_content_title"><a>VALORES</a></div>
-                    <div class="bt_bb_service_content_text">Tenemos como valor esencial promover la unión de las personas a partir del básquet.</div>
+                    <div class="bt_bb_service_content_title"><a>ORGANIZACIÓN</a></div>
+                    <div class="bt_bb_service_content_text">
+                        Contamos con profesionales con una larga trayectoria y experiencia dentro del deporte nacional e internacional.
+                    </div>
                   </div>
                 </div>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>

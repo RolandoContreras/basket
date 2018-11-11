@@ -27,7 +27,7 @@
                           <img src="<?php echo site_url().'static/page_front/images/iconos/ico_ball.png';?>" width="35"/>
                       </span>
                   </div>
-                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Sábados</span><span class="btIconWidgetText">08AM-07PM</span></div>
+                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Lun - Vie</span><span class="btIconWidgetText">10AM-05PM</span></div>
                 </div>
                 <div class="btIconWidget  btWidgetWithText">
                   <div class="btIconWidgetIcon">
@@ -35,7 +35,7 @@
                           <img src="<?php echo site_url().'static/page_front/images/iconos/ico_tablero.png';?>" width="35"/>
                       </span>
                   </div>
-                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Av. Angamos Este 2689, San Borja</span><span class="btIconWidgetText">Coliseo Eduardo Dibós</span></div>
+                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Calle Loma de las Magnolias # 248 - Surco</span><span class="btIconWidgetText">Liga de Surco - Oficina</span></div>
                 </div>
               </div>
               <!-- /topBarInLogoAreaCell -->

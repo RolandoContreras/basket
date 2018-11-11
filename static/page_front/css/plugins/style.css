@@ -7586,9 +7586,9 @@ button.slick-arrow.slick-prev:before {
 @media (min-width: 1200px) {
 .bt_bb_layout_boxed_1200 .bt_bb_cell .bt_bb_row .bt_bb_column .bt_bb_column_content .bt_bb_image.btMoveToEdge,
 .bt_bb_layout_boxed_1200 .bt_bb_cell .bt_bb_row .bt_bb_column .bt_bb_column_content .bt_bb_google_maps.btMoveToEdge {
-    margin-left: -webkit-calc(-50vw + 560px);
+/*    margin-left: -webkit-calc(-50vw + 560px);
     margin-left: -moz-calc(-50vw + 560px);
-    margin-left: calc(-50vw + 560px);
+    margin-left: calc(-50vw + 560px);*/
     }
 }
 

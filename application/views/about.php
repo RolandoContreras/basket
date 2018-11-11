@@ -58,6 +58,7 @@
       <div class="btContentHolder">
         <div class="btContent">
           <div class="bt_bb_wrapper">
+            <!--START ACERCA-->       
             <section id="bt_bb_section5bd3d0f65c6c6" class="bt_bb_section bt_bb_color_scheme_2 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
               <div class="bt_bb_port">
                 <div class="bt_bb_cell">
@@ -107,6 +108,50 @@
               </div>
           </div>
           </section>
+           <!--START PROPOSITO-->       
+          <section id="bt_bb_section5bd3d0f65c6c6" class="bt_bb_section bt_bb_color_scheme_2 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+              <div class="bt_bb_port">
+                <div class="bt_bb_cell">
+                  <div class="bt_bb_cell_inner">
+                    <div class="bt_bb_row">
+                      
+                      <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="6">
+                        <div class="bt_bb_column_content">
+                            <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
+                                <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_subheadline bt_bb_align_inherit">
+                                  <h2>
+                                      <span class="bt_bb_headline_content">
+                                          <span>
+                                              <strong>LIGA DE SURCO</strong><br/>PROPÓSITO
+                                          </span>
+                                      </span>
+                                  </h2>
+                                </header>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <div class="bt_bb_text">
+                            <p>Ser una Liga en la que resalten valores de integridad, organización, competitividad, juego limpio.</p>
+                          </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                      </div>
+                    </div>
+                        
+                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="6">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_image btMoveToEdge bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle">
+                              <span>
+                                  <img src="<?php echo site_url().'static/page_front/images/fondo/proposito.jpg';?>" alt="proposito">
+                              </span>
+                          </div>
+                        </div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </section>    
+          <!--END PROPOSITO-->    
           <!--START PATROCINADORES-->
           <section id="bt_bb_section5bd3d0f65dce6" data-parallax="0.6" data-parallax-offset="0" class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_parallax bt_bb_background_image"
                    style="background-image:url('<?php echo site_url().'static/page_front/images/fondo/bg_patrocinadores.jpg';?>');">
@@ -485,10 +530,7 @@
     </div>    
   </div>
   </section>
-          
-          
-          
-          <section id="bt_bb_section5bd3d0f6612aa" class="bt_bb_section bt_bb_top_spacing_large bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+    <section id="bt_bb_section5bd3d0f6612aa" class="bt_bb_section bt_bb_top_spacing_large bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
         <div class="bt_bb_port">
           <div class="bt_bb_cell">
             <div class="bt_bb_cell_inner">
@@ -498,7 +540,15 @@
                 </div>
                 <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="6">
                   <div class="bt_bb_column_content">
+                      
                     <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+                        <h2>
+                            <span class="bt_bb_headline_content">
+                                <span>
+                                    <strong>STAFF</strong>
+                                </span>
+                            </span>
+                        </h2>
                         <span class="bt_bb_headline_content">
                             <span>
                                 <strong>AUDIOVISUAL, MARKETING Y PUBLICIDAD</strong>
