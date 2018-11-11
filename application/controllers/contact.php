@@ -27,7 +27,7 @@ class Contact extends CI_Controller {
                                     category.name,
                                     category.slug",
                         "where" => "category.status_value = 1 and category.active = 1",
-                        "order" => "category.category_id ASC"
+                        "order" => "category.name ASC"
                );
            //GET DATA FROM CUSTOMER
            $obj_category= $this->obj_category->search($params);
