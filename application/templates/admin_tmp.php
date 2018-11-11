@@ -107,6 +107,7 @@
                                         <ul class="nav nav-list">
                                             <li><a href="<?php echo site_url()."dashboard/panel";?>"><i class="icon-large icon-th"></i>Panel</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/equipos";?>"><i class="icon-large icon-th"></i>Equipos</a></li>
                                             
                                             <?php 
                                             if($_SESSION['usercms']['privilage'] == 3 ){ ?>

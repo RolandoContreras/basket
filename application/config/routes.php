@@ -72,6 +72,12 @@ $route['dashboard/panel/masive_messages'] = "panel/masive_messages";
 $route['dashboard/panel/cambiar_status'] = "panel/cambiar_status";
 $route['dashboard/panel/cambiar_status_invest'] = "panel/cambiar_status_invest";
 
+$route['dashboard/equipos'] = "d_teams";
+$route['dashboard/equipos/load'] = "d_teams/load";
+$route['dashboard/equipos/load/([0-9]+)'] = "d_teams/load/$1";
+$route['dashboard/equipos/validate'] = "d_teams/validate";
+$route['dashboard/equipos/delete_team'] = "d_teams/delete_team";
+
 $route['dashboard/categorias'] = "d_category";
 $route['dashboard/categorias/load'] = "d_category/load";
 $route['dashboard/categorias/load/([0-9]+)'] = "d_category/load/$1";
