@@ -36,7 +36,9 @@
                   <div class="bt_bb_column_content">
                     <header class="bt_bb_headline bt_bb_size_large bt_bb_superheadline bt_bb_subheadline">
                         <h1>
-                            <span class="bt_bb_headline_content"><span>  Blog</span></span>
+                            <span class="bt_bb_headline_content">
+                                <span>Blog</span>
+                            </span>
                         </h1>
                       <div class="bt_bb_headline_subheadline">Mantente conectado de todas las actividades y noticias que suceden en la liga.</div>
                     </header>
@@ -198,25 +200,28 @@
             </div>
           </div>
             <div class="btBox widget_categories">
-              <h4><span>Categories</span></h4>
+              <h4><span>Categorías</span></h4>
               <ul>
-                <li class="cat-item cat-item-15">
-                    <a href="#">Torneo</a> (0)
-                </li>
-                <li class="cat-item cat-item-15">
-                    <a href="#">Basketball</a> (0)
-                </li>
+                 <?php 
+                 foreach ($cup_category as $value) { ?>
+                    <li class="cat-item cat-item-15">
+                        <a href='<?php echo site_url()."blog/$value->slug";?>'><?php echo $value->name;?></a> (0)
+                    </li>
+                 <?php } ?>
+                
               </ul>
           </div>
             <div class="btBox widget_categories">
                 <h4><span>Tags</span></h4>
                 <ul>
-                  <li class="cat-item cat-item-15">
-                      <a href="#">Torneo</a> (0)
-                  </li>
-                  <li class="cat-item cat-item-15">
-                      <a href="#">Basketball</a> (0)
-                  </li>
+                    <?php 
+                    foreach ($tags as $value) { 
+                        $tag_slug = convert_slug($value->name);
+                        ?>
+                        <li class="cat-item cat-item-15">
+                            <a href='<?php echo site_url()."blog/tag/$tag_slug";?>'><?php echo $value->name;?></a> (0)
+                        </li>
+                    <?php } ?>
                 </ul>
               </div>
         </aside>

@@ -106,6 +106,12 @@ $route['dashboard/empresas/load/([0-9]+)'] = "d_company/load/$1";
 $route['dashboard/empresas/validate'] = "d_company/validate";
 $route['dashboard/empresas/delete'] = "d_company/delete";
 
+$route['dashboard/blog'] = "d_blog";
+$route['dashboard/blog/load'] = "d_blog/load";
+$route['dashboard/blog/load/([0-9]+)'] = "d_blog/load/$1";
+$route['dashboard/blog/validate'] = "d_blog/validate";
+$route['dashboard/blog/delete_blog'] = "d_blog/delete_blog";
+
 $route['dashboard/tags'] = "d_tags";
 $route['dashboard/tags/load'] = "d_tags/load";
 $route['dashboard/tags/load/([0-9]+)'] = "d_tags/load/$1";

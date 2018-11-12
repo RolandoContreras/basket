@@ -167,7 +167,7 @@
                   <ul>
                     <?php foreach ($paginas_amarillas as $value) { ?>  
                         <li class="cat-item cat-item-15">
-                            <a href="<?php echo $value->slug;?>"><?php echo $value->name;?></a> (0)
+                            <a href='<?php echo site_url()."pages/$value->slug";?>'><?php echo $value->name;?></a> (0)
                         </li>
                     <?php } ?>  
                    </ul>

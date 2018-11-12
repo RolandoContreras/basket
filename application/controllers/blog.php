@@ -5,6 +5,7 @@ class Blog extends CI_Controller {
     public function __construct(){
      parent::__construct();
      $this->load->model("category_model","obj_category");
+     $this->load->model("tags_model","obj_tag");
      $this->load->model("category_blog_model","obj_category_blog");
      $this->load->model("category_cup_model","obj_category_cup");
     } 
@@ -16,6 +17,8 @@ class Blog extends CI_Controller {
         $data['blog_category'] =  $this->blog_category();
         //GET CUP CATEGORY
         $data['cup_category'] =  $this->cup_category();
+        //GET TAGS
+        $data['tags'] =  $this->tags();
         //SEND RENDER
         $this->load->view('blog',$data);
     }
@@ -46,6 +49,19 @@ class Blog extends CI_Controller {
            //GET DATA FROM CUSTOMER
            $obj_category_cup= $this->obj_category_cup->search($params);
            return $obj_category_cup;
+    }
+    
+    public function tags(){
+        //GET DATA BY POST
+        $params = array(
+                        "select" =>"tags.tag_id,
+                                    tags.name",
+                        "where" => "tags.status_value = 1 and tags.active = 1",
+                        "order" => "tags.tag_id DESC"
+               );
+           //GET DATA FROM CUSTOMER
+           $obj_tag= $this->obj_tag->search($params);
+           return $obj_tag;
     }
     
     public function paginas_amarillas(){

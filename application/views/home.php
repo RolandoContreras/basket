@@ -475,13 +475,9 @@
                   </div>
                 </div>
               </div>
-            
           </section>
-  
   <?php } ?>
-          <!--END PATROCINADORES-->
-  
-  
+   <!--END PATROCINADORES-->
   <!--START ACERCA-->
   <section id="bt_bb_section5bcbd2ca5bfd5" class="bt_bb_section bt_bb_color_scheme_2 bt_bb_layout_boxed_right_1200 bt_bb_vertical_align_top bt_bb_top_negative_margin_extra_large bt_bb_highlight_shadow">
     <div class="bt_bb_port">
