@@ -53,10 +53,7 @@
         <!-- port -->
       </section>
       <div class="btContentHolder">
-<?php 
-    if(count($company) > 0){ ?>
-        
-       
+<?php  if(count($company) > 0){ ?>
         <div class="btContent">
            <?php  foreach ($company as $value) { ?>
                     <article class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-283 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-basketball">
@@ -109,10 +106,7 @@
             </div>
           </div>
         </div>
-          
           <?php }else{ ?>
-    
-
         <div class="btContent">
             <section class="btNoSearchResults bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large gutter">
 		<div class="bt_bb_port">

@@ -48,7 +48,11 @@ $route['(\w{2})'] = $route['default_controller'];
 $route['home'] = 'home';
 $route['about'] = 'about';
 $route['games'] = 'games';
+
 $route['blog'] = 'blog';
+$route['blog/([-a-z]+)'] = 'blog/categories';
+$route['blog/([-a-z]+)/([-a-z_0-9]+)'] = 'blog/blog_detail';
+$route['blog/([0-9]+)'] = 'blog/$1';
 
 $route['pages'] = 'pages';
 $route['pages/([-a-z]+)'] = 'pages/categories';

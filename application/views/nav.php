@@ -51,7 +51,7 @@
             <ul class="sub-menu">
               <?php foreach ($cup_category as $value) { ?>
                     <li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559">
-                        <a href="<?php echo site_url().'torneo/'.$value->slug;?>"><?php echo strtoupper($value->name);?></a>
+                        <a href="#"><?php echo strtoupper($value->name);?></a>
                     </li>
              <?php } ?>   
             </ul>

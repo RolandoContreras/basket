@@ -56,7 +56,11 @@
         <!-- port -->
       </section>
       <div class="btContentHolder">
+        <?php if(count($blog) > 0){ ?>
         <div class="btContent">
+          <?php  foreach ($blog as $value) { 
+              $slug = convert_slug($value->title);
+              ?>
           <article class="btPostSingleItemStandard btPostListStandard gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-282 post type-post status-publish format-standard has-post-thumbnail hentry category-basketball category-coaches">
             <div class="port">
               <div class="btArticleContentHolder">
@@ -65,7 +69,7 @@
                     <div class="bt_bb_slider bt_bb_height_auto bt_bb_show_dots_bottom">
                       <div class="slick-slider" data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "300", "adaptiveHeight": true, "dots": true, "prevArrow": "&lt;button type=\"button\" class=\"slick-prev\"&gt;", "nextArrow": "&lt;button type=\"button\" class=\"slick-next\"&gt;","autoplay": true, "autoplaySpeed": 3000}'>
                         <div class="bt_bb_slider_item">
-                            <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="Inicio de Liga">
+                            <img src='<?php echo site_url()."static/cms/images/blog/$value->img";?>' alt="<?php echo $value->title;?>">
                         </div>
                       </div>
                     </div>
@@ -80,93 +84,33 @@
                                 <a href="#" class="btArticleCategory coaches">Liga</a></span></span>
                       <span class="bt_bb_headline_content">
                           <span>
-                              <a href="#" title="Comenzó la liga con grandes encuentros">Comenzó la liga con grandes encuentros</a>
+                              <a href='<?php echo site_url()."blog/$value->slug/$slug";?>' title="<?php echo $value->title;?>"><?php echo $value->title;?></a>
                           </span>
                       </span>
                     </h2>
                     <div class="bt_bb_headline_subheadline">
-                        <span class="btArticleDate">Octubre 27, 2018</span>
+                        <span class="btArticleDate"><?php echo formato_fecha($value->date);?></span>
                         <a href="#" class="btArticleComments">0</a></div>
                   </header>
                 </div>
                 <!-- /btArticleHeadline -->
                 <div class="btArticleContent">
-                  <p>Discerning the various types seems difficult to the untrained eye with the divers twisting and turning quickly before splashing into
-                    the water. Breaking each dive into simple elements not only makes performing each dive easier but also enhances your experience.</p>
+                  <p><?php echo $value->summary;?></p>
                 </div>
                 <div class="btArticleShareEtc">
-                  <!-- /btTags -->
                     <div class="btReadMoreColumn">
                         <div class="bt_bb_button bt_bb_icon_position_right bt_bb_style_outline bt_bb_size_small">
-                            <a href="#" class="bt_bb_link" title="CONTINÚE LEYENDO">
+                            <a href="<?php echo site_url()."blog/$value->slug/$slug";?>" class="bt_bb_link" title="CONTINÚE LEYENDO">
                                 <span class="bt_bb_button_text">CONTINÚE LEYENDO</span>
                                 <span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span>
                             </a>
                         </div>
                     </div>
-                  <!-- /btTags -->
                 </div>
-                <!-- /btArticleShareEtc -->
               </div>
-              <!-- /btContent -->
             </div>
-            <!-- /port -->
           </article>
-          <article class="btPostSingleItemStandard btPostListStandard gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-282 post type-post status-publish format-standard has-post-thumbnail hentry category-basketball category-coaches">
-            <div class="port">
-              <div class="btArticleContentHolder">
-                <div class="btArticleMedia ">
-                  <div class="btMediaBox">
-                    <div class="bt_bb_slider bt_bb_height_auto bt_bb_show_dots_bottom">
-                      <div class="slick-slider" data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "300", "adaptiveHeight": true, "dots": true, "prevArrow": "&lt;button type=\"button\" class=\"slick-prev\"&gt;", "nextArrow": "&lt;button type=\"button\" class=\"slick-next\"&gt;","autoplay": true, "autoplaySpeed": 3000}'>
-                        <div class="bt_bb_slider_item">
-                            <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="Inicio de Liga">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /btArticleMedia -->
-                <div class="btArticleHeadline">
-                  <header class="bt_bb_headline bt_bb_size_normal bt_bb_superheadline bt_bb_subheadline">
-                    <h2><span class="bt_bb_headline_superheadline">
-                            <span class="btArticleCategories">
-                                <a href="#" class="btArticleCategory basketball">Basketball</a>
-                                <a href="#" class="btArticleCategory coaches">Liga</a></span></span>
-                      <span class="bt_bb_headline_content">
-                          <span>
-                              <a href="#" title="Comenzó la liga con grandes encuentros">Comenzó la liga con grandes encuentros</a>
-                          </span>
-                      </span>
-                    </h2>
-                    <div class="bt_bb_headline_subheadline">
-                        <span class="btArticleDate">Octubre 27, 2018</span>
-                        <a href="#" class="btArticleComments">0</a></div>
-                  </header>
-                </div>
-                <!-- /btArticleHeadline -->
-                <div class="btArticleContent">
-                  <p>Discerning the various types seems difficult to the untrained eye with the divers twisting and turning quickly before splashing into
-                    the water. Breaking each dive into simple elements not only makes performing each dive easier but also enhances your experience.</p>
-                </div>
-                <div class="btArticleShareEtc">
-                  <!-- /btTags -->
-                    <div class="btReadMoreColumn">
-                        <div class="bt_bb_button bt_bb_icon_position_right bt_bb_style_outline bt_bb_size_small">
-                            <a href="#" class="bt_bb_link" title="CONTINÚE LEYENDO">
-                                <span class="bt_bb_button_text">CONTINÚE LEYENDO</span>
-                                <span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span>
-                            </a>
-                        </div>
-                    </div>
-                  <!-- /btTags -->
-                </div>
-                <!-- /btArticleShareEtc -->
-              </div>
-              <!-- /btContent -->
-            </div>
-            <!-- /port -->
-          </article>
+          <?php  } ?>  
           <div class="btPagination boldSection gutter ">
             <div class="port">
               <div class="paging onRight">
@@ -177,6 +121,35 @@
             </div>
           </div>
         </div>
+       <?php }else{ ?>
+    
+
+        <div class="btContent">
+            <section class="btNoSearchResults bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large gutter">
+		<div class="bt_bb_port">
+			<div class="bt_bb_cell">
+				<div class="bt_bb_cell_inner">
+					<div class="bt_bb_row" data-structure="12">
+						<div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal animated" data-width="12">
+							<div class="bt_bb_column_content">
+								<header class="bt_bb_headline bt_bb_size_medium bt_bb_subheadline">
+                                                                    <h2>
+                                                                        <span class="bt_bb_headline_content">
+                                                                            <span>
+                                                                                <a href="<?php echo site_url().'pages';?>" title="Lo sentimos, no hay resultados para esta categoría">Lo sentimos, no hay resultados para esta categoría</a>
+                                                                            </span>
+                                                                        </span>
+                                                                    </h2>
+                                                                </header>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+            </section>
+	</div>
+          <?php } ?>      
         <!-- /boldthemes_content -->
         <aside class="btSidebar">
           <div class="btBox widget_search">
@@ -203,7 +176,7 @@
               <h4><span>Categorías</span></h4>
               <ul>
                  <?php 
-                 foreach ($cup_category as $value) { ?>
+                 foreach ($blog_category as $value) { ?>
                     <li class="cat-item cat-item-15">
                         <a href='<?php echo site_url()."blog/$value->slug";?>'><?php echo $value->name;?></a> (0)
                     </li>
