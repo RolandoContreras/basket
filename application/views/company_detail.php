@@ -53,15 +53,13 @@
         <!-- port -->
       </section>
       <div class="btContentHolder">
-<?php  if(count($company) > 0){ ?>
         <div class="btContent">
-           <?php  foreach ($company as $value) { ?>
                     <article class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-283 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-basketball">
                         <div class="port">
                           <div class="btArticleContentHolder">
-                            <div class="btArticleMedia ">
+                            <div class="btArticleMedia">
                               <div class="btMediaBox">
-                                  <img src="<?php echo site_url()."static/cms/images/company/$value->img";?>" alt="<?php echo site_url()."static/cms/images/company/$value->img";?>"/>
+                                  <img src="<?php echo site_url()."static/cms/images/company/$company->img";?>" alt="<?php echo site_url()."static/cms/images/company/$company->name";?>"/>
                               </div>
                             </div>
                             <!-- /btArticleMedia -->
@@ -77,63 +75,37 @@
                                     <span class="bt_bb_headline_content">
                                         <span>
                                             <?php 
-                                            $categoria = convert_slug($value->categoria);
-                                            $slug = convert_slug($value->name);
+                                            $categoria = convert_slug($company->categoria);
+                                            $slug = convert_slug($company->name);
                                             ?>
-                                            <a href="<?php echo site_url()."pages/$categoria/$slug";?>" title="<?php echo strtoupper($value->name);?>"><?php echo strtoupper($value->name);?></a>
+                                            <a href="<?php echo site_url()."pages/$categoria/$slug";?>" title="<?php echo strtoupper($company->name);?>"><?php echo strtoupper($company->name);?></a>
                                         </span>
                                     </span>
                                   </h2>
                                   <div class="bt_bb_headline_subheadline">
-                                      <span class="btArticleDate"><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo $value->website;?></span><br>
-                                      <span class="btArticleDate"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo $value->phone;?></span><br>
-                                      <span class="btArticleDate"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo formato_fecha($value->date_start);?></span>
+                                      <span class="btArticleDate"><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo $company->website;?></span><br>
+                                      <span class="btArticleDate"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo $company->phone;?></span><br>
+                                      <span class="btArticleDate"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo $company->email;?></span><br>
+                                      <span class="btArticleDate"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp; <?php echo formato_fecha($company->date_start);?></span>
                                   </div>
                                 </header>
                               </div>
                             </div>
-                          </div>
                         </div>
+                        <div class="btArticleContentHolder">
+                            <div class="btArticleContent">
+                                <div class="btArticleHeadline">
+                                    <div class="btArticleMedia">
+                                <p>Segundo día del encuentro vSegundo día del encuentroSegundo día del encuentro Segundo día del encuentro Segundo día del encuentro Segundo día del encuentro Segundo día del encuentro</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                                                        
+                        </div>
+                        
                       </article>
-           <?php } ?> 
-          <div class="btPagination boldSection gutter ">
-            <div class="port">
-              <div class="paging onRight">
-                <p class="">
-                    <a href="<?php echo site_url();?>">Anteriores &nbsp;<span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span></a>
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-          <?php }else{ ?>
-        <div class="btContent">
-            <section class="btNoSearchResults bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large gutter">
-		<div class="bt_bb_port">
-			<div class="bt_bb_cell">
-				<div class="bt_bb_cell_inner">
-					<div class="bt_bb_row" data-structure="12">
-						<div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal animated" data-width="12">
-							<div class="bt_bb_column_content">
-								<header class="bt_bb_headline bt_bb_size_medium bt_bb_subheadline">
-                                                                    <h2>
-                                                                        <span class="bt_bb_headline_content">
-                                                                            <span>
-                                                                                <a href="<?php echo site_url().'pages';?>" title="Lo sentimos, no hay resultados para esta categoría">Lo sentimos, no hay resultados para esta categoría</a>
-                                                                            </span>
-                                                                        </span>
-                                                                    </h2>
-                                                                </header>								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-            </section>
-	</div>
-          <?php } ?>   
-          
          <!-- /boldthemes_content -->
         <aside class="btSidebar">
           <div class="btBox widget_search">

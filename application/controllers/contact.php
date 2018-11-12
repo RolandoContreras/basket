@@ -37,6 +37,30 @@ class Contact extends CI_Controller {
            return $obj_category;
     }
     
+    public function blog_last(){
+        //GET DATA BY POST
+        $params = array(
+                        "select" =>"blog.blog_id,
+                                    blog.title,
+                                    blog.category_blog_id,
+                                    category_blog.name as categoria,
+                                    category_blog.slug,
+                                    blog.summary,
+                                    blog.description,
+                                    blog.date,
+                                    blog.img,
+                                    blog.video,
+                                    blog.active",
+                        "join" => array('category_blog, category_blog.category_blog_id = blog.category_blog_id'),
+                        "where" => "blog.active = 1 and blog.status_value = 1",                
+                        "limit" => "3",                
+                        "order" => "blog.blog_id DESC"
+            );
+           //GET DATA FROM CUSTOMER
+           $obj_blog = $this->obj_blog->search($params);
+           return $obj_blog;
+    }
+    
     public function blog_category(){
         //GET DATA BY POST
         $params = array(

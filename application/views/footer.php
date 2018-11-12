@@ -46,7 +46,7 @@
                                 <a href="<?php echo site_url().'about';?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> ACERCA</a>
                             </li>
                             <li id="menu-item-1565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1565">
-                                <a href="<?php echo site_url().'games';?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> TORNEOS</a>
+                                <a href="<?php echo site_url();?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> TORNEOS</a>
                             </li>
                             <li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560">
                                 <a href="<?php echo site_url().'blog';?>"><span  data-ico-fa="&#xf061;" class="bt_bb_icon_holder"></span> BLOG</a>

@@ -178,7 +178,7 @@
                  <?php 
                  foreach ($blog_category as $value) { ?>
                     <li class="cat-item cat-item-15">
-                        <a href='<?php echo site_url()."blog/$value->slug";?>'><?php echo $value->name;?></a> (0)
+                        <a href='<?php echo site_url()."blog/$value->slug";?>'><?php echo $value->name;?></a>
                     </li>
                  <?php } ?>
                 
@@ -192,7 +192,7 @@
                         $tag_slug = convert_slug($value->name);
                         ?>
                         <li class="cat-item cat-item-15">
-                            <a href='<?php echo site_url()."blog/tag/$tag_slug";?>'><?php echo $value->name;?></a> (0)
+                            <a href='#'><?php echo $value->name;?></a>
                         </li>
                     <?php } ?>
                 </ul>
