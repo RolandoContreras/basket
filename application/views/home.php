@@ -300,9 +300,11 @@
               data-width="12">
               <div class="bt_bb_column_content">
                 <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
-                  <h2>
-                      <span class="bt_bb_headline_content"><span>ÚLTIMAS <strong>NOTICIAS</strong></span></span>
-                  </h2>
+                    <h2>
+                        <span class="bt_bb_headline_content">
+                            <span>ÚLTIMAS <strong>NOTICIAS</strong></span>
+                        </span>
+                    </h2>
                 </header>
                 <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
               </div>
@@ -312,106 +314,34 @@
             <div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal" data-width="12">
               <div class="bt_bb_column_content">
                 <div class="bt_bb_latest_posts bt_bb_columns_4 bt_bb_gap_normal bt_bb_image_shape_rounded">
-                    <!--ITEM1-->
-                  <div class="bt_bb_latest_posts_item">
-                    <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
-                        <span class="bt_bb_latest_posts_item_date">
-                            <span class="btDay">27</span>
-                            <span  class="btMonth">Oct</span> 
-                        </span>
-                    </div>
-                    <div class="bt_bb_latest_posts_item_content">
-                      <div class="bt_bb_latest_posts_item_category">
-                        <ul class="post-categories">
-                          <li><a href="#" rel="category tag">Torneo</a></li>
-                          <li><a href="#" rel="category tag">Basketball</a></li>
-                        </ul>
-                      </div>
-                      <h5 class="bt_bb_latest_posts_item_title">
-                          <a href="#">Comenzó la liga con grandes encuentros</a>
-                      </h5>
-                      <div class="bt_bb_latest_posts_item_excerpt">
-                          Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
-                        bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
-                  </div>
-                </div>
-                    <!--END ITEM1-->
-                    
-                      <!--ITEM1-->
-                  <div class="bt_bb_latest_posts_item">
-                    <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
-                        <span class="bt_bb_latest_posts_item_date">
-                            <span class="btDay">27</span>
-                            <span  class="btMonth">Oct</span> 
-                        </span>
-                    </div>
-                    <div class="bt_bb_latest_posts_item_content">
-                      <div class="bt_bb_latest_posts_item_category">
-                        <ul class="post-categories">
-                          <li><a href="#" rel="category tag">Torneo</a></li>
-                          <li><a href="#" rel="category tag">Basketball</a></li>
-                        </ul>
-                      </div>
-                      <h5 class="bt_bb_latest_posts_item_title">
-                          <a href="#">Comenzó la liga con grandes encuentros</a>
-                      </h5>
-                      <div class="bt_bb_latest_posts_item_excerpt">
-                          Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
-                        bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
-                  </div>
-                </div>
-                    <!--END ITEM1-->
-                    
-                     <!--ITEM1-->
-                  <div class="bt_bb_latest_posts_item">
-                    <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
-                        <span class="bt_bb_latest_posts_item_date">
-                            <span class="btDay">27</span>
-                            <span  class="btMonth">Oct</span> 
-                        </span>
-                    </div>
-                    <div class="bt_bb_latest_posts_item_content">
-                      <div class="bt_bb_latest_posts_item_category">
-                        <ul class="post-categories">
-                          <li><a href="#" rel="category tag">Torneo</a></li>
-                          <li><a href="#" rel="category tag">Basketball</a></li>
-                        </ul>
-                      </div>
-                      <h5 class="bt_bb_latest_posts_item_title">
-                          <a href="#">Comenzó la liga con grandes encuentros</a>
-                      </h5>
-                      <div class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
-                        bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
-                  </div>
-                </div>
-                    <!--END ITEM1-->
-                    
-                 <div class="bt_bb_latest_posts_item">
-                    <div class="bt_bb_latest_posts_item_image">
-                        <img src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" alt="empezamos la liga" title="Empezamos la liga">
-                        <span class="bt_bb_latest_posts_item_date">
-                            <span class="btDay">27</span>
-                            <span  class="btMonth">Oct</span> 
-                        </span>
-                    </div>
-                    <div class="bt_bb_latest_posts_item_content">
-                      <div class="bt_bb_latest_posts_item_category">
-                        <ul class="post-categories">
-                          <li><a href="#" rel="category tag">Torneo</a></li>
-                          <li><a href="#" rel="category tag">Basketball</a></li>
-                        </ul>
-                      </div>
-                      <h5 class="bt_bb_latest_posts_item_title">
-                          <a href="#">Comenzó la liga con grandes encuentros</a>
-                      </h5>
-                      <div class="bt_bb_latest_posts_item_excerpt">Loogy tapper win off-speed run batted in designated hitter helmet save. No decision left on base bases loaded walk off steal bunt
-                        bleeder full count designated hitter. Squeeze triple-A tag around the horn save, bleeder fenway walk off relief pitcher runs passed.</div>
-                  </div>
-                </div>
-                    <!--END ITEM1-->   
+                    <?php 
+                    foreach ($blog_last_home as $value) { 
+                        $slug = convert_slug($value->title);?>
+                        <div class="bt_bb_latest_posts_item">
+                            <div class="bt_bb_latest_posts_item_image">
+                                <img src='<?php echo site_url()."static/cms/images/blog/$value->img";?>' alt="<?php echo $value->title;?>" title="<?php echo $value->title;?>">
+                                <span class="bt_bb_latest_posts_item_date">
+                                    <span class="btDay">27</span>
+                                    <span  class="btMonth">Oct</span> 
+                                </span>
+                            </div>
+                            <div class="bt_bb_latest_posts_item_content">
+                              <div class="bt_bb_latest_posts_item_category">
+                                <ul class="post-categories">
+                                  <li><a href="#" rel="category tag">Torneo</a></li>
+                                  <li><a href="#" rel="category tag">Basketball</a></li>
+                                </ul>
+                              </div>
+                              <h5 class="bt_bb_latest_posts_item_title">
+                                  <a href="<?php echo site_url()."blog/$value->slug/$slug";?>"><?php echo $value->title;?></a>
+                              </h5>
+                              <div class="bt_bb_latest_posts_item_excerpt">
+                                  <?php echo $value->summary;?>
+                              </div>
+                          </div>
+                        </div>
+                    <?php  } ?>
+                  
         </div>
       </div>
     </div>

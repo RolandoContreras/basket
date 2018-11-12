@@ -20,7 +20,9 @@ class Home extends CI_Controller {
         //GET CUP CATEGORY
         $data['cup_category'] =  $this->cup_category();
         //GET LAST BLOG
-        $data['blog_last'] =  $this->blog_last();
+        $data['blog_last'] =  $this->blog_last(3);
+        //GET LAST BLOG
+        $data['blog_last_home'] =  $this->blog_last(4);
         //GET ALL TEAMS
         $data['teams'] =  $this->teams();
         //GET DATA PAGINAS AMARILLAS
@@ -43,7 +45,7 @@ class Home extends CI_Controller {
            return $obj_team;
     }
     
-    public function blog_last(){
+    public function blog_last($limit){
         //GET DATA BY POST
         $params = array(
                         "select" =>"blog.blog_id,
@@ -59,7 +61,7 @@ class Home extends CI_Controller {
                                     blog.active",
                         "join" => array('category_blog, category_blog.category_blog_id = blog.category_blog_id'),
                         "where" => "blog.active = 1 and blog.status_value = 1",                
-                        "limit" => "3",                
+                        "limit" => "$limit",                
                         "order" => "blog.blog_id DESC"
             );
            //GET DATA FROM CUSTOMER
