@@ -22,6 +22,8 @@ class Blog extends CI_Controller {
         $data['cup_category'] =  $this->cup_category();
         //GET TAGS
         $data['tags'] =  $this->tags();
+        //GET LAST BLOG
+        $data['blog_last'] =  $this->blog_last();
         //SEND RENDER
         $this->load->view('blog',$data);
     }
@@ -63,6 +65,8 @@ class Blog extends CI_Controller {
         $data['cup_category'] =  $this->cup_category();
         //GET TAGS
         $data['tags'] =  $this->tags();
+        //GET LAST BLOG
+        $data['blog_last'] =  $this->blog_last();
         //SEND RENDER
         $this->load->view('blog',$data);
     }
@@ -97,7 +101,6 @@ class Blog extends CI_Controller {
         $data['blog'] =  $obj_blog;
         //GET DATA PAGINAS AMARILLAS
         $data['blog_last'] =  $this->blog_last();
-        
         //GET DATA PAGINAS AMARILLAS
         $data['paginas_amarillas'] =  $this->paginas_amarillas();
         //GET BLOG CATEGORY

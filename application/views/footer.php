@@ -111,72 +111,38 @@
                 <div class="bt_bb_column_content">
                   <header class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
                     <h3>
-                        <span class="bt_bb_headline_content"><span><strong>ÚLTIMAS NOTICIAS</strong></span></span>
+                        <span class="bt_bb_headline_content">
+                            <span><strong>ÚLTIMAS NOTICIAS</strong></span>
+                        </span>
                     </h3>
                   </header>
                   <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
                   <div class="btBox widget_bt_bb_recent_posts">
                         <div class="btImageTextWidgetWraper">
                             <ul>
-                                <li>
-                                  <div class="btImageTextWidget">
-                                        <div class="btImageTextWidgetImage">
-                                          <a href="#">
-                                              <img width="160" height="160" src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="post">
-                                          </a>
-                                        </div>
-                                        <div class="btImageTextWidgetText">
-                                          <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                            <h4>
-                                                <span class="bt_bb_headline_superheadline">Octubre 27, 2018</span>
-                                                <span class="bt_bb_headline_content">
-                                                    <span>
-                                                        <a href="#" target="_self" title="Comenzó la liga con grandes encuentros">Comenzó la liga con grandes encuentros</a>
+                                <?php 
+                                      foreach ($blog_last as $value) { 
+                                          $slug = convert_slug($value->title);?>
+                                        <li>
+                                          <div class="btImageTextWidget">
+                                            <div class="btImageTextWidgetImage">
+                                              <a href="#">
+                                                  <img width="160" height="160" src='<?php echo site_url()."static/cms/images/blog/$value->img";?>' class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="<?php echo site_url()."static/cms/images/blog/$value->img";?> 160w, <?php echo site_url()."static/cms/images/blog/$value->img";?> 180w, <?php echo site_url()."static/cms/images/blog/$value->img";?> 300w, <?php echo site_url()."static/cms/images/blog/$value->img";?> 600w, <?php echo site_url()."static/cms/images/blog/$value->img";?> 320w, <?php echo site_url()."static/cms/images/blog/$value->img";?> 640w, <?php echo site_url()."static/cms/images/blog/$value->img";?> 1280w" sizes="(max-width: 160px) 100vw, 160px" /></a>
+                                            </div>
+                                            <div class="btImageTextWidgetText">
+                                              <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
+                                                  <h4><span class="bt_bb_headline_superheadline"><?php echo formato_fecha($value->date);?></span>
+                                                    <span class="bt_bb_headline_content">
+                                                        <span>
+                                                            <a href="<?php echo site_url()."blog/$value->slug/$slug";?>" title="<?php echo $value->title;?>"><?php echo $value->title;?></a>
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            </h4>
-                                          </header>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                  <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                     <img width="160" height="160" src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="post">
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                      <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                        <h4>
-                                            <span class="bt_bb_headline_superheadline">Octubre 27, 2018</span>
-                                            <span class="bt_bb_headline_content">
-                                                <span>
-                                                    <a href="#" target="_self" title="Comenzó la liga con grandes encuentros">Comenzó la liga con grandes encuentros</a>
-                                                </span>
-                                            </span>
-                                        </h4>
-                                      </header>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                     <img width="160" height="160" src="<?php echo site_url().'static/page_front/images/post/post_01.jpg';?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="post">
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                      <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                        <h4>
-                                            <span class="bt_bb_headline_superheadline">Octubre 27, 2018</span>
-                                            <span class="bt_bb_headline_content">
-                                                <span>
-                                                    <a href="#" target="_self" title="Comenzó la liga con grandes encuentros">Comenzó la liga con grandes encuentros</a>
-                                                </span>
-                                            </span>
-                                        </h4>
-                                      </header>
-                                    </div>
-                                  </div>
-                                </li>
+                                                </h4>
+                                              </header>
+                                            </div>
+                                          </div>
+                                        </li>
+                                    <?php } ?>
                             </ul>
                         </div>
                     </div>

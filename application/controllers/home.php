@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
     public function __construct(){
      parent::__construct();
+     $this->load->model("blog_model","obj_blog");
      $this->load->model("company_model","obj_company");
      $this->load->model("category_model","obj_category");
      $this->load->model("category_blog_model","obj_category_blog");
@@ -18,6 +19,8 @@ class Home extends CI_Controller {
         $data['blog_category'] =  $this->blog_category();
         //GET CUP CATEGORY
         $data['cup_category'] =  $this->cup_category();
+        //GET LAST BLOG
+        $data['blog_last'] =  $this->blog_last();
         //GET ALL TEAMS
         $data['teams'] =  $this->teams();
         //GET DATA PAGINAS AMARILLAS
@@ -38,6 +41,30 @@ class Home extends CI_Controller {
            //GET DATA FROM CUSTOMER
            $obj_team= $this->obj_team->search($params);
            return $obj_team;
+    }
+    
+    public function blog_last(){
+        //GET DATA BY POST
+        $params = array(
+                        "select" =>"blog.blog_id,
+                                    blog.title,
+                                    blog.category_blog_id,
+                                    category_blog.name as categoria,
+                                    category_blog.slug,
+                                    blog.summary,
+                                    blog.description,
+                                    blog.date,
+                                    blog.img,
+                                    blog.video,
+                                    blog.active",
+                        "join" => array('category_blog, category_blog.category_blog_id = blog.category_blog_id'),
+                        "where" => "blog.active = 1 and blog.status_value = 1",                
+                        "limit" => "3",                
+                        "order" => "blog.blog_id DESC"
+            );
+           //GET DATA FROM CUSTOMER
+           $obj_blog = $this->obj_blog->search($params);
+           return $obj_blog;
     }
     
     public function blog_category(){

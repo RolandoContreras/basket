@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Contact extends CI_Controller {
     public function __construct(){
         parent::__construct();
+        $this->load->model("blog_model","obj_blog");
         $this->load->model("category_model","obj_category");
         $this->load->model("category_blog_model","obj_category_blog");
         $this->load->model("category_cup_model","obj_category_cup");
@@ -16,6 +17,8 @@ class Contact extends CI_Controller {
         $data['blog_category'] =  $this->blog_category();
         //GET CUP CATEGORY
         $data['cup_category'] =  $this->cup_category();
+        //GET LAST BLOG
+        $data['blog_last'] =  $this->blog_last();
         //SEND RENDER
         $this->load->view('contact',$data);
     }
