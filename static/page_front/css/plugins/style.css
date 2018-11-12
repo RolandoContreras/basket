@@ -3794,6 +3794,15 @@ body.single.rtl .btPostSingleItemStandard .btShareColumn {
     max-width: 60%;
     padding: 2em;
     }
+ .btPostListColumns .btArticleContentHolder .btArticleMedia,
+.btPostSingleItemColumns .btArticleContentHolder .btArticleMedia2 {
+    -webkit-flex: 1 1 98%;
+    -ms-flex: 1 1 98%;
+    flex: 1 1 98%;
+    max-width: 98%;
+    padding: 2em;
+    }   
+    
 .btNoMedia.btPostListColumns .btArticleContentHolder .btArticleMedia,
 .btNoMedia.btPostSingleItemColumns .btArticleContentHolder .btArticleMedia {
     -webkit-flex-basis: 0%;

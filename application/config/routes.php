@@ -56,6 +56,7 @@ $route['blog/([0-9]+)'] = 'blog/$1';
 
 $route['pages'] = 'pages';
 $route['pages/([-a-z]+)'] = 'pages/categories';
+$route['pages/([-a-z]+)/([-a-z_0-9]+)'] = 'pages/company_detail';
 $route['pages/([0-9]+)'] = 'pages/$1';
 
 $route['contact'] = 'contact';

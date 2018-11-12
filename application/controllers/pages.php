@@ -29,6 +29,47 @@ class Pages extends CI_Controller {
         $this->load->view('pages',$data);
     }
     
+    public function company_detail(){
+        //URL 
+        $url = uri_string();
+        $nav = explode("/", $url);
+        $category = $nav[2]; 
+        $title = convert_query($nav[3]);
+        
+        //GET DATA BY POST
+        $params = array(
+                        "select" =>"company.company_id,
+                                    company.name,
+                                    category.name as categoria,
+                                    company.website,
+                                    company.email,
+                                    company.description,
+                                    company.phone,
+                                    company.email,
+                                    company.date_start,
+                                    company.img,
+                                    company.active",
+                        "join" => array('category, company.category_id = category.category_id'),
+                        "where" => "company.name like '%$title%' and category.slug = '$category' and company.active = 1",                
+                        "order" => "company.company_id DESC"
+            );
+        $obj_company = $this->obj_company->get_search_row($params);
+        $data['name'] = convert_query($category);
+        $data['slug'] = $category;
+        //GET DATA COMPANY
+        $data['company'] =  $obj_company;
+        //GET DATA PAGINAS AMARILLAS
+        $data['blog_last'] =  $this->blog_last();
+        //GET DATA PAGINAS AMARILLAS
+        $data['paginas_amarillas'] =  $this->paginas_amarillas();
+        //GET BLOG CATEGORY
+        $data['blog_category'] =  $this->blog_category();
+        //GET CUP CATEGORY
+        $data['cup_category'] =  $this->cup_category();
+        //SEND RENDER
+        $this->load->view('company_detail',$data);
+    }
+    
     public function blog_last(){
         //GET DATA BY POST
         $params = array(
@@ -55,7 +96,6 @@ class Pages extends CI_Controller {
     
     public function categories(){
         //URL 
-        
         $url = uri_string();
         $nav = explode("/", $url);
         $category = $nav[2]; 
