@@ -10,7 +10,7 @@ function add_company(){
 	var url= 'dashboard/empresas/load';
 	location.href = site+url;
 }
-function delete_company(news_id){
+function delete_company(company_id){
     bootbox.dialog("Confirma que desea eliminar la empresa?", [        
         { "label" : "Cancelar"},
         {
@@ -21,7 +21,7 @@ function delete_company(news_id){
                type: "post",
                url: site+"dashboard/empresas/delete_company",
                dataType: "json",
-               data: {news_id : news_id},
+               data: {company_id : company_id},
                success:function(data){                             
                location.reload();
                }         

@@ -117,37 +117,73 @@
         </div>
       </div>
       </article>
+        <!--START  COMMENT-->   
+        <section class="gutter btPrevNextNavSection">
+            <div class="port">
+                <div class="btPrevNextNav">
+                    <a class="btPrevNext btPrev">
+                        <div class="btPrevNextImage" style="background-image:url('<?php echo site_url().'static/page_front/images/avatar/avatar.jpg';?>');"></div>
+                            <div class="btPrevNextItem">
+                                <div class="btPrevNextDir">Lima 24/nov 2018</div>
+                                <div class="btPrevNextTitle">Rolando Contreras</div>
+                                <div class="btPrevNextDir">Oxygen latest basketball camps and schools</div>
+                            </div>
+                    </a>
+                </div>
+            </div>
+        </section>    
+      <!--END  COMMENT-->
+      <!--START FORM COMMENT-->      
       <section class="btComments gutter">
         <div class="port">
           <div class="btCommentsContent">
             <div id="comments" class="btCommentsBox">
               <div id="respond" class="comment-respond">
-                <h3 id="reply-title" class="comment-reply-title">Deja un comentario <small>
-                 <a rel="nofollow" id="cancel-comment-reply-link" href="/basketball/2017/11/14/the-best-mvp-players-in-oxygen-basketball-club/#respond" style="display:none;">Cancel Reply</a></small></h3>
-                <form action="#" method="post" id="commentform" class="comment-form" novalidate>
-                  <p class="comment-notes">Su dirección de correo electrónico no será publicado. Obligatorio los campos marcados *</p>
-                  <div class="pcItem btComment"><label for="comment">Comment <span class="required">*</span></label>
-                    <p><textarea id="comment" name="comment" cols="30" rows="8" aria-required="true"></textarea></p>
-                  </div>
-                  <div class="pcItem"><label for="author">Nombre *</label>
-                    <p><input id="author" name="author" type="text" value="" aria-required='true' /></p>
-                  </div>
-                  <div class="pcItem"><label for="email">Email *</label>
-                    <p><input id="email" name="email" type="text" value="" aria-required='true' /></p>
-                  </div>
-                  <p class="form-submit">
-                    <div class="pcItem">
-                      <p>
-                          <button type="submit" value="Post Comment" id="btSubmit" class="btCommentSubmit" name="submit" data-ico-fa="&#xf1d8;"><span class="btnInnerText">Enviar Comentario</span></button>
-                      </p>
-                    </div>
-                  </p>
-                </form>
+                <h3 id="reply-title" class="comment-reply-title">Deja un comentario
+                </h3>
+                        <form method="post" action="javascript:void(0);" onsubmit="send_messages();" enctype="multipart/form-data" class="comment-form">
+                          <p class="comment-notes">Su dirección de correo electrónico no será publicado. Obligatorio los campos marcados *</p>
+                          <div class="pcItem">
+                              <label for="comment">Comentario <span class="required">*</span></label>
+                                <p>
+                                    <textarea id="comment" name="comment" cols="30" rows="8" onkeyup="fade_comments(this.value);"></textarea>
+                                </p>
+                                <span id="message_comment" class="field-validation-error" style="display:none;">El comentario es requerido</span>
+                          </div>
+                          <div class="pcItem">
+                                <label for="author">Nombre *</label>
+                                <p>
+                                    <input id="name" name="name" onkeyup="fade_name(this.value);" type="text"/>
+                                    <span id="message_name" class="field-validation-error" style="display:none;">El nombre es requerido</span>
+                                </p>
+                          </div>
+                          <div class="pcItem">
+                                <label for="email">Email *</label>
+                                <p>
+                                    <input id="email" name="email" onkeyup="fade_email(this.value);" type="text"/>
+                                    <span id="message_email" class="field-validation-error" style="display:none;">El email es requerido</span>
+                                </p>
+                          </div>
+                          <div class="pcItem">
+                                    <div class="g-recaptcha" data-sitekey="6LfyrngUAAAAAKwjII5fDYGUB4dF0sP_cmp3T5Ej"></div>
+                                    <span id="message_capcha" class="field-validation-error" style="display:none;">Captcha no verificado</span>
+                          </div>
+                          <p class="form-submit">
+                            <div class="pcItem">
+                              <p>
+                                  <button type="submit" class="btCommentSubmit" data-ico-fa="&#xf1d8;">
+                                      <span class="btnInnerText">Enviar Comentario</span>
+                                  </button>
+                              </p>
+                            </div>
+                          </p>
+                        </form>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!--END FORM COMMENT-->      
     </div>
     <aside class="btSidebar">
       <div class="btBox widget_search">
@@ -233,6 +269,8 @@
   <!-- /END Footer -->
   </div>
   <!-- /pageWrap -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="<?php echo site_url().'static/page_front/js/blog_detail.js';?>"></script>
   <link rel='stylesheet' id='mediaelement-css' href='<?php echo site_url().'static/page_front/css/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1';?>' type='text/css' media='all' />
   <link rel='stylesheet' id='wp-mediaelement-css' href='<?php echo site_url().'static/page_front/css/wp-mediaelement.min.css?ver=4.9.8';?>' type='text/css' media='all' />
   <script src='<?php echo site_url().'static/page_front/js/comment-reply.min.js?ver=4.9.8';?>'></script>

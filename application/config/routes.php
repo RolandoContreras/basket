@@ -53,6 +53,7 @@ $route['blog'] = 'blog';
 $route['blog/([-a-z]+)'] = 'blog/categories';
 $route['blog/([-a-z]+)/([-a-z_0-9]+)'] = 'blog/blog_detail';
 $route['blog/([0-9]+)'] = 'blog/$1';
+$route['blog/send_messages'] = 'blog/send_messages';
 
 $route['pages'] = 'pages';
 $route['pages/([-a-z]+)'] = 'pages/categories';
@@ -109,7 +110,7 @@ $route['dashboard/empresas'] = "d_company";
 $route['dashboard/empresas/load'] = "d_company/load";
 $route['dashboard/empresas/load/([0-9]+)'] = "d_company/load/$1";
 $route['dashboard/empresas/validate'] = "d_company/validate";
-$route['dashboard/empresas/delete'] = "d_company/delete";
+$route['dashboard/empresas/delete_company'] = "d_company/delete_company";
 
 $route['dashboard/blog'] = "d_blog";
 $route['dashboard/blog/load'] = "d_blog/load";

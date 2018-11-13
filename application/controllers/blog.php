@@ -9,6 +9,8 @@ class Blog extends CI_Controller {
      $this->load->model("tags_model","obj_tag");
      $this->load->model("category_blog_model","obj_category_blog");
      $this->load->model("category_cup_model","obj_category_cup");
+     $this->load->model("blog_messages_model","obj_blog_messages");
+     $this->load->model("messages_model","obj_messages");
     } 
 
     public function index(){
@@ -214,4 +216,30 @@ class Blog extends CI_Controller {
            $obj_category= $this->obj_category->search($params);
            return $obj_category;
     }
+    
+    public function send_messages(){
+         //GET DATA BY POST
+        if($this->input->is_ajax_request()){   
+            $name = $this->input->post("name");
+            $email = $this->input->post("email");
+            $comment = $this->input->post("comment");
+            
+            echo "hola";
+            die();
+            
+            
+            //status_value 0 means (not read)
+                $data = array(
+                    'name' => $name,
+                    'email' => $email,
+                    'comment' => $comment,
+                    'date_comment' => date("Y-m-d H:i:s"),
+                    'active' => 1,
+                    'status_value' => 1,
+                );
+                $this->obj_comments->insert($data);
+                echo json_encode($data);            
+                exit();
+        }
+    } 
 }

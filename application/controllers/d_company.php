@@ -121,18 +121,18 @@ class D_company extends CI_Controller{
         redirect(site_url()."dashboard/empresas");
     }
     
-    public function delete(){
+    public function delete_company(){
         //DELETE CUSTOMER
         if($this->input->is_ajax_request()){  
-                $tag_id = $this->input->post("tag_id");
-                if(count($tag_id) > 0){
+                $company_id = $this->input->post("company_id");
+                if(count($company_id) > 0){
                     $data = array(
                         'status_value' => 0,
                         'active' => 0,
                         'updated_at' => date("Y-m-d H:i:s"),
                         'updated_by' => $_SESSION['usercms']['user_id'],
                     ); 
-                    $this->obj_company->update($tag_id,$data);
+                    $this->obj_company->update($company_id,$data);
                 }
                 echo json_encode($data);            
         exit();
